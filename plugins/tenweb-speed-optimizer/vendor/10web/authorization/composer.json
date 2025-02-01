@@ -1,0 +1,22 @@
+{
+    "name": "10web/authorization",
+    "type": "library",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Serine",
+            "email": "serine@10web.io"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Tenweb_Authorization\\": "src/"
+        },
+        "files": [
+            "src/config/constants.php"
+        ]
+    }
+}

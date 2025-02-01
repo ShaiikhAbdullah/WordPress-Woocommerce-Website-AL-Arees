@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "wt-sc-blocks/auto-coupon",
+	"version": "1.0.0",
+	"title": "Auto coupon",
+	"category": "woocommerce",
+	"keywords": [ "Auto coupon", "WooCommerce" ],
+	"icon": "",
+	"description": "Auto coupon related operations.",
+	"parent": [ "woocommerce/cart-items-block" ],
+	"attributes": {
+        "lock": {
+            "type": "object",
+            "default": {
+                "remove": true,
+                "move": true
+            }
+        }
+    },
+	"textdomain": "wt-smart-coupons-for-woocommerce"
+}

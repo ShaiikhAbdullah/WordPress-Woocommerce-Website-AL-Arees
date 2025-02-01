@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "wt-sc-blocks/giveaway-product",
+  "version": "1.0.0",
+  "title": "Giveaway product",
+  "category": "woocommerce",
+  "keywords": [
+    "Giveaway",
+    "WooCommerce"
+  ],
+  "icon": "",
+  "description": "Giveaway coupon related operations.",
+  "parent": [
+    "woocommerce/cart-items-block"
+  ],
+  "attributes": {
+    "lock": {
+      "type": "object",
+      "default": {
+        "remove": true,
+        "move": true
+      }
+    }
+  },
+  "textdomain": "wt-smart-coupons-for-woocommerce"
+}

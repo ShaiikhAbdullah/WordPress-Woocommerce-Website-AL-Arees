@@ -1,0 +1,10 @@
+<svg id="Rating_Star_Icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_47780" data-name="Rectangle 47780" width="16" height="16" fill="#22b339"/>
+    </clipPath>
+  </defs>
+  <g id="Rating_Star_Icon-2" data-name="Rating_Star_Icon" clip-path="url(#clip-path)">
+    <path id="design_system_icons-57" data-name="design system icons-57" d="M16.853,21.366l-2.842,1.479a.3.3,0,0,1-.435-.319l.551-3.161a.292.292,0,0,0-.087-.261l-2.262-2.2a.285.285,0,0,1,.174-.493l3.161-.464c.087,0,.174-.087.232-.145l1.421-2.871a.3.3,0,0,1,.522,0L18.709,15.8a.23.23,0,0,0,.232.145l3.161.464a.3.3,0,0,1,.174.493l-2.291,2.233a.4.4,0,0,0-.087.261l.551,3.161a.313.313,0,0,1-.435.319L17.172,21.4A.42.42,0,0,0,16.853,21.366Z" transform="translate(-9.023 -10.11)" fill="#22b339"/>
+  </g>
+</svg>

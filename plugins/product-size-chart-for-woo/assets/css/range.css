@@ -1,0 +1,186 @@
+/*!
+ * # Range slider for Semantic UI.
+ * Copyright (c) 2016 Tyler Yasaka
+ * https://github.com/tyleryasaka/semantic-ui-range
+ * @license MIT
+ * https://github.com/tyleryasaka/semantic-ui-range/blob/master/LICENSE
+ */
+.vi-ui.range {
+    width: 100%;
+    height: 20px;
+}
+
+.vi-ui.range .inner {
+    margin: 0 10px 0 0;
+    height: 20px;
+    position: relative;
+}
+
+.vi-ui.range .inner:hover {
+    cursor: pointer;
+}
+
+.vi-ui.range .inner .track {
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    top: 9px;
+    left: 0;
+    background-color: rgba(0,0,0,.05);
+}
+
+.vi-ui.inverted.range .inner .track {
+    background-color: rgba(255,255,255,.08);
+}
+
+.vi-ui.range .inner .track-fill {
+    position: absolute;
+    width: 0;
+    height: 4px;
+    border-radius: 4px;
+    top: 9px;
+    left: 0;
+    background-color: #1b1c1d;
+}
+
+.vi-ui.inverted.range .inner .track-fill {
+    background-color: #545454;
+}
+
+.vi-ui.range .inner .thumb {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background: #fff linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+    background: #fff -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+    background: #fff -o-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+    background: #fff -moz-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+    border-radius: 100%;
+    box-shadow: 0 1px 2px 0 rgba(34,36,38,.15),0 0 0 1px rgba(34,36,38,.15) inset;
+}
+
+/*--------------
+     Colors
+---------------*/
+
+/* Red */
+.vi-ui.red.range .inner .track-fill {
+    background-color: #DB2828;
+}
+.vi-ui.red.inverted.range .inner .track-fill {
+    background-color: #FF695E;
+}
+
+/* Orange */
+.vi-ui.orange.range .inner .track-fill {
+    background-color: #F2711C;
+}
+.vi-ui.orange.inverted.range .inner .track-fill {
+    background-color: #FF851B;
+}
+
+/* Yellow */
+.vi-ui.yellow.range .inner .track-fill {
+    background-color: #FBBD08;
+}
+.vi-ui.yellow.inverted.range .inner .track-fill {
+    background-color: #FFE21F;
+}
+
+/* Olive */
+.vi-ui.olive.range .inner .track-fill {
+    background-color: #B5CC18;
+}
+.vi-ui.olive.inverted.range .inner .track-fill {
+    background-color: #D9E778;
+}
+
+/* Green */
+.vi-ui.green.range .inner .track-fill {
+    background-color: #21BA45;
+}
+.vi-ui.green.inverted.range .inner .track-fill {
+    background-color: #2ECC40;
+}
+
+/* Teal */
+.vi-ui.teal.range .inner .track-fill {
+    background-color: #00B5AD;
+}
+.vi-ui.teal.inverted.range .inner .track-fill {
+    background-color: #6DFFFF;
+}
+
+/* Blue */
+.vi-ui.blue.range .inner .track-fill {
+    background-color: #2185D0;
+}
+.vi-ui.blue.inverted.range .inner .track-fill {
+    background-color: #54C8FF;
+}
+
+/* Violet */
+.vi-ui.violet.range .inner .track-fill {
+    background-color: #6435C9;
+}
+.vi-ui.violet.inverted.range .inner .track-fill {
+    background-color: #A291FB;
+}
+
+/* Purple */
+.vi-ui.purple.range .inner .track-fill {
+    background-color: #A333C8;
+}
+.vi-ui.purple.inverted.range .inner .track-fill {
+    background-color: #DC73FF;
+}
+
+/* Pink */
+.vi-ui.pink.range .inner .track-fill {
+    background-color: #E03997;
+}
+.vi-ui.pink.inverted.range .inner .track-fill {
+    background-color: #FF8EDF;
+}
+
+/* Brown */
+.vi-ui.brown.range .inner .track-fill {
+    background-color: #A5673F;
+}
+.vi-ui.brown.inverted.range .inner .track-fill {
+    background-color: #D67C1C;
+}
+
+/* Grey */
+.vi-ui.grey.range .inner .track-fill {
+    background-color: #767676;
+}
+.vi-ui.grey.inverted.range .inner .track-fill {
+    background-color: #DCDDDE;
+}
+
+/* Black */
+.vi-ui.black.range .inner .track-fill {
+    background-color: #1b1c1d;
+}
+.vi-ui.black.inverted.range .inner .track-fill {
+    background-color: #545454;
+}
+
+/*--------------
+    Disabled
+---------------*/
+.vi-ui.range.disabled {
+    opacity: .5;
+}
+
+.vi-ui.range.disabled .inner:hover {
+    cursor: auto;
+}
+
+.vi-ui.range.disabled .inner .track-fill {
+    background: #ccc;
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- https://github.com/inpsyde/php-coding-standards/blob/master/phpcs.xml -->
+<ruleset name="10webSpeedBooster">
+	<description>Custom ruleset for SB plugin.</description>
+	<file>.</file>
+	<exclude-pattern>./includes/external/*</exclude-pattern>
+	<exclude-pattern>./vendor/*</exclude-pattern>
+	<exclude-pattern>./assets/*</exclude-pattern>
+	<exclude-pattern>./node_modules/*</exclude-pattern>
+	<arg name="colors"/>
+	<arg value="sp"/>
+	<arg name="extensions" value="php"/>
+	<rule ref="PHPCompatibilityWP"/>
+	<rule ref="NeutronStandard"/>
+	<config name="testVersion" value="7.1-"/>
+	<rule ref="NeutronStandard.StrictTypes.RequireStrictTypes">
+		<type>warning</type>
+	</rule>
+</ruleset>

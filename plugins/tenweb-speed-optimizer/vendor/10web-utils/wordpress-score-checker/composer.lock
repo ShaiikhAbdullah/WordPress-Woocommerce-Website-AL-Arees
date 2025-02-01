@@ -1,0 +1,40 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c47a2993ca5e71bbeb2e5ae9cac5a8ab",
+    "packages": [
+        {
+            "name": "10web-utils/10web-wp-transients",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "ssh://git@gitlab.10web.io:6202/10web-utils/10web-wp-transients.git",
+                "reference": "ad333ead3dc55f840de912090e1f7a8c8face4cd"
+            },
+            "default-branch": true,
+            "type": "git",
+            "autoload": {
+                "psr-4": {
+                    "TenWebWpTransients\\": "src/TenWebWpTransients"
+                }
+            },
+            "description": "Package for saving wp_options as wp_transients",
+            "homepage": "https://10web.io",
+            "time": "2023-01-31T18:31:39+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "10web-utils/10web-wp-transients": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

@@ -1,0 +1,4 @@
+#woocommerce-coupon-data .woocommerce_options_panel fieldset._wt_sc_bogo_apply_frequency_field .wc-radios li{ padding-bottom:3px; }
+fieldset._wt_sc_bogo_apply_frequency_field .description{ display:inline-block; line-height:18px; font-size:12px; }
+.woocommerce_options_panel .options_group fieldset .wt_sc_coupon_meta_radios{ width:100%; }
+.woocommerce_options_panel .options_group fieldset .wt_sc_coupon_meta_radios > li{ float:left; margin-right:15px; } 

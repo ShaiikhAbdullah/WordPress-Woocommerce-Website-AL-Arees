@@ -1,0 +1,112 @@
+.ppcp-r-navigation-container {
+	position: sticky;
+	top: var(--wp-admin--admin-bar--height);
+	z-index: 10;
+
+	padding: 10px 48px;
+	margin: 0 -20px 48px -20px;
+
+	box-shadow: 0 -1px 0 0 $color-gray-300 inset;
+	background: var(--ppcp-color-app-bg);
+	transition: box-shadow 0.3s;
+
+	--wp-components-color-accent: #{$color-blueberry};
+	--color-text: #{$color-gray-900};
+	--color-disabled: #CCC;
+
+	.ppcp-r-navigation {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 40px;
+
+		.components-button {
+			@include font(13, 20, 400);
+
+			&.is-primary {
+				background-color: var(--wp-components-color-accent);
+				padding: 10px 16px;
+				justify-content: center;
+				margin: 0 0 0 12px;
+				border-radius: 2px;
+
+				&:disabled {
+					background-color: var(--color-disabled);
+				}
+			}
+
+			&.is-link {
+				color: var(--wp-components-color-accent);
+				text-decoration: none;
+
+				&:disabled {
+					color: var(--color-disabled);
+				}
+			}
+
+			&.is-title {
+				@include font(16, 24, 600);
+				color: var(--color-text);
+
+				.title {
+					margin-left: 18px;
+				}
+
+				.big {
+					@include font(20, 28, 400);
+				}
+			}
+		}
+
+		&--left {
+			align-items: center;
+			display: inline-flex;
+		}
+
+		&--right {
+			.is-link {
+				padding: 10px 16px;
+			}
+		}
+
+		&--progress-bar {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			background-color: var(--wp-components-color-accent);
+			height: 4px;
+			transition: width 0.3s;
+		}
+	}
+
+	&.is-scrolled {
+		box-shadow: 0 -1px 0 0 $color-gray-300 inset, 0 8px 8px 0 rgba(85, 93, 102, .3);
+	}
+
+	@media screen and (max-width: 782px) {
+		padding: 10px 12px;
+
+		.ppcp-r-navigation {
+			row-gap: 8px;
+			white-space: nowrap;
+
+			&--right {
+				position: absolute;
+				right: 10px;
+				z-index: 10;
+				background: var(--ppcp-color-app-bg);
+				box-shadow: -5px 0 8px var(--ppcp-color-app-bg);
+			}
+
+			&--progress-bar {
+				height: 2px;
+			}
+
+			.components-button.is-title {
+				.title {
+					margin-left: 4px;
+				}
+			}
+		}
+	}
+}

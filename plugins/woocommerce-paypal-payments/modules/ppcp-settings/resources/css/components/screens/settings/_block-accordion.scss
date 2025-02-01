@@ -1,0 +1,38 @@
+.ppcp-r-settings-block__accordion {
+	> .ppcp-r-accordion {
+		width: 100%;
+
+		.ppcp-r-accordion__toggler {
+			width: 100%;
+			margin: 0;
+			text-align: unset;
+		}
+	}
+
+	&.ppcp-r-settings-block {
+		gap: 0;
+
+		.ppcp-r-settings-block__title {
+			@include font(13, 20, 600);
+			color: $color-text-text;
+			text-transform: none;
+		}
+
+		.ppcp-r-settings-block--accordion__title {
+			@include font(14, 20, 600);
+		}
+
+		.ppcp-r-settings-block--accordion__description {
+			color: $color-gray-700;
+			@include font(13, 20, 400);
+		}
+
+		.ppcp-r-settings-block:not(:last-child) {
+			&:not(.ppcp-r__radio-content-additional .ppcp-r-settings-block) {
+				padding-bottom: 32px;
+				margin-bottom: 32px;
+				border-bottom: 1px solid $color-divider;
+			}
+		}
+	}
+}

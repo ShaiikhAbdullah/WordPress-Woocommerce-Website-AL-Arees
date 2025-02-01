@@ -1,0 +1,33 @@
+/* Style for Other Solutions Contents */
+
+.wt-sc-other-solutions-tab-content{background-color: #FFFFFF;border-radius: 4px;}
+.wt_sc_other_solutions_heading_1{text-align:center;font-weight: bold;font-size:24px;}
+.wt_sc_other_solutions_heading_2{text-align:center;font-weight: 400; font-size:17px; margin-top:5px;}
+
+.wt_sc_other_solutions_container_inner{ display:flex; flex-wrap:wrap; gap:30px 3%; margin-top:55px; padding-bottom:30px; }
+.wt_sc_other_solutions_card{ min-width:280px; width:35%; position:relative; word-wrap:break-word; background-color:#ffffff; background-clip:border-box; border:1px solid #e6e4e9; border-radius:8px; padding:20px; border:0; box-shadow:0px 0px 10px 0px rgba(82, 63, 105, 0.1); -webkit-box-shadow:0px 0px 10px 0px rgba(82, 63, 105, 0.1); -moz-box-shadow:0px 0px 10px 0px rgba(82, 63, 105, 0.1); -ms-box-shadow:0px 0px 10px 0px rgba(82, 63, 105, 0.1);}
+
+.wt_sc_widget .wt_sc_widget_title_wrapper {display: flex;}
+.wt_sc_widget_column_1 img {width: 60px;height: 60px;}
+.wt_sc_widget_column_1{padding-top:18px;}
+.wt_sc_widget_column_2{font-size: 15px;text-align: top;padding-left:10px; width:100%;height:100px;}
+.wt_sc_widget_column_3{text-align:left;vertical-align: text-top;position: relative;height:170px;}
+.wt_sc_installed_button{padding-left:10px;}
+.wt_sc_free_button{padding-left:10px;}
+.wt_sc_get_premium_btn {text-align:center;padding: 6px 1px 6px 1px;height:auto;max-height: 100px; width:100%; background: linear-gradient(90.67deg, #2608DF -34.86%, #3284FF 115.74%);box-shadow: 0px 4px 13px rgb(46 80 242 / 39%);border-radius: 5px;display: inline-block;font-style: normal;font-size: 12px;line-height: 18px;color: #FFFFFF;text-decoration: none;}
+.wt_sc_get_premium_btn:hover {box-shadow: 0px 3px 13px rgb(46 80 242 / 50%);text-decoration: none;transform: translateY(2px);transition: all .2s ease;color: #FFFFFF;}
+.wt_sc_installed_btn{height:30px;width:109px; border-style: solid;border-color: #2A2EEA;border-radius: 5px;color: #2A2EEA;}
+.wt_sc_free_btn{height:auto;max-height: 100px;min-height: 30px;width:109px; border-style: solid;border-color: #2A2EEA;border-radius: 5px;color: #2A2EEA;cursor: pointer;}
+
+.wt_sc_smart_coupon_card{background-color: #FFFFFF;height: 100%;padding:20px}
+
+@media (max-width:768px) {
+    .wt_sc_other_solutions_card{ min-width:220px; }
+}
+
+@media only screen and (min-width:538px) and (max-width:1023px) {
+    .wt_sc_smart_coupon_card .wt_sc_postbox-header{width: 100%; padding-top: 15px;}
+    .wt_sc_smart_coupon_card{padding-left: 20px;}
+    .wt_sc_smart_coupon_card_body{margin-left: 20px;}
+    .wt_sc_smart_coupon_card .wt-sc-metabox-upgrade-to-pro-btn{margin-left: 150px;}
+}

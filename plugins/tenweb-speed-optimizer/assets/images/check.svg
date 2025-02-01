@@ -1,0 +1,10 @@
+<svg id="Rating_Star_Icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_47780" data-name="Rectangle 47780" width="16" height="16" fill="#22b339"/>
+    </clipPath>
+  </defs>
+  <g id="Rating_Star_Icon-2" data-name="Rating_Star_Icon" clip-path="url(#clip-path)">
+    <path id="Union_727" data-name="Union 727" d="M23347.555,21917.883l-.023-.018-3.148-3.143a1.329,1.329,0,0,1-.381-.943,1.315,1.315,0,0,1,.381-.937,1.35,1.35,0,0,1,.938-.369,1.156,1.156,0,0,1,.957.387l2.027,2.027.018.029a.256.256,0,0,0,.129.029.565.565,0,0,0,.17-.082l4.42-4.426a1.264,1.264,0,0,1,1.916,0,1.35,1.35,0,0,1,.4.98,1.255,1.255,0,0,1-.428.891l-5.539,5.539a1.372,1.372,0,0,1-.937.369A1.428,1.428,0,0,1,23347.555,21917.883Z" transform="translate(-23341.66 -21906.109)" fill="#22b339"/>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+  <g id="Group_103952" data-name="Group 103952" transform="translate(-3.333 -3.333)">
+    <path id="Success_Done_Checkmark_Icon" d="M25.5,18.5a7,7,0,1,1-7-7A7.008,7.008,0,0,1,25.5,18.5Z" transform="translate(-8.167 -8.167)" fill="#22b339"/>
+    <path id="Success_Done_Checkmark_Icon-2" data-name="Success_Done_Checkmark_Icon" d="M21.809,15.651a.646.646,0,0,0-.984,0l-3.33,3.33a.564.564,0,0,1-.341.151.411.411,0,0,1-.341-.151L15.3,17.468a.581.581,0,0,0-.492-.189.719.719,0,0,0-.492.189.708.708,0,0,0,0,.984L16.664,20.8a.8.8,0,0,0,.492.189.719.719,0,0,0,.492-.189l4.162-4.162A.646.646,0,0,0,21.809,15.651Z" transform="translate(-7.73 -7.512)" fill="#fafafa"/>
+  </g>
+</svg>

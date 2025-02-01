@@ -1,0 +1,570 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.woocommerce_options_panel .options_group fieldset._wt_category_condition_field ul,
+  .woocommerce_options_panel .options_group fieldset._wt_product_condition_field ul{
+  width: 90%; max-width:600px;
+}
+.woocommerce_options_panel .options_group fieldset._wt_category_condition_field ul li:not(:last-child),
+  ._wt_product_restrictions_field li, .woocommerce_options_panel .options_group fieldset._wt_use_individual_min_max_field ul li,
+  .woocommerce_options_panel .options_group fieldset._wt_product_condition_field ul li:not(:last-child),
+  .woocommerce_options_panel .options_group fieldset._wt_sc_bogo_apply_frequency_field ul li{
+    display:inline-block !important;
+    margin-right:5px;
+}
+
+#wt_bulk_create_top {
+  float: left;
+  width: 100%;
+  margin-top: 15px;
+}
+#wt-coupon-meta-box{
+  width:100%;
+}
+#wt-coupon-meta-box .hndle.ui-sortable-handle span {margin-left: 16px;}
+.wt_bulk_section_title {
+  float: left;
+  width: 100%;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 26px;
+}
+
+#generate-coupon label {
+  float: left;
+  width: 220px;
+  line-height: 36px;
+  font-weight: bold;
+}
+#generate-coupon  .form-group {
+  float: left;
+  width: 100%;
+}
+/* .form-fields p {
+  margin-right: 30px;
+  float: left;
+} */
+
+#generate-coupon .form-fields {
+  float: left;
+}
+.generate-coupon-wrapper {
+  float: left;
+  padding: 10px 20px;
+}
+#wt_bulk_create_top h2, #wt_bulk_create_top > p {
+  padding: 0px 20px;
+}
+#_wt_valid_for_number {
+  float: left;
+  margin-right: 10px;
+  max-width: 80px;
+}
+#_wt_coupon_prefix , #_wt_coupon_suffix {
+  float: left;
+  max-width: 100px;
+  margin-right: 10px;
+}
+#_wt_coupon_prefix  + code {
+  float: left;
+  margin-right: 10px;
+}
+#wt_import_coupon_top {
+  padding: 50px 0px;
+  text-align: center;
+  margin-top: 20px;
+  float: left;
+  width: 100%;
+}
+.wt-import-input-file-container span.dashicons.dashicons-upload {
+  line-height: 40px;
+}
+.wt-import-input-file-container > label {
+  position: relative;
+}
+#wt_import_coupon_top-step-2{
+  margin-top: 20px;
+}
+
+#wt_import_coupon_top #upload{
+  width: 100%;
+  opacity: 0;
+  position: absolute;
+  left: 0px;
+  height: 41px;
+}
+span.wt-file-container-label.selected {
+  color: #186723;
+}
+#usage_restriction_coupon_data h3 {
+  margin-left: 11px;
+}
+#wt_import_coupon_btn{
+  margin-top: 10px;
+}
+div#wt_store_credit_coupon_top {
+  padding: 100px;
+  text-align: center;
+  font-size: 40px;
+  color: #e5e5e5;
+}
+div#wt_store_credit_coupon_top span:before {
+  font-size: 40px;
+  padding-right: 22px;
+  padding-top: 5px;
+}
+
+.error_message.wt_coupon_error {
+  padding: 5px;
+  text-indent: 15px;
+  border-left: 4px solid #d64e4e;
+  margin: 10px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+  display:none;
+}
+
+.form-section {
+  float: left;
+  width: 100%;
+}
+.form-item {
+  float: left;
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.form-element {
+  padding-left: 200px;
+}
+.form-item >label {
+  float: left;
+  min-width: 150px;
+  padding-right: 50px;
+}
+
+.coupon_preview {
+  position: absolute;
+  right:-10px;
+  bottom:0px;
+}
+.coupon_styling_settings {
+  float:left;
+  width:100%;
+  position:relative;
+}
+.section-sub-title, .form-item {
+  padding-left: 10px;
+}
+.section-sub-title h4{ padding-bottom:5px; border-bottom:dashed 1px #ccc; margin-top:35px; }
+#wt_smart_coupon_settings .wp-picker-container.wp-picker-active{
+  z-index: 1;
+  position: relative;
+}
+.wt_section_title {
+  padding-left: 10px;
+}
+.wt_form_submit{ margin-left:-15px; float:left; margin-top:20px; width:100%; background:#f5f5f5; padding:15px; border-top:solid 1px #e9e9e9; }
+.wt-coupon-content {
+  width: 100%;
+  text-align: center;
+}
+.wt-coupon-code code {
+  font-size: 19px;
+}
+
+
+.wt_smart_coupon_admin_form {
+  float: left;
+  width: 65%;
+  background: #fff;
+  padding:10px 15px 0px 15px;
+  box-sizing:border-box;
+  box-shadow:0px 2px 2px #ccc;
+}
+.wt_smart_coupon_admin_form_right_box{ float:left; width:calc(35% - 25px); margin-left:25px; margin-top:-1px; }
+.wt_smart_coupon_pro_features, .wt_smart_coupon_setup_video {
+  width:100%;
+  box-shadow:0px 2px 2px #ccc;
+}
+.wt_smart_coupon_setup_video{ box-sizing:border-box; background:#fff; padding:15px 22px; padding-bottom:0px; display:none; margin-bottom: 10px;}
+.wt_smart_coupon_setup_video_hd{ font-weight:600; color:#000; margin-bottom:15px; margin-top:11px; text-align:center; }
+.wt_smart_coupon_setup_video_box{ border-bottom:solid 1px #ccc; padding-bottom:15px; }
+/* .wt_smart_coupon_premium{
+  width: 100%;
+  height: auto;
+  border-radius: 11px;
+} */
+.wt_smart_coupon_premium ul {
+  padding-left:15px;
+  padding-right:15px;
+}
+.wt_smart_coupon_premium .ticked-list li {
+  margin-bottom: 15px;
+  padding-left:25px; color:#000;
+}
+.ticked-list{
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-size: 13px;
+  line-height: 1.4em;
+  padding-left:0px;
+  padding-top: 10px;
+}
+.wt_smart_coupon_premium .ticked-list li .dashicons{ background:#fff; color:#6ABE45; border-radius:20px; margin-right:5px; margin-left:-25px; }
+.wt_smart_coupon_premium .button-go-pro {
+  background:#6abe45;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  padding: 15px 20px;
+  color: #FFFFFF;
+  display: inline-block;
+  text-decoration: none;
+  transition: all .2s ease;
+  border: none;
+  margin-top:30px; text-transform:uppercase;
+}
+.wt_smart_coupon_premium .button-go-pro:hover,
+.wt_smart_coupon_premium .button-go-pro:focus,
+.wt_smart_coupon_premium .button-go-pro:active {
+  background:#6abe45;
+  text-decoration: none;
+  opacity: .8;
+  transition: all .2s ease;
+  border: none;
+  transform: translateY(1px);
+  color:#fff;
+}
+.wt_smart_coupon_premium .button-doc-demo { background:none; border:solid 2px #6ABE45; border-radius:5px; color:#6ABE45; font-weight:700; box-shadow:none; padding:8px 55px; font-size:15px; height:auto; margin-left:10px; margin-right:10px; margin-top:10px; text-transform:uppercase; }
+.wt_smart_coupon_premium .button-doc-demo:hover,
+.wt_smart_coupon_premium .button-doc-demo:focus,
+.wt_smart_coupon_premium .button-doc-demo:active {
+  background:none; opacity:.8; transition:all .2s ease; transform: translateY(1px); border:solid 2px #6ABE45; color:#6ABE45;
+}
+
+.nav-tab-wrapper .nav-tab-premium {
+  background: #5ccc96;
+  color: white;
+  border-color: #5ccc96;
+}
+
+.wt-rating-link{text-decoration:none;}
+
+.wt_smart_coupon_pro_features .wt-review-widget{ padding:20px 35px; padding-bottom:35px; background:#fff; font-size:12px; }
+
+
+/* WT subtabs */
+.wt_sub_tab_content {
+  display: none;
+}
+.wt_sub_tab_content.active {
+  display: block;
+}
+ul.wt_sub_tab {
+  float: left;
+  width: 100%;
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+
+ul.wt_sub_tab li {
+  float: left;
+  margin-right: 10px;
+  padding-right: 10px;
+  padding-left: 0.2em;
+  border-right: 1px solid #cecbcb;
+  margin-bottom: 0px;
+  
+}
+ul.wt_sub_tab li a {
+  color: #0073aa;
+  font-size: 13px;
+  cursor: pointer;
+  text-decoration: none;
+}
+ul.wt_sub_tab li.active a {
+  color:#000000;
+  cursor: default;
+}
+ul.wt_sub_tab li:last-child {
+  border: none;
+
+}
+.wt_smart_coupon_help_page_content {
+  float: left;
+  width: 65%;
+}
+
+.wt_sub_tab_container {
+  float: left;
+  padding: 0px 10px 10px 10px;
+  width:100%;
+}
+
+.wt-smartcoupon-help-links li {
+  float: left;
+  padding: 40px;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 1px 1px 5px 1px rgba(0,0,0,.1);
+  width: 185px;
+  height: 245px;
+}
+
+
+.premium-features ul {
+  float: left;
+  width: 100%;
+  list-style-type: disc;
+  padding-left: 30px;
+}
+.premium-features {
+  float: left;
+  width: 100%;
+  font-style: italic;
+  font-size: 13px;
+}
+
+.wt_sc_upgrade_pro_main{ float:left; width:100%; height:auto; padding:25px 17px; text-align:center; box-sizing:border-box; background: #fff; border-radius: 11px 11px 0px 0px; border-bottom: dashed 1px #000; display: flex; gap: 10px;}
+.wt_sc_upgrade_pro_main_hd{ font-weight:600; font-size:17px; line-height:30px; color:#000000; text-align: left;}
+.wt_sc_upgrade_pro_content{ float:left; width: 100%; padding:24px 15px 50px 15px; background: linear-gradient(#fff, #F1FFF4); box-sizing:border-box;}
+.wt_sc_upgrade_pro_content_head{ text-align:left; font-size:17px; font-weight:700; padding-left:13px; margin:0; color: #4750CB;}
+.wt_sc_upgrade_pro_lower_green{float:left; width:100%; background:#E0F9E6; padding:50px 26px 26px 26px; box-sizing:border-box; border-radius: 0px 0px 11px 11px; position: relative; height: 113px;}
+.wt_sc_upgrade_pro_half_box{ float:left; width:49%; box-sizing:border-box; font-style:normal; font-weight:normal; font-size:12px; font-weight:500; line-height:14px; color:#000000; }
+.wt_sc_upgrade_pro_icon_box{ float:left; width:21px; height:35px; border-radius:20px 20px 20px 20px; background:#fff; margin-right:5px; box-sizing:border-box; padding:4px; }
+.wt_sc_upgrade_pro_icon_info_box{ float:left; width:calc(100% - 41px); margin-top:4px; text-align:left; }
+.wt_smart_coupon_premium .wt-sc-pro-features-all-features{ display:none;}
+.wt_smart_coupon_premium .wt-sc-pro-features-view-all{ color:#007FFF; text-decoration-line: underline; text-align:center; cursor: pointer;}
+.wt_smart_coupon_premium .wt-sc-pro-features-view-less{ color:#007FFF; text-decoration-line: underline; text-align:center; display:none; cursor: pointer;}
+.wt_smart_coupon_premium .wt-sc-pro-features-all-features .wt-sc-pro-features-all-features-bullet li::before{ content: "\2022"; color: #2270B1; font-weight: bold; display: inline-block; width: 1em; margin-left: -1em; font-size: 18px;}
+.wt_sc_upgrade_pro_button{ text-align: center; position: absolute; bottom: 87px; left: 0px; right: 0px;
+}
+.wt_smart_coupon_premium .ticked-list li {
+  font-weight: 500;
+}
+
+@media (max-width: 1332px) {
+  .coupon_preview{
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    left: auto;
+  }
+}
+
+.wt_sc_copy_to_clipboard{ color:#2271b1; margin-left:10px; cursor:pointer; }
+
+/* notify toast */
+.wt_sc_notify_msg{ position:fixed; width:350px; padding:15px; font-weight:bold; font-size:12px; right:60px; top:0px; opacity:0; border-radius:5px; z-index:1000000000; text-shadow:0px 1px 1px #fff; line-height:22px;}
+.wt_sc_notify_msg_error{ background:#ffdbdb; color:#90534e; border:solid 1px #dfc5c6; }
+.wt_sc_notify_msg_success{ background:#e1ffdb; color:#75936f; border:solid 1px #cfecce; }
+
+
+body.post-type-shop_coupon nav.smart-coupon-tabs{ margin-bottom:15px; }
+.coupon_styling_settings .wp-picker-container .wp-color-result.button{ border-color:#e6e9ec; }
+
+/**
+ *  @since 1.4.0 
+ *  coupon meta items table 
+ */
+.wt_sc_coupon_meta_item_table{ border:solid 1px #8E8F92; width:90%; max-width:600px; border-spacing:0px; text-align:center; border-radius:5px;}
+.wt_sc_coupon_meta_item_table th{ border-bottom:solid 1px #8E8F92; font-weight:400; line-height:14px; padding:5px 0px;}
+.wt_sc_coupon_meta_item_table td{ box-sizing:border-box; padding:5px 5px;}
+.wt_sc_coupon_meta_item_table .wt_sc_add_new_row_btn_td{ padding-top:0px;}
+.wt_sc_coupon_meta_item_table input, .wt_sc_coupon_meta_item_table select { display:inline-block; width:100% !important; height:30px; font-weight:300;}
+.wt_sc_coupon_meta_item_table .select2-container{ min-width:100%; height:30px !important; }
+.wt_sc_coupon_meta_item_table .select2-container .select2-selection--single{ height:30px !important; }
+.wt_sc_coupon_meta_item_table .select2-container .select2-selection--single .select2-selection__rendered{ height:30px !important; line-height:30px !important; }
+.wt_sc_coupon_meta_item_table .select2-container .select2-selection--single .select2-selection__arrow{ height:30px !important; }
+
+.wt_sc_coupon_meta_item_table input::placeholder{ color:#757575; font-style:italic; font-weight:300; font-size:12px; }
+.wt_sc_meta_item_tb_item{ width:48%; max-width:350px; }
+.wt_sc_meta_item_tb_other{ width:12.5%; min-width:70px; }
+.wt_sc_meta_item_tb_price{ width:20.5%; min-width:70px; }
+.wt_sc_meta_item_tb_action{ width:8.5%; min-width:50px; padding-left:0px !important; }
+.wt_sc_meta_item_tb_delete_row{ cursor:pointer; margin-top:2px;}
+.wt_sc_meta_item_tb_delete_row:hover{ color:red; }
+.wt_sc_meta_item_tb_add_row{ width:100%; background:#fafafa; border:solid 1px #bababa; color:#7e7e7e; border-radius:5px; height:32px; font-size:16px; }
+.wt_sc_meta_item_tb_add_row:hover{ background:#e5e5e5; cursor:pointer; }
+
+#woocommerce-coupon-data .woocommerce_options_panel p.wt_sc_help_text{ line-height:18px; clear:both; width:90%; max-width:600px; padding-left:0px; margin:0px; }
+
+td.wt_sc_order_used_coupons ul.wc_coupon_list li.code .tips{ cursor:default; }
+
+
+/**
+ *  @since 1.4.1
+ *  popup 
+ */
+.wt_sc_cst_overlay{ position:fixed; z-index:100000000; width:100%; height:100%; background-color:rgba(0,0,0,.5); left:0px; top:0px; display:none;}
+.wt_sc_popup{position:fixed; z-index:100000001; background:#fff; border:solid 1px #eee; text-align:center; box-shadow:0px 2px 5px #333; left:50%; display:none;}
+.wt_sc_popup_hd{display:inline-block; width:100%; box-sizing:border-box; font-weight:bold; background-color:#f3f3f3; height:40px; text-align:left; line-height:40px; padding:0px 20px;}
+.wt_sc_popup_title{ float:left; }
+.wt_sc_popup_close{float:right; width:40px; height:40px; text-align:right; line-height:40px; cursor:pointer;}
+.wt_sc_popup_footer{width:100%; text-align:right; margin-top:10px;}
+
+/**
+ *  @since 1.4.4
+ */
+.wt-sc-tab-head{ margin-right:0px; margin-top:20px; clear:both; width:65%;}
+.wt-sc-tab-container{ padding:15px; padding-bottom:0px; background:#fff; box-shadow:0px 2px 2px #ccc; float:left; box-sizing:border-box; width:65%; height:auto;}
+.wt-sc-tab-head .nav-tab{ border-top-left-radius:3px; border-top-right-radius:3px; }
+.wt-sc-tab-head .nav-tab-active{ background: #fff; border-bottom: solid 1px #fff; }
+.wt-sc-tab-head .nav-tab:focus{ box-shadow:none;}
+.wt-sc-tab-content{ display:none; float:left; width:100%; height:auto; }
+.wt_sc_sub_tab_container{float:left; width:100%; height:auto;}
+.wt_sc_sub_tab{ display:inline-block; margin:0px;}
+.wt_sc_sub_tab li{ display:inline-block; border-left: solid 1px #ccc; padding:3px 10px; cursor: pointer;}
+.wt_sc_sub_tab li:first-child{ border-left:none; padding-left:0px; }
+.wt_sc_sub_tab_content{ display: none; float:left; width:100%; height:auto; }
+.wt_sc_sub_tab_trigger{ cursor:pointer; }
+.wt_sc_notify_msg{ position:fixed; width:350px; padding:15px; font-weight:bold; font-size:12px; right:60px; top:0px; opacity:0; border-radius:5px; z-index:1000000000; text-shadow:0px 1px 1px #fff; line-height:22px;}
+.wt_sc_notify_msg_error{ background:#ffdbdb; color:#90534e; border:solid 1px #dfc5c6; }
+.wt_sc_notify_msg_success{ background:#e1ffdb; color:#75936f; border:solid 1px #cfecce; }
+.wt-sc-tab-content .button{ border-color:#e5e5e5; }
+.wt-sc-tab-content .button-primary{ border:none; }
+.wt-sc-tab-content .button-secondary{ border-color:#e5e5e5; color:#666; }
+.wt-sc-tab-content .button-secondary:hover{ border-color:#e5e5e5; color:#333; }
+.wt-sc-tab-content .button:hover{ border-color:#e5e5e5; }
+.wt-sc-tab-content input[type="text"], .wt-sc-tab-content input[type="number"], .wt_sc_text_field{ border-color:#e5e5e5; }
+
+.wt-sc-plugin-toolbar{ float:left; height:auto; width:100%; margin:0; padding:0}
+.wt-sc-plugin-toolbar .left{ float:left; margin:0; padding:0}
+.wt-sc-plugin-toolbar .left img{ vertical-align:text-bottom; margin-right:10px}
+.wt-sc-plugin-toolbar .right{ float:right; margin:0 10px 0 0; padding:0}
+.wt-sc-plugin-toolbar.bottom{ margin-top:12px; background:#f5f5f5; border-top:1px solid #ddd; margin-left:-15px; margin-right:-15px; margin-bottom:0;padding:9px 15px}
+.wt-sc-plugin-toolbar.top{ margin-top:-15px; background:#f5f5f5; border-bottom:1px solid #ddd;border-top:1px solid #ddd;margin-left:-15px;margin-right:-15px; margin-bottom:15px; padding:15px}
+.wt-sc-plugin-toolbar.top h3{ margin:5px 0px;}
+.wt-sc-plugin-toolbar.bottom .button{ padding:0.2rem 0.75rem; height:auto;}
+
+.wt-sc-form-table{ width:100%; }
+
+.wt-smartcoupon-help-links li {
+  float: left;
+  padding: 40px;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 1px 1px 5px 1px rgba(0,0,0,.1);
+  width: 185px;
+  height: 245px;
+}
+
+/* copied from bootstrap */
+.wt-sc-form-table input[type="text"], .wt-sc-form-table input[type="number"], .wt-sc-form-table select{
+  display: block;
+  width:100%;
+  padding: 0.35rem 0.75rem;
+  font-size:.85rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; 
+  height:36px;
+  max-width:none;
+}
+.wt-sc-form-table input[type="text"]::placeholder, .wt-sc-form-table input[type="number"]::placeholder{ color:#cfd2d5; }
+.wt-sc-form-table select{
+  padding: 0.44rem 0.75rem;
+}
+.wt-sc-form-table textarea{
+  display: block;
+  width:100%;
+  padding: 0.375rem 0.75rem;
+  font-size:.85rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.wt-sc-form-table .select2-selection, .wt-sc-form-table .select2-selection.select2-selection--multiple{
+  display: block;
+  width:100%;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  min-height:60px; font-size:.75rem;
+}
+.wt-sc-form-table .select2-selection.select2-selection--single{ min-height:38px; border:1px solid #ced4da; }
+.wt-sc-form-table .select2-container {
+  width:100% !important;
+}
+.wt-sc-form-table .select2-selection--single .select2-selection__rendered{
+   line-height:34px !important; font-size:.85rem;
+}
+.wt-sc-form-table .select2-container .select2-selection--single .select2-selection__arrow{
+  height:36px;
+}
+.wt_sc_select_multi{
+  width:100%;
+}
+.wt_sc_select_multi .select2-container{
+  width:100% !important;
+}
+.wt_sc_settings_form .button {
+  padding:0.3rem 0.75rem; height: auto;
+}
+
+.wt-sc-form-table .wt_sc_file_attacher_dv{width:100%; }
+.wt-sc-form-table .wt_sc_file_attacher_dv input[type="text"]{width:70%; float:left; }
+.wt-sc-form-table .wt_sc_file_attacher_dv input[type="button"]{width:25%; float:right; }
+.wt-sc-form-group{width:100%;}
+.wt-sc-form-group .button{height:32px;}
+
+.wt_sc_button{ height:36px !important; }
+
+.wt-sc-form-table .button {
+  padding:0.3rem 0.75rem; height: auto;
+}
+.wt_sc_image_preview_small{ width:auto; max-width:100px; float:left; margin-top: 10px; }
+.wt_sc_file_attacher_dv{ float:left; width:100%; }
+.wt_sc_form_help{ color:#666; font-style: italic; font-weight:400; font-size:12px; display:inline-block; width:100%; margin-top:5px; }
+.wt_sc_form_help img{ display:inline-block; max-width:100%; box-shadow:0px 2px 2px 0px #ccc; padding:1px; background:#fff;}
+.wt_sc_required_field{ display:inline-block; color:red; margin-left:3px; }
+.wt_sc_color_picker_field{ width:80px; height:30px; border:solid 1px #e5e5e5; border-radius:3px; }
+.wt_sc_radio_list_item{ display:inline-block; padding-bottom:10px; padding-right:10px; }
+
+.wt-sc-form-table .wt_sc_custom_and_preset{width:70%; float:left; }
+.wt-sc-form-table .wt_sc_custom_and_preset_text{width:25% !important; float:right; }
+
+.wt-sc-form-table tr th:first-child{ width:25%; text-align:start; padding:13px 10px 15px 0; font-size:14px; vertical-align:top; font-weight:normal; }
+.wt-sc-form-table tr td:nth-child(2){ width:40%; padding:10px 10px; vertical-align:middle; }
+.wt-sc-form-table tr td:nth-child(3){ width:35%; }
+.wt-sc-form-table tr th:first-child label{ display:inline-block; margin-top:0px; }
+.wt-sc-form-settings-group-heading{ border-bottom:dashed 1px #ccc; padding-bottom:5px; }
+.wt_sc_badge { display:inline-block; padding:2px 6px; font-size:12px; border-radius:3px; background:#ccc; color:#fff; text-align:center; }
+
+/* popup */
+.wt_sc_cst_overlay{ position:fixed; z-index:100000000; width:100%; height:100%; background-color:rgba(0,0,0,.5); left:0px; top:0px; display:none;}
+.wt_sc_popup{position:fixed; z-index:100000001; background:#fff; border:solid 1px #eee; text-align:center; box-shadow:0px 2px 5px #333; left:50%; display:none;}
+.wt_sc_popup_hd{display:inline-block; width:100%; box-sizing:border-box; font-weight:bold; background-color:#f3f3f3; height:40px; text-align:left; line-height:40px; padding:0px 20px;}
+.wt_sc_popup_title{ float:left; }
+.wt_sc_popup_close{float:right; width:40px; height:40px; text-align:right; line-height:40px; cursor:pointer;}
+.wt_sc_popup_footer{width:100%; text-align:right; margin-top:10px;}
+
+.wt-sc-form-preview-popover{ cursor:pointer; font-size:80%; display:inline-block; }
+
+/* notify toast */
+.wt_sc_notify_msg{ position:fixed; width:350px; padding:15px; font-weight:bold; font-size:12px; right:60px; top:0px; opacity:0; border-radius:5px; z-index:1000000000; text-shadow:0px 1px 1px #fff; line-height:22px;}
+.wt_sc_notify_msg_error{ background:#ffdbdb; color:#90534e; border:solid 1px #dfc5c6; }
+.wt_sc_notify_msg_success{ background:#e1ffdb; color:#75936f; border:solid 1px #cfecce; }
+
+@media (max-width:768px) {
+  .wt-sc-tab-head, .wt-sc-tab-container, .wt_smart_coupon_admin_form_right_box{ width:100%; }
+  .wt_smart_coupon_admin_form_right_box{ margin:auto; margin-top:30px; }
+}
+
+fieldset.form-field._wt_need_check_location_in_field .wc-radios li { display:inline-block !important; margin-right:5px; }

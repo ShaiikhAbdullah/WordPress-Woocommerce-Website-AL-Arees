@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+.vi-ui.form tr[data-field-index] {
+  display: none;
+}
+.vi-ui.tab {
+  background: #fff !important;
+}
+.vi-ui.fluid.dropdown {
+  width: unset !important;
+}
+.vi-ui.selection.dropdown {
+  min-height: unset !important;
+}
+
+.get_short_code {
+  display: block;
+  background-color: #fff8db;
+  border-radius: 7px;
+  border: 1px solid #D67C1C;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  margin-top: 5%;
+}
+
+/*RTL*/
+.rtl .vi-ui.button:not(.icon) > .icon:not(.button):not(.dropdown), .rtl .vi-ui.button > .icon:not(.button) {
+  margin: 0 -0.21428571em 0 0.42857143em;
+}
+
+/*# sourceMappingURL=settings.css.map */

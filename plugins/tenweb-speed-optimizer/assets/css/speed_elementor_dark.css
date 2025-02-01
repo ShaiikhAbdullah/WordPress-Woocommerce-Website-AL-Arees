@@ -1,0 +1,80 @@
+.two_elementor_dark .two_elementor_control_title {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  color:#ffffff;
+}
+
+.two_elementor_dark .two_elementor_settings_content.two-optimizing .two-description,
+.two_elementor_dark.two_elementor_settings_content.two-optimizing .two-description,
+.two_elementor_dark .two-page-speed,
+.two_elementor_dark .two_reanalyze_container .two_reanalyze_button {
+  color:#ffffff;
+}
+
+.two_elementor_dark .two_elementor_settings_content .two-elementor-container-title,
+.two_elementor_dark.two_elementor_settings_content .two-elementor-container-title {
+  letter-spacing: 0.1px;
+  color: #FFFFFFCC;
+  font-weight: 400;
+}
+
+.two_elementor_dark .two_elementor_settings_content .two-elementor-container-title span,
+.two_elementor_dark.two_elementor_settings_content .two-elementor-container-title span {
+  letter-spacing: 0.1px;
+  color: #FFFFFFCC;
+  font-style: italic;
+  font-weight: bold;
+}
+.two_elementor_dark .two-old-scores,
+.two_elementor_dark .two-new-scores {
+  background-color: #35383C;
+}
+
+.two_elementor_dark .two-no-scores .two_reanalyze_link:not(.two-hidden) {
+  background-image: url(../images/speed/reload_icon_dark.svg);
+}
+
+.two_elementor_dark .two_reanalyze_link:hover {
+  background-image: url(../images/speed/reload_icon_hover_dark.svg);
+}
+
+.two_elementor_dark .two_elementor_settings_content .two-score-container-title,
+.two_elementor_dark.two_elementor_settings_content .two-score-container-title {
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+}
+
+.two_elementor_dark .two_elementor_settings_content .two-score-container-title span,
+.two_elementor_dark.two_elementor_settings_content .two-score-container-title span {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.two_elementor_dark .two-score-container-both .two-score-mobile,
+.two_elementor_dark .two-score-container-both .two-score-desktop {
+  flex-direction: column;
+  background: #35383C 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+}
+
+.two_elementor_dark .two_elementor_settings_content .two-score-container-both .two-score-text *,
+.two_elementor_dark.two_elementor_settings_content .two-score-container-both .two-score-text * {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.two_elementor_dark .two_elementor_settings_content .two-score-container-both .two-load-text-time,
+.two_elementor_dark.two_elementor_settings_content .two-score-container-both .two-load-text-time {
+  font: normal normal 600 10px/16px Open Sans;
+  color: #FFFFFF;
+}
+
+.two_elementor_dark .two_elementor_settings_content .two-score-circle,
+.two_elementor_dark.two_elementor_settings_content .two-score-circle {
+  background: #FFFFFF0D 0% 0% no-repeat padding-box;
+}
+
+.two_elementor_dark .two-score-circle-animated {
+  color: #ffffff!important;
+}

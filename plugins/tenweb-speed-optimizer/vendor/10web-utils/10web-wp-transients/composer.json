@@ -1,0 +1,12 @@
+{
+    "name": "10web-utils/10web-wp-transients",
+    "description": "Package for saving wp_options as wp_transients",
+    "type": "git",
+    "homepage": "https://10web.io",
+    "autoload": {
+        "psr-4": {
+            "TenWebWpTransients\\": "src/TenWebWpTransients"
+        }
+    },
+    "require": {}
+}

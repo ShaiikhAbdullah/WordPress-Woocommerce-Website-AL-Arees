@@ -1,0 +1,32 @@
+{
+  "name": "10web-utils/tenweb-image-optimizer",
+  "type": "git",
+  "description": "Image optimizer package",
+  "homepage": "https://10web.io",
+  "license": "proprietary",
+  "require": {
+    "10web-utils/10web-queue": "dev-master",
+    "10web/authorization": "dev-master",
+    "10web-utils/10web-wp-transients": "dev-master",
+    "enqueue/fs": "^0.10.0"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "ssh://git@gitlab.10web.io:6202/10web-utils/10web-queue.git"
+    },
+    {
+      "type": "git",
+      "url": "ssh://git@gitlab.10web.io:6202/10web-utils/tenweb-authorization.git"
+    },
+    {
+      "type": "git",
+      "url": "ssh://git@gitlab.10web.io:6202/10web-utils/10web-wp-transients.git"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "TenWebIO\\": "src/TenWebIO"
+    }
+  }
+}

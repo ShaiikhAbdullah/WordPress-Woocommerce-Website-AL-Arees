@@ -1,0 +1,28 @@
+.ppcp-r-accordion {
+	margin-left: auto;
+	margin-right: auto;
+
+	&__toggler {
+		display: block;
+		cursor: pointer;
+
+		background: transparent;
+		border: 0;
+		box-shadow: none;
+		padding: 0;
+		margin: 24px auto;
+	}
+
+	&__title-wrapper {
+		@include font(14, 32, 450);
+		color: $color-gray-900;
+
+		display: flex;
+		align-items: center;
+		gap: 16px;
+	}
+
+	&__content {
+		margin: 24px 0 0;
+	}
+}

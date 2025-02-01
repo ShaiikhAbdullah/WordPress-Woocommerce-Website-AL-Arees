@@ -1,0 +1,3388 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Coupons for WooCommerce\n"
+"POT-Creation-Date: 2024-04-15 12:33+0530\n"
+"PO-Revision-Date: 2024-04-15 17:59+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wt-smart-coupon.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/class-wt-duplicate-coupon.php:21
+#: admin/class-wt-smart-coupon-admin.php:148
+#: admin/modules/checkout_options/checkout_options.php:228
+#: admin/modules/coupon_restriction/coupon_restriction.php:105
+#: admin/modules/giveaway_product/giveaway_product.php:71
+#: admin/modules/giveaway_product/giveaway_product.php:240
+msgid "You do not have sufficient permission to perform this operation"
+msgstr "K provedení této operace nemáte dostatečné oprávnění"
+
+#: admin/class-wt-duplicate-coupon.php:25
+msgid "No post to duplicate has been supplied!"
+msgstr "Nebyl zadán žádný duplikát!"
+
+#: admin/class-wt-duplicate-coupon.php:119
+msgid "Post creation failed, could not find original post: "
+msgstr "Vytvoření příspěvku se nezdařilo, nebyl nalezen původní příspěvek: "
+
+#: admin/class-wt-duplicate-coupon.php:131
+msgid "Duplicate"
+msgstr "Duplikovat"
+
+#: admin/class-wt-duplicate-coupon.php:132
+msgid "Duplicate this item"
+msgstr "Duplikovat tuto položku"
+
+#: admin/class-wt-promotion-banner.php:42
+msgid "Biggest sale of the year is here!"
+msgstr "Největší výprodej roku je tady!"
+
+#: admin/class-wt-promotion-banner.php:43
+#, no-php-format
+msgid ""
+"Black Friday & Cyber Monday sale is now live! Get any WebToffee plugins at "
+"an exclusive 30% discount."
+msgstr ""
+"Výprodej Černého pátku a Cyber Monday je nyní aktivní! Získejte jakékoli "
+"pluginy WebToffee s exkluzivní slevou 30% d."
+
+#: admin/class-wt-promotion-banner.php:44
+msgid "Grab this deal"
+msgstr "Získejte tuto dohodu"
+
+#: admin/class-wt-smart-coupon-admin.php:119
+msgid "Quick links"
+msgstr "Rychlé odkazy"
+
+#: admin/class-wt-smart-coupon-admin.php:137
+#: admin/views/_premium_features_sidebar.php:10
+msgid "Make Irresistible Coupon Campaigns with Powerful Features"
+msgstr "Vytvářejte neodolatelné kuponové kampaně s výkonnými funkcemi"
+
+#: admin/class-wt-smart-coupon-admin.php:224
+#, php-format
+msgid ""
+"Unable to update settings due to an internal error. %s To troubleshoot "
+"please click %s here. %s"
+msgstr ""
+"Nelze aktualizovat nastavení kvůli vnitřní chybě. %s Chcete-li problém "
+"odstranit, klikněte sem %s. %s"
+
+#: admin/class-wt-smart-coupon-admin.php:225
+msgid "is required"
+msgstr "je požadováno"
+
+#: admin/class-wt-smart-coupon-admin.php:226
+msgid "Copied!"
+msgstr "Zkopírováno!"
+
+#: admin/class-wt-smart-coupon-admin.php:227
+#: admin/modules/coupon_style/coupon_style.php:61
+msgid "Error"
+msgstr "Chyba"
+
+#: admin/class-wt-smart-coupon-admin.php:228
+msgid "Loading..."
+msgstr "Načítám..."
+
+#: admin/class-wt-smart-coupon-admin.php:229
+#: public/class-wt-smart-coupon-public.php:141
+msgid "Please wait..."
+msgstr "Počkejte prosím..."
+
+#: admin/class-wt-smart-coupon-admin.php:230
+msgid "Are you sure?"
+msgstr "Jste si jistí?"
+
+#: admin/class-wt-smart-coupon-admin.php:231
+msgid "Are you sure you want to delete?"
+msgstr "Jste si jistí, že to chcete smazat?"
+
+#: admin/class-wt-smart-coupon-admin.php:262
+#: admin/views/general_settings.php:19
+msgid "Settings"
+msgstr "Nastavení"
+
+#: admin/class-wt-smart-coupon-admin.php:274
+msgid "Premium Upgrade"
+msgstr "Prémiový upgrade"
+
+#: admin/class-wt-smart-coupon-admin.php:275
+msgid "Review"
+msgstr "Hodnocení"
+
+#: admin/class-wt-smart-coupon-admin.php:290
+msgid "Docs"
+msgstr "Dokumenty"
+
+#: admin/class-wt-smart-coupon-admin.php:291
+msgid "Support"
+msgstr "Podpora"
+
+#: admin/class-wt-smart-coupon-admin.php:307
+msgid "My Account"
+msgstr "Můj účet"
+
+#: admin/class-wt-smart-coupon-admin.php:308
+msgid "Checkout"
+msgstr "Pokladna"
+
+#: admin/class-wt-smart-coupon-admin.php:309
+msgid "Cart"
+msgstr "Košík"
+
+#: admin/class-wt-smart-coupon-admin.php:313
+msgid "Display coupon in"
+msgstr "Zobrazit kupón v"
+
+#: admin/class-wt-smart-coupon-admin.php:314
+msgid "Please select"
+msgstr "Prosím vyberte"
+
+#: admin/class-wt-smart-coupon-admin.php:323
+msgid "Display coupon in the selected pages"
+msgstr "Zobrazit kupón na vybraných stránkách"
+
+#: admin/class-wt-smart-coupon-admin.php:339
+msgid "Did You Know?"
+msgstr "Věděli jste že?"
+
+#: admin/class-wt-smart-coupon-admin.php:340
+msgid ""
+"You can display the available coupons for a product on the respective "
+"product page?"
+msgstr ""
+"Můžete zobrazit dostupné kupóny pro produkt na stránce příslušného produktu?"
+
+#: admin/class-wt-smart-coupon-admin.php:343
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:107
+#: admin/modules/giveaway_product/views/_normal_coupon_giveaway_tab_content.php:30
+msgid "Check out this plugin"
+msgstr "Podívejte se na tento plugin"
+
+#: admin/class-wt-smart-coupon-admin.php:521
+#: admin/class-wt-smart-coupon-admin.php:548
+#: admin/class-wt-smart-coupon-admin.php:549
+msgid "General settings"
+msgstr "Obecná nastavení"
+
+#: admin/class-wt-smart-coupon-admin.php:522
+msgid "Smart Coupons"
+msgstr "Smart Coupons"
+
+#: admin/class-wt-smart-coupon-admin.php:532
+#: admin/class-wt-smart-coupon-admin.php:533
+#: admin/views/general_settings.php:21
+msgid "All coupons"
+msgstr "Všechny kupóny"
+
+#: admin/class-wt-smart-coupon-admin.php:540
+#: admin/class-wt-smart-coupon-admin.php:541
+#: admin/views/general_settings.php:22
+msgid "Add coupon"
+msgstr "Přidat nový kupón"
+
+#: admin/class-wt-smart-coupon-admin.php:664
+msgid "Smart coupon settings"
+msgstr "Nastavení chytrého kupónu"
+
+#: admin/class-wt-smart-coupon-admin.php:669
+msgid "Did you know?"
+msgstr "Věděli jste to?"
+
+#: admin/class-wt-smart-coupon-admin.php:669
+msgid "You can easily create bulk coupons within a few clicks."
+msgstr "Hromadné kupóny můžete snadno vytvořit během několika kliknutí."
+
+#: admin/class-wt-smart-coupon-admin.php:669
+#, php-format
+msgid "Get %s WooCommerce Coupon Generator%s plugin."
+msgstr "Získejte plugin %s WooCommerce Coupon Generator%s."
+
+#: admin/class-wt-smart-coupon-admin.php:669
+msgid "Check out plugin"
+msgstr "Podívejte se na plugin"
+
+#: admin/class-wt-smart-coupon-admin.php:669
+msgid "Maybe later"
+msgstr "Možná později"
+
+#: admin/class-wt-smart-coupon-admin.php:769
+msgid "Smart coupon database update in progress"
+msgstr "Probíhá aktualizace databáze chytrých kuponů"
+
+#: admin/class-wt-smart-coupon-admin.php:770
+msgid "The site may experience a slow response for few minutes."
+msgstr "Stránka může zaznamenat pomalou odezvu po dobu několika minut."
+
+#: admin/class-wt-smart-coupon-admin.php:778
+#, php-format
+msgid "Progress: %d out of %d"
+msgstr "Průběh: %d z %d"
+
+#: admin/coupon-start-date/class-wt-smart-coupon-start-date.php:39
+msgid "Coupon start date"
+msgstr "Datum zahájení kupónu"
+
+#: admin/coupon-start-date/class-wt-smart-coupon-start-date.php:80
+#, php-format
+msgid "Sorry, this coupon is only available after %s"
+msgstr "Litujeme, tento kupón je k dispozici pouze po %s"
+
+#: admin/data/data.hooks-help.php:14
+msgid "Coupon style"
+msgstr "Styl kupónu"
+
+#: admin/data/data.hooks-help.php:15
+msgid "Coupon clone"
+msgstr "Kupónový klon"
+
+#: admin/data/data.hooks-help.php:16 blocks/wt-sc-blocks.php:96
+msgid "Coupon message"
+msgstr "Zpráva o kuponu"
+
+#: admin/data/data.hooks-help.php:17
+msgid "My account"
+msgstr "Můj účet"
+
+#: admin/data/data.hooks-help.php:18
+msgid "Checkout page"
+msgstr "Stránka pokladny"
+
+#: admin/data/data.hooks-help.php:19
+msgid "Others"
+msgstr "Ostatní"
+
+#: admin/data/data.hooks-help.php:27
+msgid "Alter coupon template HTML."
+msgstr "Změňte HTML šablonu kupónu."
+
+#: admin/data/data.hooks-help.php:28
+msgid "Alter the coupon block HTML before printing."
+msgstr "Před tiskem změňte kód HTML bloku kupónu."
+
+#: admin/data/data.hooks-help.php:45
+msgid "Add value to custom placeholder."
+msgstr "Přidejte hodnotu do vlastního zástupného symbolu."
+
+#: admin/data/data.hooks-help.php:46
+msgid ""
+"If you want to add any custom dynamic values to the coupon block. Add a "
+"placeholder to the coupon template first and assign the value to that "
+"placeholder via this filter."
+msgstr ""
+"Pokud chcete do bloku kupónu přidat jakékoli vlastní dynamické hodnoty. "
+"Nejprve přidejte zástupný symbol do šablony kupónu a pomocí tohoto filtru "
+"přiřaďte tomuto zástupnému symbolu hodnotu."
+
+#: admin/data/data.hooks-help.php:57
+msgid "Alter the coupon default style."
+msgstr "Změňte výchozí styl kupónu."
+
+#: admin/data/data.hooks-help.php:58
+msgid "If you want to customize the style, you can use this filter."
+msgstr "Pokud chcete styl upravit, můžete použít tento filtr."
+
+#: admin/data/data.hooks-help.php:67
+msgid "Alter the coupon title."
+msgstr "Změňte název kupónu."
+
+#: admin/data/data.hooks-help.php:68
+msgid "Alter the coupon title in the coupon block."
+msgstr "Změňte název kupónu v bloku kupónu."
+
+#: admin/data/data.hooks-help.php:76
+msgid "Change the text of the coupon's start and expire dates."
+msgstr "Změňte text data začátku a konce platnosti kupónu."
+
+#: admin/data/data.hooks-help.php:77
+msgid ""
+"By default, \"Start on\" and \"Expires on\" will be the text if a coupon has "
+"a starting date and an expiration date; it can be changed by this hook."
+msgstr ""
+"Ve výchozím nastavení bude text „Začít dne“ a „Platnost vyprší dne“, pokud "
+"má kupón datum zahájení a datum vypršení platnosti; lze to změnit tímto "
+"háčkem."
+
+#: admin/data/data.hooks-help.php:93
+msgid "Set the cloned coupon status"
+msgstr "Nastavte stav klonovaného kupónu"
+
+#: admin/data/data.hooks-help.php:94
+msgid "Set the cloned coupon status."
+msgstr "Nastavte stav klonovaného kupónu."
+
+#: admin/data/data.hooks-help.php:108
+msgid "Change auto coupon message."
+msgstr "Změňte zprávu automatického kuponu."
+
+#: admin/data/data.hooks-help.php:109
+msgid ""
+"To change the coupon applied message when the coupon is applied "
+"automatically."
+msgstr ""
+"Chcete-li změnit zprávu o použití kupónu, když je kupón aplikován "
+"automaticky."
+
+#: admin/data/data.hooks-help.php:119
+msgid "Change user role validation message."
+msgstr "Změnit zprávu o ověření uživatelské role."
+
+#: admin/data/data.hooks-help.php:120
+msgid ""
+"To change user role invalid message when coupon applied by an invalid user."
+msgstr ""
+"Chcete-li změnit uživatelskou roli, neplatná zpráva při uplatnění kupónu "
+"neplatným uživatelem."
+
+#: admin/data/data.hooks-help.php:129
+msgid "Change the minimum and maximum individual quantity validation message."
+msgstr ""
+"Změňte zprávu o ověření minimálního a maximálního jednotlivého množství."
+
+#: admin/data/data.hooks-help.php:130
+msgid ""
+"To change the minimum and maximum quantity validation messages when enabling "
+"\"Product/Category restrictions\" and \"Individual quantity restriction\" in "
+"coupon settings."
+msgstr ""
+"Chcete-li změnit zprávy o ověření minimálního a maximálního množství při "
+"povolení \"Omezení produktu/kategorie\" a \"Omezení individuálního množství"
+"\" v nastavení kuponu."
+
+#: admin/data/data.hooks-help.php:148
+msgid "Change quantity restriction message"
+msgstr "Změnit zprávu o omezení množství"
+
+#: admin/data/data.hooks-help.php:149
+msgid ""
+"To change the minimum and maximum quantity validation messages when "
+"\"Product/Category restrictions\" is disabled. If “Individual quantity "
+"restriction” is disabled, the message in if($is_global) will appear."
+msgstr ""
+"Chcete-li změnit zprávy o ověření minimálního a maximálního množství, když "
+"je zakázáno „Omezení produktu/kategorie“. Pokud je zakázáno „Omezení "
+"individuálního množství“, objeví se zpráva if($is_global)."
+
+#: admin/data/data.hooks-help.php:177
+msgid "Change message when multiple giveaway products added"
+msgstr "Změňte zprávu, když je přidáno více dárkových produktů"
+
+#: admin/data/data.hooks-help.php:178
+msgid ""
+"To change the message when more than one giveaway product is added to the "
+"cart."
+msgstr ""
+"Chcete-li změnit zprávu, když je do košíku přidáno více než jeden dárkový "
+"produkt."
+
+#: admin/data/data.hooks-help.php:187
+msgid "Change message for choosing giveaway products"
+msgstr "Změnit zprávu pro výběr dárkových produktů"
+
+#: admin/data/data.hooks-help.php:188
+msgid ""
+"When a giveaway product is a variable product, a message with a product "
+"variation will show to choose. This hook will help to change the title."
+msgstr ""
+"Pokud je dárkový produkt variabilní produkt, zobrazí se zpráva s variantou "
+"produktu, abyste si mohli vybrat. Tento háček pomůže změnit název."
+
+#: admin/data/data.hooks-help.php:197
+msgid "Change url coupon message."
+msgstr "Změnit adresu URL kuponové zprávy."
+
+#: admin/data/data.hooks-help.php:198
+msgid "To change the coupon applied message when the coupon is applied by url."
+msgstr ""
+"Chcete-li změnit zprávu o použití kupónu, když je kupón aplikován pomocí "
+"adresy URL."
+
+#: admin/data/data.hooks-help.php:221
+msgid "Message when no coupons available to show in my account coupons page."
+msgstr ""
+"Zpráva, když nejsou k dispozici žádné kupóny k zobrazení na stránce kupónů "
+"mého účtu."
+
+#: admin/data/data.hooks-help.php:222
+msgid "To change the no coupons available message, use this filter."
+msgstr ""
+"Chcete-li změnit zprávu, že nejsou k dispozici žádné kupony, použijte tento "
+"filtr."
+
+#: admin/data/data.hooks-help.php:231
+msgid ""
+"Message when no used coupons available to show in my account coupons page."
+msgstr ""
+"Zpráva, když nejsou k dispozici žádné použité kupony k zobrazení na stránce "
+"kuponů mého účtu."
+
+#: admin/data/data.hooks-help.php:232
+msgid "To change the no used coupons available message, use this filter."
+msgstr ""
+"Chcete-li změnit zprávu, že nejsou k dispozici žádné použité kupóny, "
+"použijte tento filtr."
+
+#: admin/data/data.hooks-help.php:241
+msgid ""
+"Message when no expired coupons available to show in my account coupons page."
+msgstr ""
+"Zpráva, když nejsou k dispozici žádné kupóny s vypršenou platností, které by "
+"se mohly zobrazit na stránce kupónů mého účtu."
+
+#: admin/data/data.hooks-help.php:242
+msgid "To change the no expired coupons available message, use this filter."
+msgstr ""
+"Chcete-li změnit zprávu, že nejsou k dispozici žádné kupóny, jejichž "
+"platnost vypršela, použijte tento filtr."
+
+#: admin/data/data.hooks-help.php:251
+msgid "Change the default sort order for my account coupons."
+msgstr "Změnit výchozí pořadí řazení pro kupóny mého účtu."
+
+#: admin/data/data.hooks-help.php:252
+msgid ""
+"By default the sort order is `Latest last`. You can use this filter to alter "
+"the sort order."
+msgstr ""
+"Ve výchozím nastavení je pořadí řazení `Poslední poslední`. Tento filtr "
+"můžete použít ke změně pořadí řazení."
+
+#: admin/data/data.hooks-help.php:253
+msgid "Applicable values: "
+msgstr "Použitelné hodnoty: "
+
+#: admin/data/data.hooks-help.php:262
+msgid "Change my account coupons display count per page."
+msgstr "Změnit počet zobrazení kupónů mého účtu na stránku."
+
+#: admin/data/data.hooks-help.php:263
+msgid ""
+"By default maximum 20 coupons will display in the my account page. You can "
+"change the count by using this filter."
+msgstr ""
+"Ve výchozím nastavení se na stránce mého účtu zobrazí maximálně 20 kuponů. "
+"Pomocí tohoto filtru můžete počet změnit."
+
+#: admin/data/data.hooks-help.php:272
+msgid "Change my account expired coupons display count."
+msgstr "Změnit počet zobrazení kupónů s vypršenou platností účtu."
+
+#: admin/data/data.hooks-help.php:273
+msgid ""
+"By default maximum 50 expired coupons will display in the my account page. "
+"You can change the count by using this filter."
+msgstr ""
+"Ve výchozím nastavení se na stránce mého účtu zobrazí maximálně 50 kupónů, "
+"jejichž platnost vypršela. Pomocí tohoto filtru můžete počet změnit."
+
+#: admin/data/data.hooks-help.php:282
+msgid "Add heading before My coupons in my account."
+msgstr "Přidat nadpis před Moje kupony na mém účtu."
+
+#: admin/data/data.hooks-help.php:283
+msgid "You can add a custom heading before my coupons in my account."
+msgstr "V mém účtu můžete před moje kupóny přidat vlastní nadpis."
+
+#: admin/data/data.hooks-help.php:298
+msgid "Change checkout coupons display count."
+msgstr "Změnit počet zobrazení pokladních kuponů."
+
+#: admin/data/data.hooks-help.php:299
+msgid ""
+"By default maximum 20 coupons will display in the checkout page. You can "
+"change the count by using this filter."
+msgstr ""
+"Ve výchozím nastavení se na stránce pokladny zobrazí maximálně 20 kuponů. "
+"Pomocí tohoto filtru můžete počet změnit."
+
+#: admin/data/data.hooks-help.php:308
+msgid "Add a heading before coupons on the checkout page."
+msgstr "Přidejte nadpis před kupóny na stránce pokladny."
+
+#: admin/data/data.hooks-help.php:309
+msgid "You can add a custom heading before coupons on the checkout page."
+msgstr "Na stránce pokladny můžete před kupóny přidat vlastní nadpis."
+
+#: admin/data/data.hooks-help.php:325
+msgid "Change cart coupons display count."
+msgstr "Změna počtu zobrazení kupónů v košíku."
+
+#: admin/data/data.hooks-help.php:326
+msgid ""
+"By default maximum 20 coupons will display in the cart page. You can change "
+"the count by using this filter."
+msgstr ""
+"Ve výchozím nastavení se na stránce košíku zobrazí maximálně 20 kuponů. "
+"Pomocí tohoto filtru můžete počet změnit."
+
+#: admin/data/data.hooks-help.php:335
+msgid "Change auto coupon apply count."
+msgstr "Změňte počet použití automatického kupónu."
+
+#: admin/data/data.hooks-help.php:336
+msgid ""
+"By default, a maximum of 5 coupons will be applied automatically. You can "
+"change the count by using this filter. Note: Setting a high number may "
+"affect the performance of the website."
+msgstr ""
+"Ve výchozím nastavení bude automaticky aplikováno maximálně 5 kupónů. Pomocí "
+"tohoto filtru můžete počet změnit. Poznámka: Nastavení vysokého čísla může "
+"ovlivnit výkon webu."
+
+#: admin/data/data.hooks-help.php:345
+msgid "Remove pagination after available coupon."
+msgstr "Odstraňte stránkování po dostupném kuponu."
+
+#: admin/data/data.hooks-help.php:346
+msgid ""
+"By default, a next and prev button will be available after the available "
+"coupons. The count of available coupons will be basically 20, but it can be "
+"changed with the help of hooks."
+msgstr ""
+"Ve výchozím nastavení budou po dostupných kuponech k dispozici tlačítka "
+"Další a Předchozí. Počet dostupných kuponů bude v základu 20, ale lze jej "
+"změnit pomocí háčků."
+
+#: admin/data/data.hooks-help.php:351
+msgid "Change giveaway product label in the order details."
+msgstr "Změňte štítek dárkového produktu v detailu objednávky."
+
+#: admin/data/data.hooks-help.php:352
+msgid ""
+"By default, \"Free gift\" is the label of the giveaway product in the order "
+"details, which can be changed by this hook."
+msgstr ""
+"Ve výchozím nastavení je \"Dárek zdarma\" označení dárkového produktu v "
+"detailu objednávky, které lze změnit tímto háčkem."
+
+#: admin/data/data.hooks-help.php:361
+msgid "Change giveaway product label in the cart summary."
+msgstr "Změňte štítek dárkového produktu v souhrnu košíku."
+
+#: admin/data/data.hooks-help.php:362
+msgid ""
+"By default, \"Free gift\" is the label of the giveaway product in the cart "
+"summary, which can be changed by this hook."
+msgstr ""
+"Ve výchozím nastavení je \"Dárek zdarma\" označení dárkového produktu v "
+"souhrnu košíku, který lze změnit pomocí tohoto háčku."
+
+#: admin/exclude-product/class-wt-exclude-product-for-coupon.php:64
+msgid "Exclude from coupons"
+msgstr "Vyloučit z kupónů"
+
+#: admin/exclude-product/class-wt-exclude-product-for-coupon.php:65
+msgid "Exclude this product from coupon discounts"
+msgstr "Vyloučit tento produkt ze slev kupónů"
+
+#: admin/exclude-product/class-wt-exclude-product-for-coupon.php:146
+#: public/modules/coupon_restriction/coupon_restriction.php:549
+msgid "Sorry, this coupon is not applicable for selected products."
+msgstr "Litujeme, tento kupón se nevztahuje na vybrané produkty."
+
+#: admin/modules/auto_coupon/auto_coupon.php:104
+#: admin/modules/freevspro/views/comparison-table.php:72
+#: admin/modules/freevspro/views/comparison-table.php:76
+msgid "Apply coupon automatically"
+msgstr "Použít kupón automaticky"
+
+#: admin/modules/auto_coupon/auto_coupon.php:106
+msgid ""
+"Enable to apply coupon automatically without applying code. By default, it "
+"works for up to 5 recently created coupons."
+msgstr ""
+"Povolte automatické použití kupónu bez použití kódu. Ve výchozím nastavení "
+"funguje až pro 5 nedávno vytvořených kuponů."
+
+#: admin/modules/auto_coupon/auto_coupon.php:155
+#: admin/modules/auto_coupon/auto_coupon.php:386
+msgid "Auto-apply coupons"
+msgstr "Automaticky uplatňovat kupóny na pokladně"
+
+#: admin/modules/auto_coupon/auto_coupon.php:287
+msgid "Auto-apply coupon settings"
+msgstr "Nastavení automatického použití kupónu"
+
+#: admin/modules/auto_coupon/auto_coupon.php:370
+msgid "Available"
+msgstr "Dostupný"
+
+#. translators: %d: Coupon count.
+#: admin/modules/auto_coupon/auto_coupon.php:396
+#, php-format
+msgid "Total auto-apply coupons: %d"
+msgstr "Celkový počet automaticky použitých kuponů: %d"
+
+#: admin/modules/auto_coupon/auto_coupon.php:402
+msgid "No of coupons that will be checked for auto apply eligibility"
+msgstr ""
+"Počet kupónů, u kterých bude zkontrolována způsobilost k automatickému "
+"použití"
+
+#: admin/modules/auto_coupon/auto_coupon.php:413
+msgid "Max auto-apply coupons per cart"
+msgstr "Automaticky uplatňovat kupóny na pokladně"
+
+#: admin/modules/auto_coupon/auto_coupon.php:424
+msgid "Save"
+msgstr "Uložit"
+
+#: admin/modules/auto_coupon/auto_coupon.php:457
+msgid "Priority"
+msgstr "Priorita"
+
+#: admin/modules/auto_coupon/auto_coupon.php:516
+msgid "Reset auto coupon priority"
+msgstr "Omezte kupóny podle zemí"
+
+#: admin/modules/auto_coupon/auto_coupon.php:518
+msgid "Reset now"
+msgstr "Zkontrolovat nyní"
+
+#: admin/modules/auto_coupon/auto_coupon.php:522
+msgid "Set priority to missing auto coupons"
+msgstr "Nastavte prioritu chybějícím automatickým kupónům"
+
+#: admin/modules/auto_coupon/auto_coupon.php:524
+msgid "Set now"
+msgstr "Nastavte nyní"
+
+#: admin/modules/auto_coupon/auto_coupon.php:529
+msgid "Are you sure? All custom priorities will be reset."
+msgstr "Jsi si jistá? Všechny vlastní priority budou resetovány."
+
+#: admin/modules/auto_coupon/auto_coupon.php:557
+msgid "Success !!!"
+msgstr "Úspěch!!!"
+
+#: admin/modules/auto_coupon/auto_coupon.php:559
+msgid "Goto dashboard"
+msgstr "Přejít na řídicí panel"
+
+#: admin/modules/auto_coupon/auto_coupon.php:597
+msgid ""
+"The cart will apply the selected number of auto apply coupons based on "
+"priority"
+msgstr ""
+"Košík použije zvolený počet automaticky uplatňujících kuponů na základě "
+"priority"
+
+#: admin/modules/auto_coupon/auto_coupon.php:598
+msgid ""
+"The chosen quantity of coupons will undergo eligibility verification among "
+"the entire pool of auto-apply coupons based on priority. If the limit is set "
+"to 100, any coupon with a priority of 101 or lower, will not be considered "
+"to apply to the cart, even if eligible"
+msgstr ""
+"Vybrané množství kuponů projde ověřením způsobilosti v rámci celé skupiny "
+"automaticky aplikovaných kuponů na základě priority. Pokud je limit nastaven "
+"na 100, žádný kupón s prioritou 101 nebo nižší nebude považován za platný v "
+"košíku, i když je způsobilý"
+
+#: admin/modules/auto_coupon/auto_coupon.php:617
+msgid "Unauthorized"
+msgstr "Neoprávněný"
+
+#: admin/modules/auto_coupon/auto_coupon.php:633
+msgid "Settings Updated"
+msgstr "Nastavení aktualizováno"
+
+#: admin/modules/checkout_options/checkout_options.php:60
+msgid "Checkout options"
+msgstr "Možnosti pokladny"
+
+#: admin/modules/checkout_options/checkout_options.php:83
+msgid "Shipping methods"
+msgstr "Doručovací metody"
+
+#: admin/modules/checkout_options/checkout_options.php:84
+msgid "Any shipping method"
+msgstr "Jakýkoli způsob dopravy"
+
+#: admin/modules/checkout_options/checkout_options.php:102
+msgid " (Only for block checkout)"
+msgstr " (Pouze pro blokovou pokladnu)"
+
+#: admin/modules/checkout_options/checkout_options.php:118
+msgid ""
+"Coupon will be applicable if any of these shipping methods are selected."
+msgstr ""
+"Kupón bude použitelný, pokud je vybrán některý z těchto způsobů dopravy."
+
+#: admin/modules/checkout_options/checkout_options.php:125
+msgid "Payment methods"
+msgstr "Platební metody"
+
+#: admin/modules/checkout_options/checkout_options.php:126
+msgid "Any payment method"
+msgstr "Jakýkoli způsob platby"
+
+#: admin/modules/checkout_options/checkout_options.php:141
+msgid "Coupon will be applicable if any of these payment methods are selected."
+msgstr ""
+"Kupón bude použitelný, pokud je vybrán některý z těchto způsobů platby."
+
+#: admin/modules/checkout_options/checkout_options.php:147
+msgid "Applicable Roles"
+msgstr "Použitelné role"
+
+#: admin/modules/checkout_options/checkout_options.php:148
+msgid "Any role"
+msgstr "Jakákoliv role"
+
+#: admin/modules/checkout_options/checkout_options.php:161
+msgid ""
+"Coupon will be applicable if customer belongs to any of these User Roles."
+msgstr ""
+"Kupón bude použitelný, pokud zákazník patří do kterékoli z těchto rolí "
+"uživatelů."
+
+#: admin/modules/checkout_options/checkout_options.php:180
+msgid "Restrict by country"
+msgstr "Omezte kupóny podle zemí"
+
+#: admin/modules/checkout_options/checkout_options.php:182
+msgid "Billing Address."
+msgstr "Fakturační adresa."
+
+#: admin/modules/checkout_options/checkout_options.php:183
+msgid "Shipping Address."
+msgstr "Doručovací adresa."
+
+#: admin/modules/checkout_options/checkout_options.php:185
+msgid "Look for country from the selected option"
+msgstr "Vyhledejte zemi z vybrané možnosti"
+
+#: admin/modules/checkout_options/checkout_options.php:194
+#: admin/modules/freevspro/views/comparison-table.php:57
+#: admin/modules/freevspro/views/comparison-table.php:65
+msgid "Country"
+msgstr "Země"
+
+#: admin/modules/checkout_options/checkout_options.php:195
+msgid "Any Location"
+msgstr "Jakákoli poloha"
+
+#: admin/modules/checkout_options/checkout_options.php:209
+msgid ""
+"Coupon will be applicable only for the selected country from either the "
+"shipping/billing address"
+msgstr ""
+"Kupón bude použitelný pouze pro vybranou zemi buď z dodací/fakturační adresy"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:179
+msgid "Product/Category restrictions"
+msgstr "Omezení produktu/kategorie"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:180
+msgid ""
+"Enable to apply coupon only if the cart satisfies the product or category "
+"restrictions."
+msgstr ""
+"Mezisoučet minimální ceny produktů, které odpovídají danému omezení produktu "
+"nebo kategorie."
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:193
+msgid "Individual quantity restriction"
+msgstr "Individuální omezení množství"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:194
+msgid ""
+"Enable to set minimum and maximum quantity restrictions for individual "
+"product/category instead of entire cart."
+msgstr ""
+"Umožňuje nastavit omezení minimálního a maximálního množství pro jednotlivé "
+"produkty/kategorie namísto celého košíku."
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:207
+msgid "Product conditions:"
+msgstr "Stav produktu:"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:209
+#: admin/modules/coupon_restriction/coupon_restriction.php:229
+msgid "Any from below selection"
+msgstr "Jakýkoli z níže uvedeného výběru"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:210
+#: admin/modules/coupon_restriction/coupon_restriction.php:230
+msgid "All from below selection"
+msgstr "Vše z níže uvedeného výběru"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:212
+#, php-format
+msgid ""
+"%sAny:%s Applies coupon if any of the products from the below is available "
+"in the cart."
+msgstr ""
+"%sJakýkoli:%s Použije se kupón, pokud je v košíku k dispozici některý z níže "
+"uvedených produktů."
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:212
+#, php-format
+msgid ""
+"%sAll:%s Applies coupon if the cart contains all of the listed products."
+msgstr ""
+"%sVše:%s Kupón se použije, pokud košík obsahuje všechny uvedené produkty."
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:226
+msgid "Category condition:"
+msgstr "Podmínka kategorie:"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:232
+#, php-format
+msgid ""
+"%sAny:%s Applies coupon if the eligible quantity of products from any of the "
+"below selected categories are available in the cart."
+msgstr ""
+"%sJakýkoli:%s Kupón se použije, pokud je v košíku dostupné vhodné množství "
+"produktů z některé z níže vybraných kategorií."
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:232
+#, php-format
+msgid ""
+"%sAll:%s Applies coupon if the cart contains the eligible quantity of "
+"products from all of the below listed categories."
+msgstr ""
+"%sVše:%s Kupón se použije, pokud košík obsahuje způsobilé množství produktů "
+"ze všech níže uvedených kategorií."
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:247
+msgid "Minimum quantity of matching products"
+msgstr "Minimální množství odpovídajících produktů"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:248
+#: admin/modules/coupon_restriction/coupon_restriction.php:272
+msgid "No minimum"
+msgstr "Žádné minimum"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:249
+msgid ""
+"Minimum quantity of the products that match the given product or category "
+"restrictions. If no product or category restrictions are specified, the "
+"total number of products is used."
+msgstr ""
+"Minimální množství produktů, které odpovídají danému omezení produktu nebo "
+"kategorie. Není -li uvedeno žádné omezení produktu nebo kategorie, použije "
+"se celkový počet produktů."
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:259
+msgid "Maximum quantity of matching products"
+msgstr "Maximální množství odpovídajících produktů"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:260
+#: admin/modules/coupon_restriction/coupon_restriction.php:284
+msgid "No maximum"
+msgstr "Žádné maximum"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:261
+msgid ""
+"Maximum quantity of the products that match the given product or category "
+"restrictions. If no product or category restrictions are specified, the "
+"total number of products is used."
+msgstr ""
+"Maximální množství produktů, které odpovídají danému omezení produktu nebo "
+"kategorie. Není -li uvedeno žádné omezení produktu nebo kategorie, použije "
+"se celkový počet produktů."
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:271
+msgid "Minimum subtotal of matching products"
+msgstr "Minimální mezisoučet odpovídajících produktů"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:273
+msgid ""
+"Minimum price subtotal of the products that match the given product or "
+"category restrictions."
+msgstr ""
+"Mezisoučet minimální ceny produktů, které odpovídají danému omezení produktu "
+"nebo kategorie."
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:283
+msgid "Maximum subtotal of matching products"
+msgstr "Maximální mezisoučet odpovídajících produktů"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:285
+msgid ""
+"Maximum price subtotal of the products that match the given product or "
+"category restrictions."
+msgstr ""
+"Mezisoučet maximální ceny produktů, které odpovídají danému omezení produktu "
+"nebo kategorie."
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:325
+msgid ""
+"Apply coupon only if the selected quantity of products are in the cart. "
+"Discounts will be given for those products and not the total cart amount."
+msgstr ""
+"Kupón uplatněte pouze v případě, že je v košíku vybrané množství produktů. "
+"Slevy budou poskytnuty na tyto produkty, nikoli na celkovou částku v košíku."
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:326
+msgid ""
+"Applies coupon only if the selected quantity of products are in the cart. A "
+"discount will be given for the total cart amount."
+msgstr ""
+"Kupón platí pouze v případě, že je v košíku vybrané množství produktů. Bude "
+"poskytnuta sleva na celkovou částku košíku."
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:332
+#: admin/modules/giveaway_product/giveaway_product.php:300
+msgid ""
+"Apply coupon only if the selected quantity of products of the chosen "
+"category are in the cart. Discounts will be given for those products and not "
+"the total cart amount."
+msgstr ""
+"Kupón uplatněte pouze v případě, že je v košíku vybrané množství produktů "
+"zvolené kategorie. Slevy budou poskytnuty na tyto produkty, nikoli na "
+"celkovou částku v košíku."
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:333
+msgid ""
+"Applies coupon only if the selected quantity of products of the chosen "
+"category are in the cart. A discount will be given for the total cart amount."
+msgstr ""
+"Kupón platí pouze v případě, že je v košíku vybrané množství produktů "
+"zvolené kategorie. Bude poskytnuta sleva na celkovou částku košíku."
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:339
+msgid ""
+"If eligible products are in the cart along with excluded products, the "
+"coupon will be applied, but the discount will be limited to eligible "
+"products."
+msgstr ""
+"Pokud jsou způsobilé produkty v košíku spolu s vyloučenými produkty, bude "
+"kupón uplatněn, ale sleva bude omezena na způsobilé produkty."
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:340
+msgid ""
+"The coupon is not applicable when the cart contains an excluded product."
+msgstr "Kupón nelze uplatnit, pokud košík obsahuje vyloučený produkt."
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:346
+msgid ""
+"If eligible products are in the cart along with products from an excluded "
+"category, the coupon will be applied, but the discount will be limited to "
+"eligible products."
+msgstr ""
+"Pokud jsou způsobilé produkty v košíku spolu s produkty z vyloučené "
+"kategorie, bude kupón uplatněn, ale sleva bude omezena na způsobilé produkty."
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:347
+msgid ""
+"The coupon is not applicable when the cart contains products from an "
+"excluded category."
+msgstr ""
+"Kupón nelze uplatnit, pokud košík obsahuje produkty z vyloučené kategorie."
+
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:16
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:31
+msgid "Products"
+msgstr "Produkty"
+
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:20
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:35
+msgid "Product"
+msgstr "Produkt"
+
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:21
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:111
+msgid "Min. Quantity"
+msgstr "Min. Množství"
+
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:22
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:112
+msgid "Max. Quantity"
+msgstr "Max. Množství"
+
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:50
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:64
+#: admin/modules/giveaway_product/views/_normal_coupon_giveaway_tab_content.php:8
+msgid "Search for a product..."
+msgstr "Hledat produkt..."
+
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:66
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:155
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:85
+msgid "Remove row"
+msgstr "Odstranit řádek"
+
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:75
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:164
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:94
+msgid "Add new row"
+msgstr "Přidat novou kategorii"
+
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:106
+msgid "Products categories"
+msgstr "Oblíbené kategorie"
+
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:110
+msgid "Category"
+msgstr "Kategorie"
+
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:139
+msgid "Search for a category..."
+msgstr "Vyhledat kategorie..."
+
+#: admin/modules/coupon_shortcode/coupon_shortcode.php:51
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: admin/modules/coupon_style/coupon_style.php:81
+#: public/modules/giveaway_product/giveaway_product.php:345
+msgid "Success"
+msgstr "Úspěch"
+
+#: admin/modules/coupon_style/coupon_style.php:97
+msgid "Unable to save settings"
+msgstr "Nastavení nelze uložit"
+
+#: admin/modules/coupon_style/coupon_style.php:113
+msgid "Layouts"
+msgstr "Rozvržení"
+
+#: admin/modules/coupon_style/coupon_style.php:131
+#: common/modules/coupon_style/coupon_style.php:315
+#: public/class-wt-smart-coupon-public.php:175
+#: public/class-wt-smart-coupon-public.php:190
+msgid "Cart discount"
+msgstr "Sleva do košíku"
+
+#: admin/modules/coupon_style/coupon_style.php:132
+msgid "coupon-code"
+msgstr "kód kupónu"
+
+#: admin/modules/coupon_style/views/_customize.php:99
+msgid "Display used coupons in My account?"
+msgstr "Zobrazit použité kupóny na účtu MyAccount?"
+
+#: admin/modules/coupon_style/views/_customize.php:99
+msgid "Display expired coupons in My account?"
+msgstr "Zobrazit kupóny s vypršenou platností na účtu MyAccount?"
+
+#: admin/modules/freevspro/freevspro.php:76
+#: admin/modules/freevspro/freevspro.php:82
+msgid "Free vs. Pro"
+msgstr "Zdarma vs. Pro"
+
+#: admin/modules/freevspro/views/comparison-table.php:17
+msgid "Coupon Management Features"
+msgstr "Funkce správy kupónů"
+
+#: admin/modules/freevspro/views/comparison-table.php:19
+#: admin/modules/freevspro/views/comparison-table.php:24
+msgid "BOGO Coupons"
+msgstr "Kupóny"
+
+#: admin/modules/freevspro/views/comparison-table.php:20
+#: admin/modules/freevspro/views/comparison-table.php:25
+msgid "Giveaway"
+msgstr "Rozdávat"
+
+#: admin/modules/freevspro/views/comparison-table.php:21
+#: admin/modules/freevspro/views/comparison-table.php:26
+msgid "URL coupons"
+msgstr "URL kupóny"
+
+#: admin/modules/freevspro/views/comparison-table.php:27
+#: admin/modules/premium_upgrade/views/page_content.php:104
+#: admin/views/_premium_features_sidebar.php:20
+#: admin/views/_upgrade_to_pro_metabox.php:35
+msgid "Purchase history-based coupons"
+msgstr "Kupóny založené na historii nákupů"
+
+#: admin/modules/freevspro/views/comparison-table.php:28
+msgid "Store credit"
+msgstr "Uložit kredit"
+
+#: admin/modules/freevspro/views/comparison-table.php:29
+msgid "Gift coupons"
+msgstr "Dárkové kupóny"
+
+#: admin/modules/freevspro/views/comparison-table.php:30
+msgid "Sign-up coupons"
+msgstr "Přihlašovací kupóny"
+
+#: admin/modules/freevspro/views/comparison-table.php:31
+#: admin/modules/premium_upgrade/views/page_content.php:101
+#: admin/views/_premium_features_sidebar.php:22
+#: admin/views/_upgrade_to_pro_metabox.php:37
+msgid "Cart abandonment coupons"
+msgstr "Kupóny pro opuštění košíku"
+
+#: admin/modules/freevspro/views/comparison-table.php:32
+msgid "Combo coupons"
+msgstr "Kombinované kupóny"
+
+#: admin/modules/freevspro/views/comparison-table.php:37
+msgid "BOGO Coupon options"
+msgstr "Možnosti pokladny"
+
+#: admin/modules/freevspro/views/comparison-table.php:38
+msgid "The customers can buy one product and get:"
+msgstr "Zákazníci si mohou koupit jeden produkt a získat:"
+
+#: admin/modules/freevspro/views/comparison-table.php:41
+#: admin/modules/freevspro/views/comparison-table.php:44
+#: common/modules/giveaway_product/giveaway_product.php:160
+msgid "Specific product"
+msgstr "Odpovídající produkty"
+
+#: admin/modules/freevspro/views/comparison-table.php:45
+msgid "Any product from a specific category"
+msgstr "Jakýkoli produkt z konkrétní kategorie"
+
+#: admin/modules/freevspro/views/comparison-table.php:46
+msgid "Any product in store"
+msgstr "Jakýkoli produkt na prodejně"
+
+#: admin/modules/freevspro/views/comparison-table.php:47
+msgid "Same product as in the cart"
+msgstr "Stejný produkt jako v košíku"
+
+#: admin/modules/freevspro/views/comparison-table.php:51
+msgid "Applicable coupon restrictions"
+msgstr "Platná omezení kupónů"
+
+#: admin/modules/freevspro/views/comparison-table.php:53
+#: admin/modules/freevspro/views/comparison-table.php:60
+msgid "Shipping method"
+msgstr "Způsob dopravy"
+
+#: admin/modules/freevspro/views/comparison-table.php:54
+#: admin/modules/freevspro/views/comparison-table.php:61
+msgid "Payment method"
+msgstr "Způsob platby"
+
+#: admin/modules/freevspro/views/comparison-table.php:55
+#: admin/modules/freevspro/views/comparison-table.php:62
+msgid "User roles"
+msgstr "Uživatelské role"
+
+#: admin/modules/freevspro/views/comparison-table.php:56
+#: admin/modules/freevspro/views/comparison-table.php:64
+msgid "Product quantity"
+msgstr "Množství výrobku"
+
+#: admin/modules/freevspro/views/comparison-table.php:63
+msgid "Exclude user roles"
+msgstr "Vyloučit uživatelské funkce"
+
+#: admin/modules/freevspro/views/comparison-table.php:66
+msgid "State"
+msgstr "Stát"
+
+#: admin/modules/freevspro/views/comparison-table.php:70
+msgid "Coupon Automation"
+msgstr "Automatizace kupónů"
+
+#: admin/modules/freevspro/views/comparison-table.php:73
+#: admin/modules/freevspro/views/comparison-table.php:77
+msgid "Set a coupon start date"
+msgstr "Nastavte datum zahájení kupónu"
+
+#: admin/modules/freevspro/views/comparison-table.php:78
+msgid "Duplicate coupons"
+msgstr "Duplicitní kupóny"
+
+#: admin/modules/freevspro/views/comparison-table.php:79
+msgid "Supports custom coupon code format (prefix, suffix, length)"
+msgstr "Podporuje vlastní formát kódu kupónu (předpona, přípona, délka)"
+
+#: admin/modules/freevspro/views/comparison-table.php:83
+msgid "Advanced Coupon Display and Customization"
+msgstr "Pokročilé zobrazení a přizpůsobení kupónů"
+
+#: admin/modules/freevspro/views/comparison-table.php:85
+#: admin/modules/freevspro/views/comparison-table.php:92
+msgid "Coupon styling"
+msgstr "Styl kupónu"
+
+#: admin/modules/freevspro/views/comparison-table.php:87
+#: admin/modules/freevspro/views/comparison-table.php:94
+msgid "Coupon templates"
+msgstr "Šablony kupónů"
+
+#: admin/modules/freevspro/views/comparison-table.php:88
+msgid "Standard"
+msgstr "Standardní"
+
+#: admin/modules/freevspro/views/comparison-table.php:95
+msgid "Multiple options"
+msgstr "Více možností"
+
+#: admin/modules/freevspro/views/comparison-table.php:97
+msgid "Display count down discount sales banner"
+msgstr "Zobrazit odpočítávání slevy prodejní banner"
+
+#: admin/modules/freevspro/views/comparison-table.php:98
+msgid "Custom endpoints and endpoint title for coupon listing page"
+msgstr ""
+"Vlastní koncové body a název koncového bodu pro stránku se seznamem kupónů"
+
+#: admin/modules/freevspro/views/comparison-table.php:111
+msgid "Supercharge your sales with"
+msgstr "Zvyšte svůj prodej pomocí"
+
+#: admin/modules/freevspro/views/comparison-table.php:111
+msgid "Smart Coupons for WooCommerce Pro!"
+msgstr "Smart Coupons for WooCommerce Pro!"
+
+#: admin/modules/freevspro/views/comparison-table.php:112
+msgid ""
+"Create offers on your store your customers can’t resist from irresistible "
+"BOGO deals to delightful giveaways."
+msgstr ""
+"Vytvořte ve svém obchodě nabídky, kterým vaši zákazníci neodolají, od "
+"neodolatelných nabídek BOGO až po nádherné dárky."
+
+#: admin/modules/freevspro/views/comparison-table.php:113
+msgid "99% Customer Satisfaction"
+msgstr "99% spokojenost zákazníků"
+
+#: admin/modules/freevspro/views/comparison-table.php:113
+msgid "30 Day money back guarantee"
+msgstr "30denní záruka vrácení peněz"
+
+#: admin/modules/freevspro/views/comparison-table.php:116
+#: admin/views/_premium_features_sidebar.php:52
+msgid "Unlock pro features"
+msgstr "Odemkněte profesionální funkce"
+
+#: admin/modules/freevspro/views/comparison-table.php:122
+msgid "FEATURES"
+msgstr "FUNKCE"
+
+#: admin/modules/freevspro/views/comparison-table.php:123
+msgid "FREE"
+msgstr "ZDARMA"
+
+#: admin/modules/freevspro/views/comparison-table.php:124
+msgid "PREMIUM"
+msgstr "Prémium"
+
+#: admin/modules/giveaway_product/giveaway_product.php:191
+msgid "Number of times"
+msgstr "Kolikrát"
+
+#: admin/modules/giveaway_product/giveaway_product.php:193
+msgid "Apply once"
+msgstr "Aplikujte jednou"
+
+#: admin/modules/giveaway_product/giveaway_product.php:194
+msgid "Apply repeatedly"
+msgstr "Aplikujte opakovaně"
+
+#: admin/modules/giveaway_product/giveaway_product.php:196
+#, php-format
+msgid ""
+"%sApply once:%s If cart is eligible or conditions are met, coupon applies "
+"once. ie: If you set the coupon to offer Buy 2 Get 1, you get one free "
+"product. Moving more items to the cart will not make it eligible to get more "
+"free products."
+msgstr ""
+"%sPoužít jednou:%s Pokud je košík způsobilý nebo jsou splněny podmínky, "
+"kupón platí jednou. tj.: Pokud nastavíte kupón tak, aby nabízel Kup 2 "
+"Získejte 1, získáte jeden produkt zdarma. Přesunutím více položek do košíku "
+"nebude možné získat více produktů zdarma."
+
+#: admin/modules/giveaway_product/giveaway_product.php:196
+#, php-format
+msgid ""
+"%sApply repeatedly:%s The coupon applies repeatedly whenever the cart is "
+"eligible or if conditions are met. ie: If you set the coupon to offer Buy 2 "
+"Get 1 then the coupon works repeatedly for Buy 4 Get 2 and so on."
+msgstr ""
+"%sPoužít opakovaně:%s Kupón platí opakovaně, kdykoli je košík způsobilý nebo "
+"jsou-li splněny podmínky. tj.: Pokud nastavíte kupón tak, aby nabízel Koupit "
+"2 Získejte 1, pak kupón funguje opakovaně pro Koupit 4 Získejte 2 a tak dále."
+
+#: admin/modules/giveaway_product/giveaway_product.php:206
+msgid "Giveaway products"
+msgstr "Rozdejte produkty"
+
+#: admin/modules/giveaway_product/giveaway_product.php:273
+#: public/modules/giveaway_product/giveaway_product.php:1352
+msgid "Free gift:"
+msgstr "Dárek zdarma:"
+
+#: admin/modules/giveaway_product/giveaway_product.php:296
+msgid ""
+"Apply coupon only if the selected product quantity is in the cart. Discounts "
+"will be given for those products and not the total cart amount. For example, "
+"for setting up Buy X Get Y, choose the product/s X in this section."
+msgstr ""
+"Kupón uplatněte pouze v případě, že je vybrané množství produktu v košíku. "
+"Slevy budou poskytnuty na tyto produkty, nikoli na celkovou částku v košíku. "
+"Například pro nastavení Buy X Get Y vyberte produkt/y X v této sekci."
+
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:8
+msgid "Customer gets"
+msgstr "Vlastní adresy URL"
+
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:36
+msgid "Quantity"
+msgstr "Množství"
+
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:37
+msgid "Discount"
+msgstr "Sleva"
+
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:56
+msgid "Product not found !!!"
+msgstr "Produkt nenalezen!!!"
+
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:103
+#: admin/modules/giveaway_product/views/_normal_coupon_giveaway_tab_content.php:26
+msgid "Create better BOGO deals"
+msgstr "Vytvořte lepší nabídky BOGO"
+
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:104
+#: admin/modules/giveaway_product/views/_normal_coupon_giveaway_tab_content.php:27
+msgid ""
+"Upgrade to premium and enjoy advanced BOGO features for giveaway products, "
+"such as a custom quantity counter, dynamic pricing discounts, and more."
+msgstr ""
+"Upgradujte na prémiové a užijte si pokročilé funkce BOGO pro dárkové "
+"produkty, jako je vlastní počítadlo množství, dynamické cenové slevy a další."
+
+#: admin/modules/giveaway_product/views/_normal_coupon_giveaway_tab_content.php:7
+msgid "Free Product"
+msgstr "Produkt zdarma"
+
+#: admin/modules/giveaway_product/views/_normal_coupon_giveaway_tab_content.php:22
+msgid ""
+"A single quantity of the specified free product is added to the customer's "
+"cart when the coupon is applied. However, the corresponding tax and shipping "
+"charges are not exempted."
+msgstr ""
+"Platí pouze pro jednoduchý produkt (podpora proměnných produktů je k "
+"dispozici ve verzi Pro). Při uplatnění kupónu se do košíku zákazníka přidá "
+"jediné množství uvedeného bezplatného produktu. Příslušné daně a poplatky za "
+"dopravu však nejsou osvobozeny."
+
+#: admin/modules/limit_max_discount/limit_max_discount.php:93
+msgid "Maximum discount value"
+msgstr "Maximální hodnota slevy"
+
+#: admin/modules/limit_max_discount/limit_max_discount.php:94
+msgid "Unlimited discount"
+msgstr "Neomezená sleva"
+
+#: admin/modules/limit_max_discount/limit_max_discount.php:95
+msgid ""
+"Use this option to set a cap on the discount value especially for percentage "
+"discounts. e.g, you may provide a 5 percentage discount coupon for a product "
+"but with a maximum discount upto $10."
+msgstr ""
+"Tuto možnost použijte k nastavení limitu hodnoty slevy, zejména u "
+"procentuálních slev. můžete například poskytnout 5procentní slevový kupón na "
+"produkt, ale s maximální slevou až 10 $."
+
+#: admin/modules/other_solutions/other_solutions.php:46
+#: admin/modules/other_solutions/other_solutions.php:52
+msgid "Other Solutions"
+msgstr "Jiná řešení"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:20
+msgid "More Plugins To Make Your Store Stand Out"
+msgstr "Více pluginů, aby váš obchod vynikl"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:21
+msgid ""
+"Check out our other plugins that are perfectly suited for WooCommerce store "
+"needs."
+msgstr ""
+"Podívejte se na naše další pluginy, které se dokonale hodí pro potřeby "
+"obchodu WooCommerce."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:32
+msgid "WebToffee WooCommerce Gift Cards"
+msgstr "Dárkové karty WebToffee WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:33
+msgid ""
+"Create and manage advanced gift cards for WooCommerce stores. Enable your "
+"customers to buy, redeem, and share gift cards from your store."
+msgstr ""
+"Vytvářejte a spravujte pokročilé dárkové karty pro obchody WooCommerce. "
+"Umožněte svým zákazníkům nakupovat, uplatňovat a sdílet dárkové karty z "
+"vašeho obchodu."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:41
+#: admin/modules/premium_upgrade/views/page_content.php:209
+msgid "Display Discounts for WooCommerce"
+msgstr "Načíst z WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:42
+msgid ""
+"Display the WooCommerce coupon deals available for each product on the "
+"respective product pages. Make use of multiple coupon layouts & display "
+"options to fully optimize the look & feel of the coupons."
+msgstr ""
+"Zobrazte nabídky kupónů WooCommerce dostupné pro každý produkt na "
+"příslušných stránkách produktu. Využijte více rozvržení a možností zobrazení "
+"kuponů, abyste plně optimalizovali vzhled a dojem z kuponů."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:50
+#: admin/views/general_settings.php:20
+msgid "Smart Coupons for WooCommerce"
+msgstr "Smart Coupons for WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:51
+msgid ""
+"Create coupons to offer discounts and free products to your customers with "
+"Smart Coupons for WooCommerce. You can set up BOGO coupons, giveaways, gift "
+"cards, store credits, and more with this plugin."
+msgstr ""
+"Vytvářejte kupony a nabízejte slevy a produkty zdarma svým zákazníkům pomocí "
+"Smart Coupons for WooCommerce. Pomocí tohoto pluginu můžete nastavit BOGO "
+"kupóny, dárky, dárkové karty, kredity do obchodů a další."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:59
+#: admin/modules/premium_upgrade/views/page_content.php:149
+msgid "URL Coupons for WooCommerce"
+msgstr "Načíst z WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:60
+msgid ""
+"Generate custom URLs and QR codes for every discount coupon in your "
+"WooCommerce store. These unique coupons are easy to share and can even be "
+"set to add new products to the cart upon application."
+msgstr ""
+"Generujte vlastní adresy URL a QR kódy pro každý slevový kupón ve vašem "
+"obchodě WooCommerce. Tyto jedinečné kupony lze snadno sdílet a lze je "
+"dokonce nastavit tak, aby při aplikaci přidávaly do košíku nové produkty."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:68
+msgid "WooCommerce Coupon Generator plugin"
+msgstr "Plugin WooCommerce Coupon Generator"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:69
+msgid ""
+"Generate coupons in bulk on your WooCommerce store. Add them to the store, "
+"email them to recipients or export them to a CSV file. Configure advanced "
+"coupon restrictions and offer them to select users."
+msgstr ""
+"Hromadně generujte kupóny ve svém obchodě WooCommerce. Přidejte je do "
+"obchodu, odešlete je e-mailem příjemcům nebo je exportujte do souboru CSV. "
+"Nakonfigurujte rozšířená omezení kupónů a nabídněte je vybraným uživatelům."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:77
+msgid "WooCommerce PDF Invoices, Packing Slips and Credit Notes"
+msgstr "WooCommerce PDF faktury, dodací listy a dobropisy"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:78
+msgid ""
+"Easily generate & print fully customized PDF Invoices, Packing Slips, and "
+"Credit Notes for your orders. Automatically send the documents to the "
+"recipients by attaching them to the order status emails."
+msgstr ""
+"Snadno generujte a tiskněte plně přizpůsobené faktury ve formátu PDF, dodací "
+"listy a dobropisy pro své objednávky. Automaticky odešlete dokumenty "
+"příjemcům jejich přiložením k e-mailům o stavu objednávky."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:86
+msgid "WooCommerce Shipping Labels, Dispatch Labels and Delivery Notes"
+msgstr "WooCommerce přepravní štítky, expediční štítky a dodací listy"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:87
+msgid ""
+"Automatically generate WooCommerce Shipping Labels, Dispatch Labels, and "
+"Delivery Notes with custom settings and layouts. Customize the label sizes "
+"and add extra product or order fields as required."
+msgstr ""
+"Automaticky generujte přepravní štítky WooCommerce, expediční štítky a "
+"dodací listy s vlastním nastavením a rozvržením. Přizpůsobte velikosti "
+"štítků a podle potřeby přidejte další pole produktu nebo objednávky."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:95
+msgid "WooCommerce Picklists"
+msgstr "Výběrové seznamy WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:96
+msgid ""
+"Customize, generate and print WooCommerce picklists for all orders on your "
+"store and automatically attach them to the order status emails. Add product "
+"variation data and other fields to the document."
+msgstr ""
+"Přizpůsobte, generujte a tiskněte výběrové seznamy WooCommerce pro všechny "
+"objednávky ve vašem obchodě a automaticky je připojujte k e-mailům o stavu "
+"objednávky. Přidejte do dokumentu data o variantách produktu a další pole."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:104
+msgid "WooCommerce Proforma Invoices"
+msgstr "Proforma faktury WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:105
+msgid ""
+"Automate the generation of WooCommerce proforma invoices when new orders are "
+"placed and send them to your customers via order emails. Customize the "
+"layout and content of the invoice as per your needs."
+msgstr ""
+"Automatizujte generování proforma faktur WooCommerce při zadání nových "
+"objednávek a posílejte je svým zákazníkům prostřednictvím e-mailů s "
+"objednávkami. Přizpůsobte si vzhled a obsah faktury podle svých potřeb."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:113
+msgid "WooCommerce Address Labels"
+msgstr "Adresní štítky WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:114
+msgid ""
+"Generate address labels for all orders in your store and easily print them "
+"in bulk. Customize the label layout and create labels of different types "
+"(shipping, billing, return, from address) with ease."
+msgstr ""
+"Generujte adresní štítky pro všechny objednávky ve vašem obchodě a snadno je "
+"hromadně tiskněte. Přizpůsobte si rozvržení štítků a snadno vytvářejte "
+"štítky různých typů (doručovací, fakturační, zpáteční, z adresy)."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:122
+msgid "WebToffee WooCommerce Product Feed & Sync Manager"
+msgstr "WebToffee WooCommerce Product Feed & Sync Manager"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:123
+msgid ""
+"Generate WooCommerce product feeds for Google Merchant Center and Facebook "
+"Business Manager. Use the Facebook catalog sync manager to sync WooCommerce "
+"products with Facebook and Instagram shops."
+msgstr ""
+"Generujte zdroje produktů WooCommerce pro Google Merchant Center a Facebook "
+"Business Manager. Pomocí správce synchronizace katalogu Facebooku "
+"synchronizujte produkty WooCommerce s obchody na Facebooku a Instagramu."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:131
+msgid "WebToffee Woocommerce Request a Quote"
+msgstr "WebToffee Woocommerce Požádat o cenovou nabídku"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:132
+msgid ""
+"Configure a fully optimized WooCommerce quote request set up in your store. "
+"Allow customers to request quotes and store managers to respond to them. "
+"Hide product prices, set up email alerts, and more."
+msgstr ""
+"Nakonfigurujte plně optimalizovanou žádost o nabídku WooCommerce nastavenou "
+"ve vašem obchodě. Umožněte zákazníkům žádat o nabídky a manažerům prodejen, "
+"aby na ně reagovali. Skryjte ceny produktů, nastavte e-mailová upozornění a "
+"další."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:140
+msgid "WebToffee WooCommerce Best Sellers"
+msgstr "Nejprodávanější WooCommerce WebToffee"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:141
+msgid ""
+"Highlight top-selling products on your WooCommerce store using best seller "
+"labels, sliders, and custom seals. You can display ranking positions for "
+"best-seller products in different categories."
+msgstr ""
+"Zvýrazněte nejprodávanější produkty ve svém obchodě WooCommerce pomocí "
+"nejprodávanějších štítků, posuvníků a vlastních pečetí. Můžete zobrazit "
+"pozice v žebříčku nejprodávanějších produktů v různých kategoriích."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:149
+msgid "Frequently Bought Together for WooCommerce"
+msgstr "Sekvenční číslo objednávky pro WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:150
+msgid ""
+"Boost the visibility of the products by displaying them as ‘Frequently "
+"bought together’ items in your store. You may also set up discounts for "
+"Frequently Bought Together bundles with this plugin."
+msgstr ""
+"Zvyšte viditelnost produktů tím, že je ve svém obchodě zobrazíte jako "
+"položky „Často kupované společně“. Pomocí tohoto pluginu můžete také "
+"nastavit slevy pro často nakupované balíčky."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:158
+msgid "GDPR Cookie Consent Plugin (CCPA Ready)"
+msgstr "GDPR Cookie Consent (CCPA Ready)"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:159
+msgid ""
+"The plugin helps you get compliant with GDPR, CCPA, and other major cookie "
+"laws. You can create and manage cookie consent banners, scan website "
+"cookies, and generate cookie policies with this plugin."
+msgstr ""
+"Plugin vám pomůže dosáhnout souladu s GDPR, CCPA a dalšími hlavními zákony o "
+"souborech cookie. Pomocí tohoto pluginu můžete vytvářet a spravovat bannery "
+"souhlasu se soubory cookie, skenovat soubory cookie webových stránek a "
+"generovat zásady souborů cookie."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:167
+msgid "Product Import Export Plugin For WooCommerce"
+msgstr "Objednat import souboru XML pro import pro WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:168
+msgid ""
+"Seamlessly import/export your WooCommerce products including simple, "
+"variable, custom products and subscriptions. You may also import and export "
+"product images, tags, categories, reviews, and ratings."
+msgstr ""
+"Bezproblémově importujte/exportujte své produkty WooCommerce včetně "
+"jednoduchých, variabilních, vlastních produktů a předplatného. Můžete také "
+"importovat a exportovat obrázky produktů, štítky, kategorie, recenze a "
+"hodnocení."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:176
+msgid "WordPress Users & WooCommerce Customers Import Export"
+msgstr "Importovat Exportovat uživatele WordPress a zákazníky WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:177
+msgid ""
+"Easily import and export your WordPress users and WooCommerce customers "
+"using the Import Export plugin for WooCommerce. The plugin supports the use "
+"of CSV, XML, TSV, XLS, and XLSX file formats."
+msgstr ""
+"Snadno importujte a exportujte své uživatele WordPress a zákazníky "
+"WooCommerce pomocí pluginu Import Export pro WooCommerce. Plugin podporuje "
+"použití formátů souborů CSV, XML, TSV, XLS a XLSX."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:185
+msgid "Order, Coupon, Subscription Export Import for WooCommerce"
+msgstr "Objednat import souboru XML pro import pro WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:186
+msgid ""
+"Export and Import your WooCommerce orders, subscriptions, and discount "
+"coupons using a single Import Export plugin. You may customize the export "
+"and import files with advanced filters and settings."
+msgstr ""
+"Exportujte a importujte své objednávky, předplatné a slevové kupóny "
+"WooCommerce pomocí jediného pluginu Import Export. Export a import souborů "
+"můžete přizpůsobit pomocí pokročilých filtrů a nastavení."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:194
+msgid "Import Export Suite for WooCommerce"
+msgstr "Načíst z WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:195
+msgid ""
+"An all-in-one plugin to import and export WooCommerce store data. You can "
+"import and export products, product reviews, orders, customers, discount "
+"coupons, and subscriptions using this single plugin."
+msgstr ""
+"All-in-one plugin pro import a export dat obchodu WooCommerce. Pomocí tohoto "
+"jediného pluginu můžete importovat a exportovat produkty, recenze produktů, "
+"objednávky, zákazníky, slevové kupóny a předplatné."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:207
+msgid "PayPal Express Checkout Payment Gateway for WooCommerce"
+msgstr "PayPal Express Checkout Platební brána pro WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:208
+msgid ""
+"Offer a fast checkout experience to your customers with PayPal Payment "
+"Gateway. You can set up the PayPal Express Checkout option on the product "
+"pages to reduce the clicks to complete the checkout."
+msgstr ""
+"Nabídněte svým zákazníkům rychlou platbu pomocí platební brány PayPal. Na "
+"produktových stránkách můžete nastavit možnost PayPal Express Checkout, "
+"abyste snížili počet kliknutí na dokončení platby."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:216
+msgid "WooCommerce Stripe Payment Gateway"
+msgstr "Platební brána WooCommerce Stripe"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:217
+msgid ""
+"Ensure a fast and secure checkout experience for your users with WooCommerce "
+"Stripe Payment Gateway. Stripe accepts credit/debit cards and offers "
+"integrations with Apple Pay, SEPA, Alipay, and more."
+msgstr ""
+"Zajistěte svým uživatelům rychlou a bezpečnou pokladnu pomocí platební brány "
+"WooCommerce Stripe. Stripe přijímá kreditní/debetní karty a nabízí integraci "
+"s Apple Pay, SEPA, Alipay a dalšími."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:225
+msgid "Subscriptions for WooCommerce"
+msgstr "Načíst z WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:226
+msgid ""
+"Enable subscriptions on your WooCommerce store to sell products (physical "
+"and digital) and services that require accepting recurring payments. "
+"Supports both simple and variable subscription products."
+msgstr ""
+"Povolte předplatné ve svém obchodě WooCommerce a prodávejte produkty "
+"(fyzické i digitální) a služby, které vyžadují přijímání opakujících se "
+"plateb. Podporuje jednoduché i variabilní předplatné produkty."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:234
+msgid "Sequential Order Numbers for WooCommerce"
+msgstr "Sequential Order Numbers for WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:235
+msgid ""
+"Number your WooCommerce orders in a custom, sequential & manageable format. "
+"The Sequential Order Number plugin lets your orders follow a custom & unique "
+"numbering sequence suitable for your business."
+msgstr ""
+"Číslovejte své objednávky WooCommerce ve vlastním, sekvenčním a "
+"spravovatelném formátu. Plugin Sequential Order Number umožňuje vašim "
+"objednávkám sledovat vlastní a jedinečné číslování vhodné pro vaši firmu."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:243
+msgid "WordPress Backup and Migration"
+msgstr "Migrace a duplikátor WordPress"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:244
+msgid ""
+"A complete WordPress backup and migration plugin to easily back up and "
+"migrate your WordPress website and database. This fast and flexible backup "
+"solution makes creating and restoring backups easy."
+msgstr ""
+"Kompletní plugin pro zálohování a migraci WordPress pro snadné zálohování a "
+"migraci vašeho webu a databáze WordPress. Toto rychlé a flexibilní řešení "
+"zálohování usnadňuje vytváření a obnovování záloh."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:292
+msgid " Get Premium"
+msgstr " Získejte Premium"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:300
+msgid "Installed"
+msgstr "Nainstalováno"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:311
+msgid "Get Free Plugin"
+msgstr "Získejte zdarma plugin"
+
+#: admin/modules/premium_upgrade/premium_upgrade.php:43
+#: admin/modules/premium_upgrade/premium_upgrade.php:44
+msgid "Premium upgrade"
+msgstr "Prémiový upgrade"
+
+#: admin/modules/premium_upgrade/views/page_content.php:91
+msgid "Smart Coupon for Woocommerce"
+msgstr "Načíst z WooCommerce"
+
+#: admin/modules/premium_upgrade/views/page_content.php:95
+msgid ""
+"Create coupons to offer discounts and free products to your customers with "
+"Smart Coupons for WooCommerce."
+msgstr ""
+"Vytvářejte kupony a nabízejte slevy a produkty zdarma svým zákazníkům pomocí "
+"Smart Coupons for WooCommerce."
+
+#: admin/modules/premium_upgrade/views/page_content.php:99
+msgid "BOGO coupons"
+msgstr "Dárkové kupóny"
+
+#: admin/modules/premium_upgrade/views/page_content.php:100
+msgid "Coupons based on location"
+msgstr "Omezte kupóny podle země"
+
+#: admin/modules/premium_upgrade/views/page_content.php:102
+msgid "Product giveaway coupons"
+msgstr "Nabídka rozdávání kupónů"
+
+#: admin/modules/premium_upgrade/views/page_content.php:103
+msgid "Store credits"
+msgstr "Uložit kredity"
+
+#: admin/modules/premium_upgrade/views/page_content.php:105
+msgid "Signup coupons"
+msgstr "Přihlašovací kupóny"
+
+#: admin/modules/premium_upgrade/views/page_content.php:106
+#: admin/views/_premium_features_sidebar.php:27
+#: admin/views/_upgrade_to_pro_metabox.php:42
+msgid "Bulk generate coupons"
+msgstr "Hromadné generování kupónů"
+
+#: admin/modules/premium_upgrade/views/page_content.php:107
+msgid "Banners with sales expiry timer"
+msgstr "Bannery s časovačem vypršení prodeje"
+
+#: admin/modules/premium_upgrade/views/page_content.php:108
+msgid "Import or export coupons"
+msgstr "Import kupónů"
+
+#: admin/modules/premium_upgrade/views/page_content.php:111
+msgid "Upgrade to Premium"
+msgstr "Upgrade na Premium verzi"
+
+#: admin/modules/premium_upgrade/views/page_content.php:115
+#: admin/modules/premium_upgrade/views/page_content.php:167
+#: admin/modules/premium_upgrade/views/page_content.php:197
+#: admin/modules/premium_upgrade/views/page_content.php:226
+#: admin/views/_setup_video_sidebar.php:13
+msgid "Watch setup video"
+msgstr "Podívejte se na video nastavení"
+
+#: admin/modules/premium_upgrade/views/page_content.php:123
+msgid "Additional Plugins to Market Your Products Better"
+msgstr "Další pluginy pro lepší marketing vašich produktů"
+
+#: admin/modules/premium_upgrade/views/page_content.php:129
+msgid "30 Day 100% No Risk Money Back Guarantee"
+msgstr "30denní záruka vrácení peněz"
+
+#: admin/modules/premium_upgrade/views/page_content.php:133
+msgid "Fast and Proirity Support with 99% Satisfaction Rating"
+msgstr "Rychlá a vstřícná podpora s hodnocením 99% spokojenosti"
+
+#: admin/modules/premium_upgrade/views/page_content.php:152
+msgid "Get sharable URLs and QR codes for your coupons!"
+msgstr "Získejte adresy URL a QR kódy ke sdílení pro své kupóny!"
+
+#: admin/modules/premium_upgrade/views/page_content.php:156
+msgid "Create unique URLs for coupons"
+msgstr "Vytvořte kupóny s QR kódem"
+
+#: admin/modules/premium_upgrade/views/page_content.php:157
+msgid "Generate QR codes for coupons"
+msgstr "Vytvořte kupóny s QR kódem"
+
+#: admin/modules/premium_upgrade/views/page_content.php:158
+msgid "Auto-apply coupons on click"
+msgstr "Automaticky uplatňovat kupóny na pokladně"
+
+#: admin/modules/premium_upgrade/views/page_content.php:159
+msgid "Automatically add products to the cart"
+msgstr "Automaticky přidávat produkty"
+
+#: admin/modules/premium_upgrade/views/page_content.php:160
+msgid "Redirection users to specific pages"
+msgstr "Přesměrování uživatelů na konkrétní stránky"
+
+#: admin/modules/premium_upgrade/views/page_content.php:161
+msgid "Simple to use and easy to understand"
+msgstr "Jednoduché použití a snadno pochopitelné"
+
+#: admin/modules/premium_upgrade/views/page_content.php:165
+#: admin/modules/premium_upgrade/views/page_content.php:194
+#: admin/modules/premium_upgrade/views/page_content.php:224
+msgid "Get the plugin"
+msgstr "Získejte plugin"
+
+#: admin/modules/premium_upgrade/views/page_content.php:178
+msgid "WooCommerce Gift Cards"
+msgstr "Dárkové karty WooCommerce"
+
+#: admin/modules/premium_upgrade/views/page_content.php:181
+msgid "Create & manage gift cards for your store."
+msgstr "Vytvářejte a spravujte dárkové karty pro svůj obchod."
+
+#: admin/modules/premium_upgrade/views/page_content.php:185
+msgid "Create gift cards products"
+msgstr "Vytvářejte produkty dárkových karet"
+
+#: admin/modules/premium_upgrade/views/page_content.php:186
+msgid "Email gift cards to customers"
+msgstr "E -mailové dárkové karty v krásných šablonách"
+
+#: admin/modules/premium_upgrade/views/page_content.php:187
+msgid "20+ predefined gift card templates"
+msgstr "20+ předdefinovaných šablon dárkových karet"
+
+#: admin/modules/premium_upgrade/views/page_content.php:188
+msgid "Category-wise template listing"
+msgstr "Seznam šablon podle kategorií"
+
+#: admin/modules/premium_upgrade/views/page_content.php:189
+msgid "Upload custom gift card templates"
+msgstr "Nahrajte vlastní šablony dárkových karet"
+
+#: admin/modules/premium_upgrade/views/page_content.php:190
+msgid "Generate gift cards based on order status"
+msgstr "Vygenerujte dárkové karty na základě stavu objednávky"
+
+#: admin/modules/premium_upgrade/views/page_content.php:191
+msgid "Refund to Store credit"
+msgstr "Uložit kredit"
+
+#: admin/modules/premium_upgrade/views/page_content.php:212
+msgid "The best way to market your coupons in-house!"
+msgstr "Nejlepší způsob, jak propagovat své kupony v podniku!"
+
+#: admin/modules/premium_upgrade/views/page_content.php:216
+msgid "List discounts on WooCommerce product pages"
+msgstr "Seznam slev na produktových stránkách WooCommerce"
+
+#: admin/modules/premium_upgrade/views/page_content.php:217
+msgid "Add countdown timers to time-limited coupons"
+msgstr "Přidejte odpočítávací časovače k časově omezeným kupónům"
+
+#: admin/modules/premium_upgrade/views/page_content.php:218
+msgid "Multiple coupon display template"
+msgstr "Šablona zobrazení více kupónů"
+
+#: admin/modules/premium_upgrade/views/page_content.php:219
+msgid "Show restriction info within the coupon"
+msgstr "Zobrazit informace o omezení v kuponu"
+
+#: admin/modules/premium_upgrade/views/page_content.php:220
+msgid "Limit the number of coupons to display"
+msgstr "Omlouváme se, ale žádný kupón k zobrazení"
+
+#: admin/modules/url_coupon/url_coupon.php:114
+msgid "Copy coupon URL"
+msgstr "Zkopírujte adresu URL kupónu"
+
+#: admin/modules/url_coupon/url_coupon.php:120
+msgid "How to use coupon URL?"
+msgstr "Jak používat adresu URL kupónu?"
+
+#: admin/modules/url_coupon/url_coupon.php:140
+msgid "How to use coupon URL"
+msgstr "Jak používat adresu URL kupónu"
+
+#: admin/modules/url_coupon/url_coupon.php:181
+#: admin/modules/url_coupon/url_coupon.php:188
+#: admin/modules/url_coupon/views/_tab_data.php:7
+msgid "URL coupon"
+msgstr "URL kupón"
+
+#: admin/modules/url_coupon/views/_tab_data.php:8
+msgid ""
+"The plugin auto generates a unique URL for all the coupons created in your "
+"store. Visiting the URL associated with a coupon will automatically redirect "
+"the users to the cart page by applying the coupon. You can embed a URL in a "
+"button, and your customer can click the button to apply the coupon."
+msgstr ""
+"Plugin automaticky generuje jedinečnou adresu URL pro všechny kupóny "
+"vytvořené ve vašem obchodě. Návštěva adresy URL spojené s kupónem "
+"automaticky přesměruje uživatele na stránku košíku uplatněním kupónu. Do "
+"tlačítka můžete vložit adresu URL a váš zákazník může kliknutím na tlačítko "
+"uplatnit kupón."
+
+#: admin/modules/url_coupon/views/_tab_data.php:10
+msgid "Prerequisite:"
+msgstr "Předpoklad:"
+
+#: admin/modules/url_coupon/views/_tab_data.php:10
+msgid ""
+"Ensure that you have created a coupon with the required configuration to use "
+"it as a URL coupon."
+msgstr ""
+"Ujistěte se, že jste vytvořili kupón s požadovanou konfigurací, abyste jej "
+"mohli použít jako kupón URL."
+
+#: admin/modules/url_coupon/views/_tab_data.php:12
+msgid "URL coupon format:"
+msgstr "Formát URL kupónu:"
+
+#: admin/modules/url_coupon/views/_tab_data.php:15
+msgid "A sample URL coupon will be in the given format:"
+msgstr "Vzorový kupón pro adresu URL bude v daném formátu:"
+
+#: admin/modules/url_coupon/views/_tab_data.php:17
+msgid "In the above example,"
+msgstr "Ve výše uvedeném příkladu,"
+
+#: admin/modules/url_coupon/views/_tab_data.php:19
+msgid "corresponds to the site URL"
+msgstr "odpovídá URL webu"
+
+#: admin/modules/url_coupon/views/_tab_data.php:20
+msgid "'?wt_coupon' refers to the URL coupon key"
+msgstr "'?wt_coupon' odkazuje na klíč kuponu adresy URL"
+
+#: admin/modules/url_coupon/views/_tab_data.php:21
+msgid "'flat30' is the coupon code"
+msgstr "'flat30' je kód kupónu"
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:24
+msgid "Make the most out of URL coupons with URL coupons Pro"
+msgstr "Využijte maximum z URL kupónů s URL kupóny Pro"
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:34
+msgid "Custom URLs"
+msgstr "Vlastní adresy URL"
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:34
+msgid "Generate customized coupon URLs (example:www.mystore.com/happybirthday)"
+msgstr ""
+"Vygenerujte přizpůsobené adresy URL kupónů (příklad: www.mystore.com/"
+"happybirthday)"
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:40
+msgid "Set up a redirect page"
+msgstr "Nastavte stránku přesměrování"
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:40
+msgid ""
+"Configure the URL to redirect to either cart or checkout page when it is "
+"clicked."
+msgstr ""
+"Nakonfigurujte adresu URL tak, aby se po kliknutí přesměrovala na stránku "
+"košíku nebo pokladny."
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:50
+msgid "Create QR code coupons"
+msgstr "Vytvořte kupóny s QR kódem"
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:50
+msgid "Embed URL coupons in QRCodes to create QR code coupons."
+msgstr "Vložením kupónů URL do QRCodes můžete vytvářet kupóny s QR kódem."
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:56
+msgid "Automatically add products"
+msgstr "Automaticky přidávat produkty"
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:56
+msgid ""
+"Assign a product to the URL to be automatically added to the customer’s cart "
+"upon activating it."
+msgstr ""
+"Přiřaďte k adrese URL produkt, který se automaticky přidá do košíku "
+"zákazníka po jeho aktivaci."
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:64
+msgid "Upgrade to URL coupons Pro"
+msgstr "Upgradujte na URL kupóny Pro"
+
+#: admin/views/_help_links_meta_box.php:13
+msgid "Set up BOGO offer"
+msgstr "Nastavte nabídku BOGO"
+
+#: admin/views/_help_links_meta_box.php:17
+msgid "Create 'Seasonal Discount' offer"
+msgstr "Vytvořte nabídku „Sezónní sleva“"
+
+#: admin/views/_help_links_meta_box.php:21
+msgid "Auto apply coupons on checkout"
+msgstr "Automaticky uplatňovat kupóny na pokladně"
+
+#: admin/views/_help_links_meta_box.php:25
+msgid "Offer discount based on Shipping/Payment/User role"
+msgstr "Nabídněte slevu na základě dopravy/platby/role uživatele"
+
+#: admin/views/_help_links_meta_box.php:37
+msgid "Here are a few links that explains types of offers you can create."
+msgstr ""
+"Zde je několik odkazů, které vysvětlují typy nabídek, které můžete vytvořit."
+
+#: admin/views/_help_links_meta_box.php:54
+msgid "To know more, read "
+msgstr "Chcete-li se dozvědět více, přečtěte si "
+
+#: admin/views/_help_links_meta_box.php:56
+msgid "documentation"
+msgstr "dokumentace"
+
+#: admin/views/_hooks_list.php:24
+msgid "Copy to clipboard"
+msgstr "Zkopírovat do schránky"
+
+#: admin/views/_hooks_list.php:24 admin/views/_hooks_list.php:37
+msgid "Copy"
+msgstr "Kopírovat"
+
+#: admin/views/_hooks_list.php:81 admin/views/admin-help.php:12
+msgid "Hooks"
+msgstr "Háky"
+
+#: admin/views/_hooks_list.php:82
+msgid "Some useful `hooks` to extend the plugin's functionality"
+msgstr "Několik užitečných „háčků“ pro rozšíření funkčnosti pluginu"
+
+#: admin/views/_premium_features_sidebar.php:13
+#: admin/views/_upgrade_to_pro_metabox.php:29
+msgid "Smart Coupons for WooCommerce Pro"
+msgstr "Smart Coupons for WooCommerce Pro"
+
+#: admin/views/_premium_features_sidebar.php:15
+#: admin/views/_upgrade_to_pro_metabox.php:30
+msgid "Create advanced BOGO coupons"
+msgstr "Vytvořte pokročilé BOGO kupóny"
+
+#: admin/views/_premium_features_sidebar.php:16
+#: admin/views/_upgrade_to_pro_metabox.php:31
+msgid "Offer store credits and gift cards"
+msgstr "Nabídka kreditů do obchodu a dárkových karet"
+
+#: admin/views/_premium_features_sidebar.php:17
+#: admin/views/_upgrade_to_pro_metabox.php:32
+msgid "Set up giveaway Campaigns"
+msgstr "Nastavte reklamní kampaně"
+
+#: admin/views/_premium_features_sidebar.php:21
+#: admin/views/_upgrade_to_pro_metabox.php:36
+msgid "Sign up coupons"
+msgstr "Zaregistrujte se kupony"
+
+#: admin/views/_premium_features_sidebar.php:24
+#: admin/views/_upgrade_to_pro_metabox.php:39
+msgid "Create specific coupons"
+msgstr "Vytvořte konkrétní kupóny"
+
+#: admin/views/_premium_features_sidebar.php:25
+#: admin/views/_upgrade_to_pro_metabox.php:40
+msgid "Set country-based coupon restrictions"
+msgstr "Nastavte omezení kuponu podle země"
+
+#: admin/views/_premium_features_sidebar.php:26
+#: admin/views/_upgrade_to_pro_metabox.php:41
+msgid "Show countdown banners for coupons"
+msgstr "Zobrazit odpočítávací bannery pro kupóny"
+
+#: admin/views/_premium_features_sidebar.php:28
+#: admin/views/_upgrade_to_pro_metabox.php:43
+msgid "Import/export coupons"
+msgstr "Import/export kuponů"
+
+#: admin/views/_premium_features_sidebar.php:30
+#: admin/views/_upgrade_to_pro_metabox.php:45
+msgid "View all powerful options.."
+msgstr "Zobrazit všechny výkonné možnosti.."
+
+#: admin/views/_premium_features_sidebar.php:31
+#: admin/views/_upgrade_to_pro_metabox.php:46
+msgid "View less.."
+msgstr "Zobrazit méně.."
+
+#: admin/views/_premium_features_sidebar.php:40
+msgid "30 Day Money Back Guarantee"
+msgstr "30denní záruka vrácení peněz"
+
+#: admin/views/_premium_features_sidebar.php:48
+msgid "Fast and Priority Support"
+msgstr "Rychlá a prioritní podpora"
+
+#: admin/views/_upgrade_to_pro_metabox.php:50
+msgid "Unlock pro Features"
+msgstr "Odemkněte profesionální funkce"
+
+#: admin/views/admin-help.php:13
+msgid "Help Links"
+msgstr "Odkazy na nápovědu"
+
+#: admin/views/admin-help.php:21
+msgid "Help links"
+msgstr "Odkazy na nápovědu"
+
+#: admin/views/admin-help.php:27 admin/views/admin-help.php:30
+msgid "Documentation"
+msgstr "Dokumentace"
+
+#: admin/views/admin-help.php:28
+msgid "Refer to our documentation(Pro version) to set up and get started"
+msgstr "Pokyny k nastavení a zahájení naleznete v naší dokumentaci (verze Pro)"
+
+#: admin/views/admin-help.php:35
+msgid "Help and Support"
+msgstr "Pomoc a podpora"
+
+#: admin/views/admin-help.php:36
+msgid "We would love to help you on any queries or issues."
+msgstr "Rádi bychom vám pomohli při jakýchkoli dotazech nebo problémech."
+
+#: admin/views/admin-help.php:38
+msgid "Contact Us"
+msgstr "Napište nám"
+
+#: admin/views/admin-settings-debug.php:14 admin/views/general_settings.php:31
+msgid "Debug"
+msgstr "Režim ladění"
+
+#: admin/views/admin-settings-debug.php:15
+msgid "Caution: Settings here are only for advanced users."
+msgstr "Upozornění: Zde uvedená nastavení jsou pouze pro pokročilé uživatele."
+
+#: admin/views/admin-settings-debug.php:34
+msgid "Public modules"
+msgstr "Veřejné moduly"
+
+#: admin/views/admin-settings-debug.php:56
+msgid "Common modules"
+msgstr "Společné moduly"
+
+#: admin/views/admin-settings-debug.php:79
+msgid "Admin modules"
+msgstr "Admin moduly"
+
+#: admin/views/admin-settings-save-button.php:6
+msgid "Save settings"
+msgstr "Uložit nastavení"
+
+#: admin/views/general_settings.php:27
+msgid "Help guide"
+msgstr "Průvodce nápovědou"
+
+#. translators: %s coupon code.
+#: blocks/src/main/frontend.js:52
+#, javascript-format
+msgid "Coupon code \"%s\" has been applied to your cart."
+msgstr "Kód kupónu „%s“ byl použit ve vašem košíku."
+
+#: blocks/wt-sc-blocks.php:91
+msgid "coupon_code"
+msgstr "kód_kuponu"
+
+#: common/modules/coupon_category/coupon_category.php:64
+#: common/modules/coupon_category/coupon_category.php:158
+msgid "Categories"
+msgstr "Kategorie"
+
+#: common/modules/coupon_category/coupon_category.php:117
+msgid "Select category"
+msgstr "Vybrat kategorii"
+
+#: common/modules/coupon_category/coupon_category.php:148
+msgctxt "Taxonomy General Name"
+msgid "Categories"
+msgstr "Kategorie"
+
+#: common/modules/coupon_category/coupon_category.php:149
+msgctxt "Taxonomy Singular Name"
+msgid "Category"
+msgstr "Kategorie"
+
+#: common/modules/coupon_category/coupon_category.php:150
+msgid "Search categories"
+msgstr "Vyhledat kategorie"
+
+#: common/modules/coupon_category/coupon_category.php:151
+msgid "All categories"
+msgstr "Všechny kategorie"
+
+#: common/modules/coupon_category/coupon_category.php:152
+msgid "Parent category"
+msgstr "Rodič kategorie"
+
+#: common/modules/coupon_category/coupon_category.php:153
+msgid "Parent category:"
+msgstr "Nadřazená kategorie:"
+
+#: common/modules/coupon_category/coupon_category.php:154
+msgid "Edit category"
+msgstr "Upravit kategorii"
+
+#: common/modules/coupon_category/coupon_category.php:155
+msgid "Update category"
+msgstr "Aktualizovat kategorii"
+
+#: common/modules/coupon_category/coupon_category.php:156
+msgid "Add new category"
+msgstr "Přidat novou kategorii"
+
+#: common/modules/coupon_category/coupon_category.php:157
+msgid "New category name"
+msgstr "Nový název kategorie"
+
+#: common/modules/coupon_category/coupon_category.php:159
+msgid "View category"
+msgstr "Zobrazit kategorii"
+
+#: common/modules/coupon_category/coupon_category.php:160
+msgid "Popular categories"
+msgstr "Oblíbené kategorie"
+
+#: common/modules/coupon_category/coupon_category.php:161
+msgid "Not found"
+msgstr "Nenalezeno"
+
+#: common/modules/coupon_category/coupon_category.php:162
+msgid "Most used"
+msgstr "Nejvíc používaný"
+
+#: common/modules/coupon_category/coupon_category.php:205
+#: common/modules/coupon_category/coupon_category.php:206
+msgid "Coupon category"
+msgstr "Šablony kupónů"
+
+#: common/modules/coupon_shortcode/coupon_shortcode.php:52
+msgid "Invalid coupon"
+msgstr "Neplatný kupón"
+
+#: common/modules/coupon_style/coupon_style.php:151
+msgid "Available coupon"
+msgstr "Dostupné kupóny"
+
+#: common/modules/coupon_style/coupon_style.php:152
+msgid "Used coupon"
+msgstr "Použité kupóny"
+
+#: common/modules/coupon_style/coupon_style.php:153
+msgid "Expired coupon"
+msgstr "Platnost kupónů vypršela"
+
+#: common/modules/coupon_style/coupon_style.php:178
+msgid "Style 1"
+msgstr "Styl 1"
+
+#: common/modules/coupon_style/coupon_style.php:288
+msgid "Click to apply coupon"
+msgstr "Kliknutím uplatníte kupón"
+
+#: common/modules/giveaway_product/giveaway_product.php:75
+msgid "BOGO (Buy X Get X/Y) offer"
+msgstr "Nabídka BOGO (Buy X Get X/Y)"
+
+#: common/modules/giveaway_product/giveaway_product.php:161
+msgid "Any product from specific category (Pro)"
+msgstr "Jakýkoli produkt z konkrétní kategorie (Pro)"
+
+#: common/modules/giveaway_product/giveaway_product.php:162
+msgid "Any product in store (Pro)"
+msgstr "Jakýkoli produkt na prodejně (Pro)"
+
+#: common/modules/giveaway_product/giveaway_product.php:163
+msgid "Same product as in the cart (Pro)"
+msgstr "Stejný produkt jako v košíku (Pro)"
+
+#: common/modules/giveaway_product/giveaway_product.php:172
+msgid ""
+"Choose what the customers get for free or with a discount if the cart "
+"eligibility or conditions are met. Your customers will get below selected "
+"product/s for free or with a discount."
+msgstr ""
+"Vyberte si, co zákazníci dostanou zdarma nebo se slevou při splnění "
+"způsobilosti košíku nebo podmínek. Vaši zákazníci se dostanou pod vybraný "
+"produkt/y zdarma nebo se slevou."
+
+#: common/modules/giveaway_product/giveaway_product.php:173
+msgid ""
+"Choose what the customers get for free or with a discount if the cart "
+"eligibility or conditions are met. Your customers will get product/s from "
+"below selected category for free or with a discount."
+msgstr ""
+"Vyberte si, co zákazníci dostanou zdarma nebo se slevou při splnění "
+"způsobilosti košíku nebo podmínek. Vaši zákazníci získají produkty z níže "
+"vybrané kategorie zdarma nebo se slevou."
+
+#: common/modules/giveaway_product/giveaway_product.php:174
+msgid ""
+"Choose what the customers get for free or with a discount if the cart "
+"eligibility or conditions are met. Your customers will get any product/s "
+"from the store that are eligible for free or with a discount."
+msgstr ""
+"Vyberte si, co zákazníci dostanou zdarma nebo se slevou při splnění "
+"způsobilosti košíku nebo podmínek. Vaši zákazníci dostanou jakýkoli produkt/"
+"y z obchodu, na který mají nárok zdarma nebo se slevou."
+
+#: common/modules/giveaway_product/giveaway_product.php:175
+msgid ""
+"Choose what the customers get for free or with a discount if the cart "
+"eligibility or conditions are met. Your customers will get the same product "
+"as in the cart that are configured in product restriction section."
+msgstr ""
+"Vyberte si, co zákazníci dostanou zdarma nebo se slevou při splnění "
+"způsobilosti košíku nebo podmínek. Vaši zákazníci dostanou stejný produkt "
+"jako v košíku, který je nakonfigurován v sekci omezení produktu."
+
+#: common/modules/giveaway_product/giveaway_product.php:176
+msgid ""
+"Choose what the customers get for free or with a discount if the cart "
+"eligibility or conditions are met. Your customers will get a product from "
+"the same category as in the cart that are configured in the category "
+"restriction section."
+msgstr ""
+"Vyberte si, co zákazníci dostanou zdarma nebo se slevou při splnění "
+"způsobilosti košíku nebo podmínek. Vaši zákazníci dostanou produkt ze stejné "
+"kategorie jako v košíku, které se konfigurují v sekci omezení kategorií."
+
+#: includes/class-wt-smart-coupon-activator.php:39
+msgid "Oops! Woocommerce not activated.."
+msgstr "Jejda! Woocommerce není aktivován .."
+
+#: includes/class-wt-smart-coupon-activator.php:45
+msgid ""
+"Oops! PREMIUM Version of this Plugin Installed. Please deactivate the "
+"PREMIUM Version before activating BASIC."
+msgstr ""
+"Jejda! PREMIUM Verze tohoto pluginu nainstalována. Před aktivací ZÁKLADNÍ "
+"deaktivujte PREMIUM verzi."
+
+#: includes/class-wt-smart-coupon-review_request.php:60
+#, php-format
+msgid ""
+"Hey, we at %sWebToffee%s would like to thank you for using our Smart Coupon "
+"for WooCommerce plugin. %s We would really appreciate if you could take a "
+"moment to drop a quick review that will inspire us to keep going."
+msgstr ""
+"Dobrý den, my v %sWebToffee%s bychom vám rádi poděkovali za použití našeho "
+"pluginu Smart Coupon for WooCommerce. %s Opravdu bychom ocenili, kdybyste si "
+"našli chvilku a napsali rychlou recenzi, která nás bude inspirovat k "
+"pokračování."
+
+#: includes/class-wt-smart-coupon-review_request.php:64
+#, php-format
+msgid ""
+"%s Wow%s, you have created more than %s coupons with our %s Smart Coupon for "
+"WooCommerce plugin! %s That’s awesome! We’d love it if you take a moment to "
+"rate us and help spread the word."
+msgstr ""
+"%s Páni%s, pomocí pluginu %s Smart Coupon for WooCommerce jste vytvořili "
+"více než %s kupónů! %s To je skvělé! Byli bychom rádi, kdybyste si našli "
+"chvilku, abyste nás ohodnotili a pomohli tak šířit informace."
+
+#: includes/class-wt-smart-coupon-review_request.php:68
+msgid "Remind me later"
+msgstr "Připomenout později"
+
+#: includes/class-wt-smart-coupon-review_request.php:69
+msgid "Not interested"
+msgstr "Nebyly nalezeny žádné tiskárny"
+
+#: includes/class-wt-smart-coupon-review_request.php:70
+msgid "Rate us now"
+msgstr "Ohodnoťte nás nyní"
+
+#: includes/class-wt-smart-coupon.php:669
+#, php-format
+msgid ""
+"An error occurred while activating %sSmart Coupons For WooCommerce Coupons"
+"%s: Unable to create database table. %s"
+msgstr ""
+"Při aktivaci %sSmart Coupons For WooCommerce Coupons%s došlo k chybě: Nelze "
+"vytvořit tabulku databáze. %s"
+
+#: includes/class-wt-smart-coupon.php:669
+msgid "Go to plugins page"
+msgstr "Přejděte na stránku pluginů"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:19
+msgid "Used it successfully. Don't need anymore."
+msgstr "Úspěšně použit. Už nepotřebujete."
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:21
+msgid "Have used it successfully and aint in need of it anymore"
+msgstr "Úspěšně jsem to použil a už to nepotřebuji"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:25
+msgid "I couldn't understand how to make it work"
+msgstr "Nechápal jsem, jak to udělat"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:27
+msgid "Would you like us to assist you?"
+msgstr "Chcete, abychom vám pomohli?"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:31
+msgid "I found a better plugin"
+msgstr "Našel jsem lepší plugin"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:33
+msgid "Which plugin?"
+msgstr "Jaký plugin?"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:37
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr "Plugin je skvělý, ale potřebuji konkrétní funkci, kterou nepodporujete"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:39
+msgid "Could you tell us more about that feature?"
+msgstr "Můžete nám říci více o této funkci?"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:43
+msgid "The plugin is not working"
+msgstr "Plugin nefunguje"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:45
+msgid "Could you tell us a bit more whats not working?"
+msgstr "Mohl byste nám trochu více sdělit, co nefunguje?"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:49
+msgid "It's not what I was looking for"
+msgstr "Není to to, co jsem hledal"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:55
+msgid "The plugin didn't work as expected"
+msgstr "Plugin nepracoval podle očekávání"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:57
+msgid "What did you expect?"
+msgstr "Co jste očekávali?"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:61
+msgid "Upgraded to premium version"
+msgstr "Upgrade na Premium verzi"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:67
+msgid "Other"
+msgstr "Jiný"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:69
+msgid "Could you tell us a bit more?"
+msgstr "Můžete nám říct něco víc?"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:88
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr "Pokud máte chvilku, sdělte nám prosím, proč deaktivujete:"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:99
+msgid ""
+"We do not collect any personal data when you submit this form. It's your "
+"feedback that we value."
+msgstr ""
+"Když odešlete tento formulář, neshromažďujeme žádné osobní údaje. Ceníme si "
+"vaší zpětné vazby."
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:100
+msgid "Privacy Policy"
+msgstr "Zásady ochrany osobních údajů"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:104
+msgid "I rather wouldn't say"
+msgstr "Raději bych neřekl"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:105
+msgid "Contact Support"
+msgstr "Kontaktovat podporu"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:106
+msgid "Submit & Deactivate"
+msgstr "Odeslat & Deaktivovat"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:107
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:189
+msgid "Deactivate and leave a review"
+msgstr "Deaktivujte a zanechte recenzi"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:191
+msgid "Let our support team help you"
+msgstr "Náš tým podpory vám pomůže"
+
+#: public/class-myaccount-smart-coupon.php:50
+#: public/class-myaccount-smart-coupon.php:70
+msgid "My Coupons"
+msgstr "Moje kupóny"
+
+#: public/class-wt-smart-coupon-public.php:142
+msgid "Please choose a variation"
+msgstr "Vyberte prosím jednoduchý produkt"
+
+#: public/class-wt-smart-coupon-public.php:143
+msgid "Error !!!"
+msgstr "Chyba !!!"
+
+#: public/class-wt-smart-coupon-public.php:180
+#: public/class-wt-smart-coupon-public.php:185
+msgid "Product discount"
+msgstr "Sleva na e-knihu"
+
+#: public/class-wt-smart-coupon-public.php:207
+msgid "Free shipping"
+msgstr "Doprava zdarma"
+
+#: public/class-wt-smart-coupon-public.php:216
+#: public/modules/giveaway_product/giveaway_product.php:1608
+msgid "Free products"
+msgstr "Produkty zdarma"
+
+#: public/class-wt-smart-coupon-public.php:275
+#: public/class-wt-smart-coupon-public.php:385
+msgid "Expired"
+msgstr "Expirovaný"
+
+#: public/class-wt-smart-coupon-public.php:278
+msgid "Starts on "
+msgstr "Začíná na "
+
+#: public/class-wt-smart-coupon-public.php:278
+msgid "Expires on "
+msgstr "Platnost končí dne "
+
+#: public/class-wt-smart-coupon-public.php:819
+msgid "Sorry, you don't have any available coupons"
+msgstr "Litujeme, že nemáte žádné dostupné kupóny"
+
+#: public/class-wt-smart-coupon-public.php:857
+msgid "Previous"
+msgstr "Předchozí"
+
+#: public/class-wt-smart-coupon-public.php:872
+msgid "Next"
+msgstr "Další"
+
+#: public/class-wt-smart-coupon-public.php:998
+msgid "Coupon code applied successfully, Please add products into cart"
+msgstr "Kód kupónu byl úspěšně použit"
+
+#: public/modules/auto_coupon/auto_coupon.php:484
+#: public/modules/url_coupon/url_coupon.php:66
+msgid "Coupon code applied successfully"
+msgstr "Kód kupónu byl úspěšně použit"
+
+#: public/modules/auto_coupon/auto_coupon.php:547
+msgid "Free shipping coupon"
+msgstr "Kupón na dopravu zdarma"
+
+#: public/modules/checkout_options/checkout_options.php:111
+msgid "Sorry, this coupon is not applicable to selected shipping method"
+msgstr "Litujeme, tento kupón se nevztahuje na vybraný způsob dopravy"
+
+#: public/modules/checkout_options/checkout_options.php:130
+msgid "Sorry, this coupon is not applicable to selected Payment method"
+msgstr "Litujeme, tento kupón se nevztahuje na vybraný způsob platby"
+
+#: public/modules/checkout_options/checkout_options.php:149
+msgid "Sorry, this coupon is not applicable for your Role"
+msgstr "Litujeme, tento kupón se nevztahuje na vaši roli"
+
+#: public/modules/checkout_options/checkout_options.php:178
+msgid "Sorry, this coupon is not applicable to selected location"
+msgstr "Je nám líto, ale tento kupón nelze na vybrané místo použít"
+
+#: public/modules/coupon_restriction/coupon_restriction.php:91
+#, php-format
+msgid "The minimum quantity of %s for this coupon is %s."
+msgstr "Minimální množství %s pro tento kupón je %s."
+
+#: public/modules/coupon_restriction/coupon_restriction.php:94
+#, php-format
+msgid "The maximum quantity of %s for this coupon is %s."
+msgstr "Maximální množství %s pro tento kupón je %s."
+
+#: public/modules/coupon_restriction/coupon_restriction.php:97
+msgid ""
+"Your cart does not meet the quantity eligibility criteria for this coupon."
+msgstr ""
+"Váš košík nesplňuje kritéria způsobilosti pro množství pro tento kupón."
+
+#: public/modules/coupon_restriction/coupon_restriction.php:197
+msgid "the category"
+msgstr "kategorii"
+
+#: public/modules/coupon_restriction/coupon_restriction.php:451
+msgid "the product"
+msgstr "produkty"
+
+#: public/modules/coupon_restriction/coupon_restriction.php:681
+#, php-format
+msgid "Sorry, the coupon %s is not applicable for selected products."
+msgstr "Je nám líto, ale kupón %s nelze použít pro vybrané produkty."
+
+#: public/modules/coupon_restriction/coupon_restriction.php:812
+#: public/modules/coupon_restriction/coupon_restriction.php:821
+#, php-format
+msgid "The minimum subtotal of matching products for this coupon is %s."
+msgstr "Minimální mezisoučet odpovídajících produktů pro tento kupón je %s."
+
+#: public/modules/coupon_restriction/coupon_restriction.php:837
+#, php-format
+msgid "The maximum subtotal of matching products for this coupon is %s."
+msgstr "Maximální mezisoučet odpovídajících produktů pro tento kupón je %s."
+
+#: public/modules/coupon_restriction/coupon_restriction.php:918
+#, php-format
+msgid ""
+"Coupon applies to %s quantity. Please move eligible number of products in "
+"the cart to redeem the coupon."
+msgstr ""
+"Kupón se vztahuje na množství %s. Chcete-li uplatnit kupón, přesuňte v "
+"košíku vhodný počet produktů."
+
+#: public/modules/coupon_restriction/coupon_restriction.php:921
+#, php-format
+msgid ""
+"Each eligible cart item requires minimum %s quantity, please add more items "
+"to cart to redeem the coupon."
+msgstr ""
+"Každá vhodná položka košíku vyžaduje minimální množství %s. Chcete-li "
+"uplatnit kupón, přidejte do košíku další položky."
+
+#: public/modules/coupon_restriction/coupon_restriction.php:927
+#, php-format
+msgid "The maximum quantity of matching products for this coupon is %s."
+msgstr "Maximální množství odpovídajících produktů pro tento kupón je %s."
+
+#: public/modules/coupon_restriction/coupon_restriction.php:930
+#, php-format
+msgid "The maximum allowed quantity for each eligible item is %s"
+msgstr "Maximální povolené množství pro každou způsobilou položku je %s"
+
+#: public/modules/giveaway_product/giveaway_product.php:331
+msgid "Invalid request"
+msgstr "Neplatná žádost"
+
+#: public/modules/giveaway_product/giveaway_product.php:348
+#: public/modules/giveaway_product/views/_cart_giveaway_products.php:111
+msgid "Sorry! this product is not available for giveaway."
+msgstr "Promiňte! tento produkt není k dispozici pro darování."
+
+#: public/modules/giveaway_product/giveaway_product.php:505
+#: public/modules/giveaway_product/giveaway_product.php:2134
+msgid "Congratulations! You've got a freebie in your cart!"
+msgstr "Gratulujeme! V košíku máte dárek!"
+
+#: public/modules/giveaway_product/giveaway_product.php:510
+#, php-format
+msgid "Surprise! %s You've received a special giveaway product with %s Off!"
+msgstr "Překvapení! %s Obdrželi jste speciální dárkový produkt se slevou %s!"
+
+#: public/modules/giveaway_product/giveaway_product.php:605
+msgid "Lucky You! Your cart is now loaded with incredible giveaway goodies!"
+msgstr "Štastlivče! Váš košík je nyní nabitý neuvěřitelnými dárky!"
+
+#: public/modules/giveaway_product/giveaway_product.php:679
+#: public/modules/giveaway_product/giveaway_product.php:697
+msgid "Oops! It seems like you've made an invalid request. Please try again."
+msgstr ""
+"Jejda! Zdá se, že jste zadali neplatný požadavek. Prosím zkuste to znovu."
+
+#: public/modules/giveaway_product/giveaway_product.php:682
+msgid ""
+"Oops! It seems like you've moved an invalid product to cart. Please try "
+"again."
+msgstr ""
+"Jejda! Zdá se, že jste do košíku přesunuli neplatný produkt. Prosím zkuste "
+"to znovu."
+
+#: public/modules/giveaway_product/giveaway_product.php:685
+msgid "You've exceeded the maximum quantity of products to avail the giveaway."
+msgstr "Překročili jste maximální množství produktů pro využití dárku."
+
+#: public/modules/giveaway_product/giveaway_product.php:688
+msgid "You've exceeded the maximum quantity allowed as a giveaway."
+msgstr "Překročili jste maximální množství povolené jako dárek."
+
+#: public/modules/giveaway_product/giveaway_product.php:691
+msgid ""
+"Something went wrong! It seems like there are no products available for this "
+"coupon. Please contact our support team."
+msgstr ""
+"Něco se pokazilo! Zdá se, že pro tento kupón nejsou dostupné žádné produkty. "
+"Kontaktujte prosím náš tým podpory."
+
+#: public/modules/giveaway_product/giveaway_product.php:694
+msgid ""
+"Seems like you have already moved all the giveaway products in the cart."
+msgstr "Zdá se, že jste již přesunuli všechny dárkové produkty v košíku."
+
+#: public/modules/giveaway_product/giveaway_product.php:702
+msgid "Please add more products to cart to avail more giveaway."
+msgstr "Přidejte další produkty do košíku, abyste získali další dárky."
+
+#: public/modules/giveaway_product/giveaway_product.php:1166
+msgid "Free gift"
+msgstr "Dárky zdarma"
+
+#: public/modules/giveaway_product/giveaway_product.php:2137
+#, php-format
+msgid "Surprise! You've received a special giveaway product with %s Off!"
+msgstr "Překvapení! Obdrželi jste speciální dárkový produkt se slevou %s!"
+
+#: public/modules/giveaway_product/views/_cart_giveaway_products.php:15
+msgid "Congratulations! Choose your freebie from below:"
+msgstr "Gratulujeme! Vyberte si svou pozornost níže:"
+
+#: public/modules/giveaway_product/views/_cart_giveaway_products.php:94
+msgid "Price: "
+msgstr "Cena: "
+
+#: public/modules/giveaway_product/views/_cart_giveaway_products.php:101
+msgid "Discount: "
+msgstr "Sleva: "
+
+#: public/modules/giveaway_product/views/_cart_giveaway_products.php:198
+msgid "Choose an option"
+msgstr "Vyberte možnost"
+
+#: public/modules/giveaway_product/views/_cart_giveaway_products.php:221
+msgid "Choose Product"
+msgstr "Zvolte typ e-knihy"
+
+#: public/modules/giveaway_product/views/_cart_giveaway_products.php:236
+msgid "Add all to cart"
+msgstr "Přidejte vše do košíku"
+
+#: public/modules/giveaway_product/views/_cart_giveaway_products.php:236
+msgid "Add to cart"
+msgstr "Přidat do košíku"
+
+#: public/modules/url_coupon/url_coupon.php:83
+#, php-format
+msgid ""
+"Oops your cart is empty! Add %sproducts%s to your cart to avail the offer."
+msgstr ""
+"Jejda, váš košík je prázdný! Chcete-li využít nabídku, přidejte %sprodukty%s "
+"do košíku."
+
+#: public/templates/myaccount/my-account-coupon-view.php:23
+msgid "Available Coupons"
+msgstr "Dostupné kupóny"
+
+#: public/templates/myaccount/my-account-coupon-view.php:26
+msgid "Sort by"
+msgstr "Seřadit podle"
+
+#: public/templates/myaccount/my-account-coupon-view.php:29
+msgid "Latest first"
+msgstr "Nejdříve nejnovější"
+
+#: public/templates/myaccount/my-account-coupon-view.php:30
+msgid "Latest last"
+msgstr "Nejnovější poslední"
+
+#: public/templates/myaccount/my-account-coupon-view.php:31
+msgid "Price high to low"
+msgstr "Cena sestupně"
+
+#: public/templates/myaccount/my-account-coupon-view.php:32
+msgid "Price low to high"
+msgstr "Cena: nejnižší - nejvyšší"
+
+#: public/templates/myaccount/my-account-coupon-view.php:53
+msgid "Used Coupons"
+msgstr "Použité kupóny"
+
+#: public/templates/myaccount/my-account-coupon-view.php:103
+msgid "Sorry, you don't have any used coupons"
+msgstr "Litujeme, že nemáte žádné dostupné kupóny"
+
+#: public/templates/myaccount/my-account-coupon-view.php:118
+msgid "Expired Coupons"
+msgstr "Platnost kupónů vypršela"
+
+#: public/templates/myaccount/my-account-coupon-view.php:146
+msgid "Sorry, you don't have any expired coupons"
+msgstr "Litujeme, že nemáte žádné dostupné kupóny"
+
+#: wt-smart-coupon.php:142
+msgid ""
+"WooCommerce is required for this plugin to work properly. Please activate "
+"WooCommerce."
+msgstr ""
+"Aby tento plugin správně fungoval, je vyžadován WooCommerce. Aktivujte "
+"prosím WooCommerce."
+
+#. Plugin Name of the plugin/theme
+msgid "Smart Coupons For WooCommerce Coupons"
+msgstr "Smart Coupons for WooCommerce"
+
+#. Description of the plugin/theme
+msgid ""
+"Smart Coupons For WooCommerce Coupons plugin adds advanced coupon features "
+"to your store to strengthen your marketing efforts and boost sales."
+msgstr ""
+"Plugin Smart Coupons for WooCommerce přidává do vašeho obchodu pokročilé "
+"funkce kupónů, aby posílily vaše marketingové úsilí a zvýšily prodeje."
+
+#. Author of the plugin/theme
+msgid "WebToffee"
+msgstr "WebToffee"
+
+#. Author URI of the plugin/theme
+msgid "https://www.webtoffee.com/"
+msgstr "https://www.webtoffee.com/"
+
+#, fuzzy
+#~| msgid "Checkout options"
+#~ msgid "Check out this plugin."
+#~ msgstr "Možnosti pokladny"
+
+#~ msgid "Create bulk coupons within a few clicks."
+#~ msgstr "Vytvořte hromadné kupony během několika kliknutí."
+
+#~ msgid "WooCommerce coupon generator"
+#~ msgstr "Generátor kupónů WooCommerce"
+
+#, fuzzy
+#~| msgid "Sorry, this coupon is not applicable for selected products."
+#~ msgid ""
+#~ "The coupon will not be applied if the excluded product is in the cart."
+#~ msgstr "Litujeme, tento kupón se nevztahuje na vybrané produkty."
+
+#~ msgid ""
+#~ "The coupon will not be applied if the product from an excluded category "
+#~ "is in the cart."
+#~ msgstr ""
+#~ "Kupón nebude uplatněn, pokud je v košíku produkt z vyloučené kategorie."
+
+#~ msgid ""
+#~ "Create and display frequently bought together suggestions automatically. "
+#~ "Automatically generate frequently bought recommendations for your "
+#~ "products."
+#~ msgstr ""
+#~ "Vytvářejte a zobrazujte často společně nakupované návrhy automaticky. "
+#~ "Automaticky generujte často nakupovaná doporučení pro vaše produkty."
+
+#~ msgid ""
+#~ "Maximize the visibility of your coupons by displaying them on product "
+#~ "pages."
+#~ msgstr ""
+#~ "Maximalizujte viditelnost svých kuponů tím, že je zobrazíte na "
+#~ "produktových stránkách."
+
+#~ msgid "WooCommerce Best Sellers"
+#~ msgstr "Nejprodávanější WooCommerce"
+
+#~ msgid ""
+#~ "Highlight the top-selling products in your store with labels, seals & "
+#~ "sliders."
+#~ msgstr ""
+#~ "Zvýrazněte nejprodávanější produkty ve vašem obchodě pomocí štítků, "
+#~ "pečetí a posuvníků."
+
+#~ msgid "WooCommerce Product Feed & Sync Manager"
+#~ msgstr "Správce zdrojů a synchronizace produktů WooCommerce"
+
+#~ msgid "Make WooCommerce Product Feed Generation & Sync Easier"
+#~ msgstr "Usnadněte generování a synchronizaci produktů WooCommerce"
+
+#~ msgid ""
+#~ "Create purchasable gift cards with fixed or custom prices for your store."
+#~ msgstr ""
+#~ "Vytvořte pro svůj obchod dárkové karty s pevnými nebo vlastními cenami, "
+#~ "které lze zakoupit."
+
+#~ msgid ""
+#~ "Generate sharable URLs and QR codes for all discount coupons in your "
+#~ "store."
+#~ msgstr ""
+#~ "Generujte adresy URL a QR kódy ke sdílení pro všechny slevové kupóny ve "
+#~ "vašem obchodě."
+
+#~ msgid ""
+#~ "Want additional coupon customizations? Get them with Smart Coupon premium!"
+#~ msgstr ""
+#~ "Chcete další přizpůsobení kuponu? Získejte je s prémiovým Smart kuponem!"
+
+#~ msgid "Fast and 99% customer satisfaction"
+#~ msgstr "Rychlá a 99% czákaznická spokojenost"
+
+#, fuzzy
+#~| msgid "Available Coupons"
+#~ msgid "Advanced BOGO Coupons"
+#~ msgstr "Dostupné kupóny"
+
+#, fuzzy
+#~| msgid "Give away (multiple products)"
+#~ msgid "Giveaway (multiple products)"
+#~ msgstr "Rozdejte (více produktů)"
+
+#~ msgid "Product subtotal"
+#~ msgstr "Mezisoučet produktů"
+
+#~ msgid "Supported coupon types"
+#~ msgstr "Podporované typy kupónů"
+
+#~ msgid "Select page(s) to display applicable coupons"
+#~ msgstr "Výběrem stránek zobrazíte příslušné kupóny"
+
+#~ msgid "My account page"
+#~ msgstr "Stránka mého účtu"
+
+#, fuzzy
+#~| msgid "Option to apply tax after discount (give away products)"
+#~ msgid "Option to apply tax after discount (giveaway products)"
+#~ msgstr "Možnost uplatnění daně po slevě (rozdání produktů)"
+
+#~ msgid "Import coupons"
+#~ msgstr "Import kupónů"
+
+#~ msgid "Add coupon expiry in days"
+#~ msgstr "Přidejte vypršení platnosti kupónu ve dnech"
+
+#, fuzzy
+#~| msgid "Related Products for WooCommerce"
+#~ msgid "Create attractive gift cards for WooCommerce."
+#~ msgstr "Načíst z WooCommerce"
+
+#~ msgid "Get %s WebToffee WooCommerce Gift Cards%s plugin."
+#~ msgstr "Získejte plugin %sWebToffee WooCommerce Gift Cards%s."
+
+#~ msgid "Get access to advanced features of Smart coupon."
+#~ msgstr "Získejte přístup k pokročilým funkcím chytrého kupónu."
+
+#~ msgid "Fast and Superior Support"
+#~ msgstr "Rychlá a vynikající podpora"
+
+#~ msgid "Premium features"
+#~ msgstr "Prémiové funkce"
+
+#, fuzzy
+#~| msgid "%sSign-up coupons%s: Create and offer sign-up discount coupons."
+#~ msgid ""
+#~ "%sAdvanced BOGO Coupons%s: Create and offer various type of Buy One Get "
+#~ "One coupons"
+#~ msgstr ""
+#~ "%s Registrační kupóny %s: Vytvářejte a nabízejte registrační slevové "
+#~ "kupóny."
+
+#~ msgid ""
+#~ "%sOffer store credits%s: Create and sell store credits of custom or pre-"
+#~ "defined amounts."
+#~ msgstr ""
+#~ "%s Nabídnout kredity v obchodě %s: Vytvářejte a prodávejte kredity v "
+#~ "obchodech s vlastními nebo předem definovanými částkami."
+
+#~ msgid ""
+#~ "%sGift cards%s: Create attractive gift cards of any amount range by "
+#~ "associating a store credit product."
+#~ msgstr ""
+#~ "%s Dárkové karty %s: Vytvořte atraktivní dárkové karty libovolného "
+#~ "rozsahu přidružením kreditního produktu v obchodě."
+
+#~ msgid ""
+#~ "%sGive away products (one or more)%s: Configure coupons that give away "
+#~ "selected product(s)."
+#~ msgstr ""
+#~ "%s Rozdávat produkty (jeden nebo více) %s: Konfigurujte kupóny, které "
+#~ "rozdávají vybrané produkty."
+
+#~ msgid ""
+#~ "%sCoupons based on past purchases%s: Create and offer first order, next "
+#~ "order, or any nth order discounts."
+#~ msgstr ""
+#~ "%s Kupóny na základě předchozích nákupů %s: Vytvořte a nabídněte slevy "
+#~ "první objednávky, další objednávky nebo jakékoli n -té objednávky."
+
+#~ msgid ""
+#~ "%sRestrict coupons by country%s: Allow discounts for users from selected "
+#~ "countries/locations."
+#~ msgstr ""
+#~ "%s Omezit kupóny podle zemí %s: Povolit slevy uživatelům z vybraných zemí/"
+#~ "míst."
+
+#~ msgid "%sSign-up coupons%s: Create and offer sign-up discount coupons."
+#~ msgstr ""
+#~ "%s Registrační kupóny %s: Vytvářejte a nabízejte registrační slevové "
+#~ "kupóny."
+
+#~ msgid ""
+#~ "%sCart abandonment coupons%s: Configure cart abandonment coupons to "
+#~ "regain abandoned carts."
+#~ msgstr ""
+#~ "%s Kupóny pro opuštění košíku %s: Konfigurujte kupóny pro opuštění "
+#~ "košíku, abyste získali zpět opuštěné košíky."
+
+#~ msgid ""
+#~ "%sCustomizable count-down sales banner%s: Easily create a count-down "
+#~ "discount banner by choosing a template."
+#~ msgstr ""
+#~ "%s Přizpůsobitelný odpočítávací prodejní banner %s: Výběr šablony snadno "
+#~ "vytvoříte odpočítávací banner."
+
+#~ msgid ""
+#~ "%sBulk generate coupons%s: Generate and manage bulk coupons with add to "
+#~ "store/email/ export to CSV options."
+#~ msgstr ""
+#~ "%s Hromadné generování kupónů %s: Vytvářejte a spravujte hromadné kupóny "
+#~ "pomocí možností přidat do obchodu/ e -mailem/ exportovat do formátu CSV."
+
+#~ msgid ""
+#~ "%sImport-export coupons%s: Import and export coupons simultaneously by "
+#~ "emailing them directly to the recipients."
+#~ msgstr ""
+#~ "%s Import-export kupónů %s: Importujte a exportujte kupóny současně "
+#~ "zasláním e-mailů přímo příjemcům."
+
+#~ msgid "%sCoupon embeds%s: Shortcode for displaying coupons on any page."
+#~ msgstr ""
+#~ "%s Vložení kupónu %s: Krátký kód pro zobrazení kupónů na jakékoli stránce."
+
+#~ msgid "%sCombo coupons%s: Provision to use combo coupons for purchase."
+#~ msgstr ""
+#~ "%s Kombinované kupóny %s: Poskytování použití kombinovaných kupónů k "
+#~ "nákupu."
+
+#~ msgid "If you like the plugin please leave us a %s review"
+#~ msgstr "Pokud se vám plugin líbí, zanechte nám prosím recenzi %s"
+
+#~ msgid "New"
+#~ msgstr "Nový"
+
+#~ msgid "Free gifts"
+#~ msgstr "Dárky zdarma"
+
+#~ msgid "Give away products"
+#~ msgstr "Rozdejte produkty"
+
+#~ msgid "Count-down sales banner"
+#~ msgstr "Odpočítávání prodejní banner"
+
+#~ msgid "Refer to our documentation to set up and get started"
+#~ msgstr ""
+#~ "Chcete -li nastavit a začít, podívejte se do naší dokumentace (verze Pro)"
+
+#, fuzzy
+#~| msgid "Congrats you got a free gift!!"
+#~ msgid "Greetings! you've got a free gift!"
+#~ msgstr "Gratulujeme, dostali jste dárek zdarma !!"
+
+#~ msgid ""
+#~ "You're in luck! %s A free product is added to your cart at a %s discount."
+#~ msgstr ""
+#~ "Máte štěstí! %s Do vašeho košíku bude přidán bezplatný produkt se slevou "
+#~ "%s."
+
+#, fuzzy
+#~| msgid "Congrats you got a free gift!!"
+#~ msgid "Congrats! you've got a free gift from us!"
+#~ msgstr "Gratulujeme, dostali jste dárek zdarma !!"
+
+#~ msgid ""
+#~ "You're in luck! A free product is added to the cart with a %s discount."
+#~ msgstr "Máte štěstí! Do košíku se přidá bezplatný produkt se slevou %s."
+
+#~ msgid "Copied to clipboard"
+#~ msgstr "Zkopírováno do schránky"
+
+#~ msgid "Any."
+#~ msgstr "Zde můžete přidat libovolnou vlastní poznámku / komentář"
+
+#~ msgid "All."
+#~ msgstr "Vše"
+
+#~ msgid ""
+#~ "Coupon will be applied if any of the products from the below is available "
+#~ "in the cart; all of option requires that the cart contains all of the "
+#~ "listed products."
+#~ msgstr ""
+#~ "Kupón bude uplatněn, pokud je v košíku k dispozici některý z níže "
+#~ "uvedených produktů; všechny možnosti vyžadují, aby košík obsahoval "
+#~ "všechny uvedené produkty."
+
+#~ msgid ""
+#~ "Coupon will be applied if any of the categories from the below is "
+#~ "available in the cart; all of option requires that the cart contains all "
+#~ "of the listed categories."
+#~ msgstr ""
+#~ "Kupón bude použit, pokud je v košíku k dispozici některá z níže uvedených "
+#~ "kategorií; všechny možnosti vyžadují, aby košík obsahoval všechny uvedené "
+#~ "kategorie."
+
+#~ msgid "Make coupon available in"
+#~ msgstr "Zpřístupněte kupón v"
+
+#~ msgid "Coupon"
+#~ msgstr "Kupón"
+
+#~ msgid "Coupon layouts"
+#~ msgstr "Šablony kupónů"
+
+#~ msgid "Background color"
+#~ msgstr "Barva pozadí"
+
+#~ msgid "Foreground color"
+#~ msgstr "Barva popředí"
+
+#~ msgid ""
+#~ "This plugin will assist you in making your website GDPR (RGPD, DSVGO) "
+#~ "compliant."
+#~ msgstr ""
+#~ "Tento plugin vám pomůže zajistit shodu vašeho webu s GDPR (RGPD, DSVGO)."
+
+#~ msgid ""
+#~ "This plugin allows you to import and export WordPress users and "
+#~ "WooCommerce customers quickly and easily."
+#~ msgstr ""
+#~ "Tento plugin vám umožňuje rychle a snadno importovat a exportovat "
+#~ "uživatele WordPress a zákazníky WooCommerce."
+
+#~ msgid ""
+#~ "The Order XML File Export Import Plugin for WooCommerce will export your "
+#~ "WooCommerce orders in XML format."
+#~ msgstr ""
+#~ "Plugin pro import importu souboru XML pro WooCommerce exportuje vaše "
+#~ "objednávky WooCommerce ve formátu XML."
+
+#~ msgid ""
+#~ "Using this plugin, you will always get sequential order number for "
+#~ "woocommerce."
+#~ msgstr ""
+#~ "Pomocí tohoto pluginu vždy získáte pořadové číslo objednávky pro "
+#~ "woocommerce."
+
+#~ msgid ""
+#~ "This plugin exports your WordPress website media files, plugins and "
+#~ "themes including the database with a single click."
+#~ msgstr ""
+#~ "Tento plugin jediným kliknutím exportuje mediální soubory, doplňky a "
+#~ "motivy vaší webové stránky WordPress včetně databáze."
+
+#~ msgid ""
+#~ "With this plugin, your customer can use their credit cards or PayPal "
+#~ "Money to make order from cart page itself."
+#~ msgstr ""
+#~ "Díky tomuto pluginu může váš zákazník použít své kreditní karty nebo "
+#~ "peníze PayPal k provedení objednávky ze samotné stránky košíku."
+
+#~ msgid ""
+#~ "This plugin allows you to choose related products for a particular "
+#~ "product."
+#~ msgstr ""
+#~ "Tento plugin vám umožňuje vybrat související produkty pro konkrétní "
+#~ "produkt."
+
+#~ msgid "Decorator – WooCommerce Email Customizer"
+#~ msgstr "Decorator - WooCommerce Email Customizer"
+
+#~ msgid "Customize your WooCommerce emails now and stand out from the crowd!"
+#~ msgstr "Přizpůsobte si své e -maily WooCommerce hned teď a vystupte z davu!"
+
+#~ msgid "Download"
+#~ msgstr "Stáhnout"
+
+#~ msgid "OTHER FREE SOLUTIONS FROM WEBTOFFEE"
+#~ msgstr "DALŠÍ ZDARMA ŘEŠENÍ Z WEBTOFFEE"
+
+#~ msgid ""
+#~ "Create and offer coupons based on customers’ purchase history Eg: First-"
+#~ "order coupons, next-order, or nth order coupons.\n"
+#~ msgstr ""
+#~ "Vytvářejte a nabízejte kupóny na základě historie nákupů zákazníků "
+#~ "Např .: kupóny prvního řádu, kupóny příští objednávky nebo kupóny n-té "
+#~ "objednávky.\n"
+
+#~ msgid "Create and sell store credits coupons"
+#~ msgstr "Vytvářejte a prodávejte kupóny kreditů v obchodě"
+
+#~ msgid "Create signup & abandoned cart coupons"
+#~ msgstr "Vytvořte registraci a opuštěné kupóny"
+
+#~ msgid "Create combo coupons"
+#~ msgstr "Vytvářejte kombinované kupóny"
+
+#~ msgid "Coupon style customization"
+#~ msgstr "Přizpůsobení stylu kupónu"
+
+#~ msgid "Create and display count down discount sales banner"
+#~ msgstr "Vytvořte a zobrazte odpočítávací banner se slevou"
+
+#~ msgid ""
+#~ "Upgrade to Smart Coupons for WooCommerce Premium to get hold of advanced "
+#~ "features."
+#~ msgstr ""
+#~ "Upgradujte na Smart Coupons for WooCommerce Premium, abyste získali "
+#~ "pokročilé funkce."
+
+#~ msgid "UPGRADE TO PREMIUM"
+#~ msgstr "UPGRADE NA PREMIUM"
+
+#~ msgid "Set discount for giveaway products"
+#~ msgstr "Nastavte slevu na dárkové produkty"
+
+#~ msgid "Supports coupon shortcodes"
+#~ msgstr "Podporuje krátké kódy kupónů"
+
+#~ msgid "30 day money back guarantee"
+#~ msgstr "30denní záruka vrácení peněz"
+
+#~ msgid "Fast and superior support"
+#~ msgstr "Rychlá a vynikající podpora"
+
+#~ msgid "Features that every site needs"
+#~ msgstr "Funkce, které každý web potřebuje"
+
+#~ msgid ""
+#~ "Enter the coupon code of an already created coupon in the field provided. "
+#~ "The URL will be automatically generated for you."
+#~ msgstr ""
+#~ "Do příslušného pole zadejte kód kuponu již vytvořeného kuponu. Adresa URL "
+#~ "vám bude automaticky vygenerována."
+
+#~ msgid ""
+#~ "Visiting a URL coupon ensures that the underlying coupon is applied as "
+#~ "per its respective configuration."
+#~ msgstr ""
+#~ "Návštěva kupónu adresy URL zajistí, že se podkladový kupón použije podle "
+#~ "příslušné konfigurace."
+
+#~ msgid "e.g allow discount, giveaway free product whatever the case maybe."
+#~ msgstr "např. umožnit slevu, rozdávat bezplatný produkt, ať je to jakkoli."
+
+#~ msgid "Thanks for the review."
+#~ msgstr "Děkuji za recenzi."
+
+#~ msgid "Offer 'Giveaway'"
+#~ msgstr "Nabídka rozdávání kupónů"
+
+#~ msgid "Buy X Get Y discounts"
+#~ msgstr "Koupit X Získejte Y slevy"
+
+#~ msgid "Help"
+#~ msgstr "Pomoc"
+
+#~ msgid ""
+#~ "This coupon will be applied automatically if the specifications are met. "
+#~ "The corresponding coupon description will be shown when the coupon is "
+#~ "applied, only 5 coupons will be applied automatically, rest will be "
+#~ "ignored."
+#~ msgstr ""
+#~ "Tento kupón bude automaticky použit, pokud budou splněny specifikace. Při "
+#~ "použití kupónu se zobrazí odpovídající popis kupónu, automaticky se "
+#~ "použije pouze 5 kupónů, zbytek bude ignorován."
+
+#~ msgid "It's a free gift for you"
+#~ msgstr "Je to pro vás dárek zdarma"
+
+#~ msgid "Free Gift Item"
+#~ msgstr "Dárkový předmět zdarma"
+
+#~ msgid "free_product"
+#~ msgstr "free_product"
+
+#~ msgid "Free Product:"
+#~ msgstr "Zdarma produkt:"
+
+#~ msgid "Used / Expired Coupons"
+#~ msgstr "Použité / prošlé kupóny"
+
+#~ msgid "Show in My account"
+#~ msgstr "Zobrazit na mém účtu"
+
+#~ msgid "Expires Today "
+#~ msgstr "Platnost vyprší dnes"
+
+#~ msgid "Expires in "
+#~ msgstr "Vyprší v"
+
+#~ msgid " days"
+#~ msgstr " dnů"
+
+#~ msgid "Starts today "
+#~ msgstr "Začíná dnes"
+
+#~ msgid "Starts in "
+#~ msgstr "Začíná v"
+
+#~ msgid "Give away Products"
+#~ msgstr "Rozdejte produkty"
+
+#~ msgid "Coupon Styling"
+#~ msgstr "Styl kupónu"
+
+#~ msgid "Forground Color"
+#~ msgstr "Forgroundová barva"
+
+#~ msgid ""
+#~ "URL Coupons help you add a unique URL to any coupon in your e-commerce "
+#~ "store. Clicking this URL ensures that the underlying coupon is applied as "
+#~ "per its respective configuration e.g allow discount, giveaway free "
+#~ "product whatever the case maybe."
+#~ msgstr ""
+#~ "Kupóny URL vám pomohou přidat jedinečnou adresu URL ke každému kupónu ve "
+#~ "vašem e-shopu. Kliknutím na tuto adresu URL zajistíte, že podkladový "
+#~ "kupón bude aplikován podle jeho příslušné konfigurace, např. Povolí "
+#~ "slevu, bezplatný produkt bez ohledu na případ."
+
+#~ msgid "Usage:"
+#~ msgstr "Používání:"
+
+#~ msgid "e.g"
+#~ msgstr ""
+#~ "Vyberte/přidejte další pole na stránce pokladny<br> např. DPH, SSN "
+#~ "atd<br> %s Přečtěte si, jak přidat vlastní pole při pokladně. %s"
+
+#~ msgid ""
+#~ "A URL coupon that offers a flat 30 percentage of discount at www."
+#~ "webtoffee.com, coupon_code = FLAT30, site_url(preferably cart page)"
+#~ msgstr ""
+#~ "URL kupón, který nabízí 30 % slevu na www.webtoffee.com, kupón_kód = "
+#~ "FLAT30, site_url (nejlépe stránka košíku)"
+
+#~ msgid "Instructions"
+#~ msgstr "Instrukce"

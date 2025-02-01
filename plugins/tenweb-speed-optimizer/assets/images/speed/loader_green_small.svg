@@ -1,0 +1,6 @@
+<svg id="Loader_Small" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="Group_99686" data-name="Group 99686">
+    <path id="Subtraction_1" data-name="Subtraction 1" d="M8,16a8,8,0,1,1,8-8A8.009,8.009,0,0,1,8,16ZM8,1.778A6.222,6.222,0,1,0,14.222,8,6.229,6.229,0,0,0,8,1.778Z" fill="rgba(255,255,255,0.5)"/>
+    <path id="Intersection_2" data-name="Intersection 2" d="M6.967,8h0A6.229,6.229,0,0,0,.743,1.778V1.754A.842.842,0,0,1,0,.924.93.93,0,0,1,.743,0a8.009,8.009,0,0,1,8,8H8.73a.873.873,0,0,1-.862.836H7.832A.9.9,0,0,1,6.967,8Z" transform="translate(7.257 0)" fill="#22b339"/>
+  </g>
+</svg>

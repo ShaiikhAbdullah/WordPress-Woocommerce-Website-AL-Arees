@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Group_102591" data-name="Group 102591" transform="translate(-160 -211)">
+    <g id="Group_102589" data-name="Group 102589" transform="translate(164.842 221.417)">
+      <path id="Path_171087" data-name="Path 171087" d="M132.2,126.2h0Z" transform="translate(-102.178 -103.592)" fill="#343b46"/>
+      <path id="Path_171088" data-name="Path 171088" d="M132.2,127h0Z" transform="translate(-102.178 -104.146)" fill="#606060"/>
+      <g id="Group_102585" data-name="Group 102585" transform="translate(14.919 9.558)">
+        <g id="Group_102584" data-name="Group 102584">
+          <path id="Path_171089" data-name="Path 171089" d="M82.9,93.372h0a8.861,8.861,0,0,1,3.615-6.832,14.641,14.641,0,0,1,9.1-2.941c7.015,0,12.683,4.381,12.683,9.772a8.426,8.426,0,0,1-2.236,5.606,6.132,6.132,0,0,0,1.317,3.676.292.292,0,0,1-.276.46c-1.746-.306-3.155-.827-3.86-1.869A15.768,15.768,0,0,1,89.7,102.1c-4.013-1.654-6.8-4.963-6.8-8.731Z" transform="translate(-82.9 -83.6)" fill="#aee3b7"/>
+        </g>
+      </g>
+      <g id="Group_102588" data-name="Group 102588">
+        <path id="Path_171090" data-name="Path 171090" d="M65.815,64.562h0a10.924,10.924,0,0,0-4.5-8.486A18.327,18.327,0,0,0,49.977,52.4C41.246,52.4,34.2,57.853,34.2,64.562a10.261,10.261,0,0,0,2.788,6.954A7.729,7.729,0,0,1,35.3,76.142a.328.328,0,0,0,.306.521c2.206-.368,3.983-1.042,4.871-2.359a19.115,19.115,0,0,0,9.5,2.481,20.387,20.387,0,0,0,7.352-1.379c4.993-2.053,8.486-6.158,8.486-10.845Z" transform="translate(-34.2 -52.4)" fill="#22b339"/>
+        <g id="Group_102587" data-name="Group 102587" transform="translate(9.068 10.6)">
+          <g id="Group_102586" data-name="Group 102586">
+            <circle id="Ellipse_12782" data-name="Ellipse 12782" cx="1.593" cy="1.593" r="1.593" fill="#e9f6ec"/>
+            <circle id="Ellipse_12783" data-name="Ellipse 12783" cx="1.593" cy="1.593" r="1.593" transform="translate(5.147)" fill="#e9f6ec"/>
+            <circle id="Ellipse_12784" data-name="Ellipse 12784" cx="1.593" cy="1.593" r="1.593" transform="translate(10.324)" fill="#e9f6ec"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect id="Rectangle_51363" data-name="Rectangle 51363" width="50" height="50" transform="translate(160 211)" fill="none"/>
+  </g>
+</svg>

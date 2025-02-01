@@ -1,0 +1,136 @@
+.pscw-container {
+  position: relative;
+  &.pscw-customizing {
+
+    .pscw-row {
+      min-height: 20px;
+
+      &:hover {
+        outline: 1px solid #F9897B;
+      }
+      .pscw-cols {
+        &:hover {
+          outline: 1px dashed #666;
+        }
+      }
+    }
+
+    .pscw-divider {
+      position: relative;
+      &:hover {
+        outline: 1px solid #F9897B;
+        > .pscw-customizing-edit {
+          display: block;
+        }
+      }
+      &.pscw-customizing-editing {
+        outline: 1px solid #F9897B;
+      }
+
+      > .pscw-customizing-edit {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 99;
+        height: 20px;
+        width: 20px;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+        background: #F9897B;
+        color: #fff;
+      }
+    }
+
+    .pscw-accordion {
+      @extend .pscw-divider;
+    }
+    .pscw-tab-container {
+      width: 100%;
+      @extend .pscw-divider;
+    }
+    .pscw-text-editor-container {
+      @extend .pscw-divider;
+    }
+    .pscw-image-container {
+      @extend .pscw-divider;
+      > img {
+        border-style: solid;
+        border-width: 0;
+        border-color: #000;
+      }
+    }
+    .woo_sc_table100 {
+      @extend .pscw-divider;
+      table {
+        tr {
+          th {
+            &.pscw-selected {
+              outline: 1px solid #000000 !important;
+            }
+            input[type="text"] {
+              font-weight: bold;
+            }
+          }
+          td {
+            &.pscw-selected {
+              outline: 1px solid #000000 !important;
+            }
+          }
+          input[type="text"] {
+            height: auto;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            background: transparent;
+            color: #494949;
+            border: 0;
+            outline: none;
+            box-shadow: none;
+            &:focus {
+              outline: 1px solid #DEF3FE;
+              border-radius: 4px;
+            }
+          }
+        }
+      }
+    }
+
+    #pscw-preview-table-menu {
+      display: none;
+      position: absolute;
+      z-index: 1000;
+      margin: 0;
+      padding: 0;
+      background-color: white;
+      border: 1px solid #ccc;
+      list-style: none;
+      border-radius: 4px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+      overflow: hidden;
+
+      li {
+        min-width: 120px;
+        padding: 5px 10px;
+        cursor: pointer;
+        &:hover {
+          background-color: #f0f0f0;
+        }
+      }
+
+    }
+  }
+}
+
+/*RTL*/
+.rtl {
+  .pscw-container {
+    .pscw-divider {
+      > .pscw-customizing-edit {
+        right: unset;
+        left: 0;
+      }
+    }
+  }
+}

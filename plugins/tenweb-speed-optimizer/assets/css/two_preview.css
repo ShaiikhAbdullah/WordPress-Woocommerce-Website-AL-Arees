@@ -1,0 +1,544 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #323A45;
+    font-family: 'Open Sans', sans-serif !important;
+}
+.two_preview_button {
+    background-color: #22B339;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 35px;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 600;
+}
+.two_preview_button.deactivated {
+    opacity: 20%;
+}
+.two_preview_button:not(.deactivated):hover {
+    opacity: 80%;
+}
+.two_not_available {
+    display: none;
+    background-color: #FFFFFF;
+    align-items: center;
+    min-height: 50px;
+    box-sizing: border-box;
+    justify-content: center;
+    gap: 0 6px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    padding: 15px 0 13px;
+    line-height: 18px;
+    border-bottom: 1px solid #323a4533;
+}
+.two_not_available br {
+    display: none;
+}
+
+.two_not_available:before {
+    content: '';
+    background-image: url(../images/logo.svg);
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+}
+
+.two_preview_tools {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding-bottom: 15px;
+    min-height: 134px;
+    box-sizing: border-box;
+    -webkit-transition: right 0.5s ease-in;
+    -moz-transition: right 0.5s ease-in;
+    -o-transition: right 0.5s ease-in;
+    transition: right 0.5s ease-in-out;
+    border-bottom: 1px solid #323a4533;
+}
+.two_preview_tools .two_preview_tools-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 860px;
+    align-items: flex-end;
+}
+.two_preview_close {
+    content: '';
+    position: absolute;
+    height: 30px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    border: 1px solid #323A4533;
+    box-sizing: border-box;
+    top: 22px;
+}
+.two_preview_tools:not(.two_preview_tools_closed) .two_preview_close {
+    width: 30px;
+    border-radius: 50%;
+    background-color: #22B339;
+    background-image: url(../images/left_arrow.svg);
+    background-size: 18px;
+    background-position: center;
+    left: -15px;
+    transform: rotateZ(180deg);
+}
+.two_preview_tools:not(.two_preview_tools_closed) .two_preview_close span {
+    display: none;
+}
+.two_preview_tools.two_preview_tools_closed .two_preview_close {
+    width: 150px;
+    background-color: #FFFFFF;
+    background-image: url(../images/logo.svg);
+    background-size: 28px;
+    background-position: 12px;
+    left: -162px;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    font-weight: bold;
+    padding: 5px 12px 5px 44px;
+    box-shadow: 0 5px 20px #323A451A;
+    border-radius: 15px 0 0 15px;
+}
+.two_preview_tools.two_preview_tools_closed .two_preview_close span {
+    display: block;
+}
+.two_preview_tools_closed.two_preview_tools {
+    -webkit-transition: right 0.5s ease-in;
+    -moz-transition: right 0.5s ease-in;
+    -o-transition: right 0.5s ease-in;
+    transition: right 0.5s ease-in;
+    right: -370px;
+}
+.two_preview_tools_closed .two_preview_tools_content_buttons{
+    right: -370px !important;
+    transition: right 0.5s ease-in;
+
+}
+
+.two_preview_tools_content_buttons{
+    transition: right 0.5s ease-in-out;
+}
+.two_preview_tools_buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.two_change_mode,.two_save_mode{
+    position: relative;
+    border-radius: 6px;
+    border: 1px solid #323A4533;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    margin: 0;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.two_change_mode:hover {
+    border-color: #FD3C31;
+}
+.two_save_mode:hover {
+    border-color: #22B339;
+}
+.two_change_mode:before,.two_save_mode:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/like.svg);
+}
+.two_change_mode {
+    padding: 12px 15px 12px 39px;
+}
+.two_save_mode {
+    padding: 12px 29px 12px 54px;
+}
+.two_save_mode:before {
+    left: 31px;
+    top: 12px;
+    transform: scaleY(-1);
+}
+.two_change_mode:before {
+    left: 16px;
+    top: 11px;
+}
+.two_preview_tools_title {
+    position: relative;
+    margin: 0;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.12px;
+    font-weight: bold;
+}
+.two_preview_tools_title.with_icon {
+    padding-left: 31px;
+}
+.two_preview_count {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #323A4580;
+    margin: 0;
+}
+input[type="checkbox"].two_checkbox {
+    background-color: #22B339;
+    width: 14px;
+    height: 14px;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+}
+.two_preview_tools_title.with_icon:before {
+    content: '';
+    position: absolute;
+    background-image: url(../images/logo.svg);
+    width: 25px;
+    height: 25px;
+    left: 0;
+    top: -3px;
+}
+.two_preview_tools_desc {
+    margin: 2px 0 20px 0;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+.two_preview_tools_desc.first-step {
+    margin: 7px 0 10px 0;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.two_preview_tools_desc.last-step {
+    font-weight: 400;
+    margin: 4px 0 10px 0;
+    font-size: 14px;
+    line-height: 20px;
+}
+.two_preview_tools_desc.two_bold {
+    font-weight: 600;
+    letter-spacing: 0.1px;
+    margin: 0px 0 20px 0;
+}
+.two_preview_tools_notice.last-step >div{
+    display: flex;
+    align-items: center;
+}
+.two_preview_tools_notice.last-step {
+    padding: 5px 18px;
+    width: 860px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.two_preview_tools_notice {
+    background-color: #22B3390D;
+    border-radius: 6px;
+    padding: 9px 16px 9px 38px;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    margin: 0;
+}
+.two_preview_tools_info {
+    background-color: #F9F9F9;
+    padding: 10px 18px;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    margin: 0;
+    border-radius: 6px;
+}
+.two_preview_tools_content {
+    min-width: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.two_preview_tools_notice span {
+    position: relative;
+    font-weight: 600;
+}
+.two_preview_tools_notice span:not(.two_preview_chat):before {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: -22px;
+    top: 1px;
+    background-image: url(../images/check_solid.svg);
+}
+.two_preview_tools_notice.info_icon {
+    margin-top: 20px;
+}
+.two_preview_tools_notice.info_icon span:before {
+    background-image: url(../images/info_green.svg);
+}
+.two_incompatible_plugins_container {
+    position: relative;
+    height: 100%;
+    overflow-x: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.two_preview_tools_content.incompatible_plugins form{
+    width: 860px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+/*    position: fixed;
+    bottom: 20px;
+    right: 12px;
+    width: 370px;
+    background-color: #FFFFFF;*/
+}
+.two_incompatible_plugins {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 20px;
+}
+
+.two_disable_incompatible_plugins {
+    width: 150px;
+    font-family: Open Sans, sans-serif;
+    display: block;
+}
+.two_skip_incompatible_plugins {
+    background-color: unset;
+    border: 0;
+    text-decoration: underline;
+    opacity: 0.5;
+    color: #323A45;
+    cursor: pointer;
+    font-family: Open Sans, sans-serif;
+    display: block;
+    margin: auto;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0;
+}
+.two_skip_incompatible_plugins:hover {
+    text-decoration: none;
+}
+.two_incompatible_plugin label{
+    display: block;
+    position: relative;
+    padding-left: 22px;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 400;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* Hide the browser's default checkbox */
+.two_incompatible_plugin input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.two_incompatible_plugin.with-restricted {
+    display: flex;
+    gap: 0 4px;
+    align-items: center;
+    pointer-events: none;
+    cursor: default;
+}
+
+.checkmark {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 14px;
+    width: 14px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 1px solid #22B339;
+    border-radius: 2px;
+}
+
+.restricted-mark {
+    height: 20px;
+    width: 20px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background: url('../images/close_error_icon.svg');
+}
+
+.two_incompatible_plugin input:checked ~ .checkmark {
+    background-color: #22B339;
+    border-radius: 2px;
+}
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.two_incompatible_plugin input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.two_incompatible_plugin .checkmark:after {
+    left: 4px;
+    top: 1px;
+    width: 3px;
+    height: 6px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.two_preview_tools_content_centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    align-items: flex-start;
+}
+.two_contact_us_button {
+    width: 150px;
+    padding: 5px 0;
+}
+.two_preview_chat {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    display: inline-block;
+    background-image: url(../images/chat.svg);
+    background-size: contain;
+}
+.two_contact_us-desc {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+body *:not(#two_preview_container, #two_preview_container *, #two_preview_iframe){
+    display: none !important;
+}
+#two_preview_iframe{
+    width: 100%;
+    height: 100%;
+    display: inline-block !important;
+    border: 0;
+}
+@media screen and (max-width: 900px) {
+    #two_preview_iframe {
+        border: 0;
+    }
+    .two_not_available {
+        display: flex;
+    }
+    .two_preview_tools {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .two_not_available:before {
+        display: none;
+    }
+    .two_not_available br {
+        display: inline-block
+    }
+    br.desktop {
+        display: none;
+    }
+    .two_preview_button {
+        padding: 7px 15px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .two_preview_tools {
+        width: 280px;
+        padding: 25px 25px 15px 25px;
+    }
+    .two_preview_tools_closed.two_preview_tools {
+        right: -280px;
+    }
+    .two_preview_tools_title.with_icon:before {
+        top: -1px;
+        width: 20px;
+        height: 20px;
+        background-size: 20px;
+    }
+    .two_preview_tools_title.with_icon {
+        padding-left: 26px;
+    }
+    .two_preview_tools_title, .two_preview_tools_desc {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0;
+    }
+    .two_preview_tools_content {
+        margin: 30px 0 20px 0;
+    }
+    .two_preview_tools_buttons {
+        flex-direction: column;
+    }
+    .two_change_mode,.two_save_mode {
+        width: 150px;
+    }
+    .two_change_mode:before {
+        left: 13px;
+        top: 9px;
+    }
+    .two_change_mode {
+        padding: 10px 13px 10px 36px;
+    }
+    .two_save_mode {
+        padding: 10px 27px 10px 50px;
+    }
+    .two_save_mode:before {
+        left: 27px;
+        top: 9px;
+    }
+    .two_preview_tools_content.incompatible_plugins .two_preview_tools_content_buttons {
+        width: 280px;
+    }
+    .two_disable_incompatible_plugins {
+        width: 150px;
+    }
+    .two_contact_us_button {
+        margin-top: 10px;
+        width: 150px;
+    }
+    .two_preview_chat {
+        width: 40px;
+        height: 40px;
+    }
+}

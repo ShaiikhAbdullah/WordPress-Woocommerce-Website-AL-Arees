@@ -1,0 +1,20 @@
+{
+    "name": "10web-utils/10web-wordpress-benchmark",
+    "description": "Package for saving benchmarking Wordpress website",
+    "type": "git",
+    "homepage": "https://10web.io",
+    "autoload": {
+        "psr-4": {
+            "TenWebWpBenchmark\\": "src/TenWebWpBenchmark"
+        }
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "ssh://git@gitlab.10web.io:6202/10web-utils/tenweb-authorization.git"
+        }
+    ],
+    "require": {
+        "10web/authorization": "*"
+    }
+}

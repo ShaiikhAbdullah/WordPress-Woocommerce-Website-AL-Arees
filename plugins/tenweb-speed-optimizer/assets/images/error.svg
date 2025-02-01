@@ -1,0 +1,10 @@
+<svg id="Error_Icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 14 14">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_47802" data-name="Rectangle 47802" width="14" height="14" fill="#fd3c31"/>
+    </clipPath>
+  </defs>
+  <g id="Error_Icon-2" data-name="Error_Icon" clip-path="url(#clip-path)">
+    <path id="Subtraction_21" data-name="Subtraction 21" d="M7,14A7,7,0,0,1,2.05,2.05a7,7,0,1,1,7.674,11.4A6.955,6.955,0,0,1,7,14ZM6.987,9.132a.765.765,0,1,0,0,1.529A.765.765,0,0,0,7.751,9.9a.746.746,0,0,0-.764-.765ZM6.953,3.111a.679.679,0,0,0-.148.016.815.815,0,0,0-.583.8l0,.072c.055,1.01.185,3.405.215,3.823a.53.53,0,0,0,.546.51.561.561,0,0,0,.546-.547c0-.117.184-3.484.218-3.858a.722.722,0,0,0-.073-.364A.808.808,0,0,0,6.953,3.111Z" transform="translate(0 -0.001)" fill="#fd3c31"/>
+  </g>
+</svg>

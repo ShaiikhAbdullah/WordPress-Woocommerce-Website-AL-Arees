@@ -1,0 +1,44 @@
+h4.giveaway-title {
+  float:left; font-size:18px; margin-top:25px;
+}
+h4.giveaway-title span {
+  font-weight: 500;
+}
+
+ul.woocommcerce.wt_give_away_products{ float:left; width:100%; margin:0; padding:0px; list-style-type:none; margin-bottom:25px; display:flex; flex-wrap:wrap; gap:20px 2%; }
+
+.wt_give_away_products li{ float:left; width:30%; margin-right:10px; margin-bottom:10px; border:solid 1px #ccc; min-width:200px;}
+.wt_product_image{
+    position:relative; text-align:center;
+}
+.wt_product_image img{ display:inline-block; }
+.wt_give_away_products .wt_product_image .wt_product_discount{
+  position:absolute; bottom:0px; left:0px; width:100%; background:rgba(250, 250, 250, .8); color:#000; box-sizing:border-box; padding:5px;
+}
+.wt_give_away_products .wt_product_other_info, .wt_give_away_products .wt_sc_product_out_of_stock, .wt_give_away_products .wt_variations, .wt_choose_button_box{ float:left; width:100%; padding:10px; box-sizing:border-box; line-height:initial;}
+.wt_variations{ margin-bottom:0px; }
+.wt_giveaway_quantity{ display:inline-block; }
+.wt_giveaway_quantity input[type="number"]{ width:60px; max-width:100%; margin-bottom:5px; }
+
+.wt_choose_button_box{ text-align:center; }
+button.wt_choose_free_product{ padding-left:10px; padding-right:10px; }
+.wt_product_image .wt_sc_dummy_img{ display:inline-block; width:100%; min-height:80px; background:#efefef; }
+table.variations.wt_variations td {
+    padding: 3px 2px;
+    margin-bottom: 2px;
+}
+table.variations, .wt_give_away_product_attr{ width:100%; }
+.wt_add_to_cart_all{ margin-top:15px; clear:both; }
+.wt_sc_giveaway_products_cart_page{ padding-top:15px; padding-bottom:15px; }
+
+@media only screen and (max-width:900px) {
+  .wt_give_away_products li{
+    width:47%;
+  }
+}
+@media only screen and (max-width:600px) {
+  .wt_give_away_products li{
+    width:100%;
+  }
+  .wt_give_away_products .wt_product_other_info{ text-align:center; }
+}

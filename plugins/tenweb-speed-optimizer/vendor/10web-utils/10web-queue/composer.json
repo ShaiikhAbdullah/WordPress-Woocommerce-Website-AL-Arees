@@ -1,0 +1,21 @@
+{
+  "name": "10web-utils/10web-queue",
+  "type": "git",
+  "description": "Queue implementation",
+  "homepage": "https://10web.io",
+  "license": "proprietary",
+  "keywords": [
+    "queue"
+  ],
+  "require": {
+    "enqueue/fs": "^0.10.0"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  },
+  "autoload": {
+    "psr-4": {
+      "TenWebQueue\\": "src/TenWebQueue"
+    }
+  }
+}

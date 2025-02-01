@@ -1,0 +1,149 @@
+.two-wp-container * {
+    font-family: Open Sans, sans-serif !important;
+}
+.two-wp-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.two-wp-container p {
+    margin: 0;
+}
+.two-container-with-border {
+    position: relative;
+    border-radius: 6px;
+    border: 1px solid #323A4533;
+    background-color: #fff;
+    padding: 25px 20px;
+    color: #323A45;
+    margin-top: 16px;
+    width: 714px;
+    box-sizing: border-box;
+}
+
+p.two-page-main-title {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    position: relative;
+}
+
+.two-page-main-desc {
+    font-size: 14px;
+    line-height: 20px;
+}
+.two-page-subtitle {
+    color: #262F30;
+    opacity: 0.8;
+    font-weight: 600;
+}
+.two-page-main-desc a {
+    text-decoration: underline;
+    color: #2160B5;
+    cursor: pointer;
+    font-weight: 600;
+}
+.two-page-main-desc a:hover {
+    opacity: 0.7;
+}
+
+.two-main-text {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.two-referral-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #323A4533;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+
+.two-green-liner-button {
+    width: 180px;
+    display: inline-block;
+    border: 1px solid #22B339;
+    border-radius: 6px;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    color: #22B339;
+    letter-spacing: 0.12px;
+    font-weight: 600;
+}
+.two-green-liner-button:hover {
+    background-color: #22b339;
+    color: white;
+}
+
+.two-referral-container {
+    margin: 25px 0 20px 0;
+    border: 1px solid #323A4533;
+    border-radius: 6px;
+    padding: 10px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#two-referral-link {
+    color: #323A4580;
+    width: 100%;
+    border-right: 1px solid #E4E4E4;
+    padding-right: 16px;
+    margin-right: 16px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 572px;
+    white-space: nowrap;
+}
+.two-referral-copy {
+    text-align: center;
+    min-width: 50px;
+    font-weight: 600;
+    color: #2160B5;
+    cursor: pointer;
+}
+.two-refer-links {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.two-refer-to {
+    padding: 4px 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 4px;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 600;
+    color: #262F30;
+    text-decoration: none;
+    background-color: #F9F9F9;
+    border-radius: 20px;
+}
+.two-refer-to:hover {
+    color: #262f30cf;
+}
+.two-howitworks-container {
+    margin-top: 20px;
+    display: flex;
+    gap: 66px;
+}
+.two-howitworks-each img {
+    width: 40px;
+    margin-bottom: 12px;
+}
+p.two-page-small-subtitle {
+    margin-bottom: 4px;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+}
+
+@media screen and (max-width: 600px) {
+
+}

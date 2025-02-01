@@ -1,0 +1,99 @@
+.pscw-container {
+  position: relative;
+}
+.pscw-container.pscw-customizing .pscw-row {
+  min-height: 20px;
+}
+.pscw-container.pscw-customizing .pscw-row:hover {
+  outline: 1px solid #F9897B;
+}
+.pscw-container.pscw-customizing .pscw-row .pscw-cols:hover {
+  outline: 1px dashed #666;
+}
+.pscw-container.pscw-customizing .pscw-divider, .pscw-container.pscw-customizing .woo_sc_table100, .pscw-container.pscw-customizing .pscw-image-container, .pscw-container.pscw-customizing .pscw-text-editor-container, .pscw-container.pscw-customizing .pscw-tab-container, .pscw-container.pscw-customizing .pscw-accordion {
+  position: relative;
+}
+.pscw-container.pscw-customizing .pscw-divider:hover, .pscw-container.pscw-customizing .woo_sc_table100:hover, .pscw-container.pscw-customizing .pscw-image-container:hover, .pscw-container.pscw-customizing .pscw-text-editor-container:hover, .pscw-container.pscw-customizing .pscw-tab-container:hover, .pscw-container.pscw-customizing .pscw-accordion:hover {
+  outline: 1px solid #F9897B;
+}
+.pscw-container.pscw-customizing .pscw-divider:hover > .pscw-customizing-edit, .pscw-container.pscw-customizing .woo_sc_table100:hover > .pscw-customizing-edit, .pscw-container.pscw-customizing .pscw-image-container:hover > .pscw-customizing-edit, .pscw-container.pscw-customizing .pscw-text-editor-container:hover > .pscw-customizing-edit, .pscw-container.pscw-customizing .pscw-tab-container:hover > .pscw-customizing-edit, .pscw-container.pscw-customizing .pscw-accordion:hover > .pscw-customizing-edit {
+  display: block;
+}
+.pscw-container.pscw-customizing .pscw-divider.pscw-customizing-editing, .pscw-container.pscw-customizing .pscw-customizing-editing.woo_sc_table100, .pscw-container.pscw-customizing .pscw-customizing-editing.pscw-image-container, .pscw-container.pscw-customizing .pscw-customizing-editing.pscw-text-editor-container, .pscw-container.pscw-customizing .pscw-customizing-editing.pscw-tab-container, .pscw-container.pscw-customizing .pscw-customizing-editing.pscw-accordion {
+  outline: 1px solid #F9897B;
+}
+.pscw-container.pscw-customizing .pscw-divider > .pscw-customizing-edit, .pscw-container.pscw-customizing .woo_sc_table100 > .pscw-customizing-edit, .pscw-container.pscw-customizing .pscw-image-container > .pscw-customizing-edit, .pscw-container.pscw-customizing .pscw-text-editor-container > .pscw-customizing-edit, .pscw-container.pscw-customizing .pscw-tab-container > .pscw-customizing-edit, .pscw-container.pscw-customizing .pscw-accordion > .pscw-customizing-edit {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 99;
+  height: 20px;
+  width: 20px;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  background: #F9897B;
+  color: #fff;
+}
+.pscw-container.pscw-customizing .pscw-tab-container {
+  width: 100%;
+}
+.pscw-container.pscw-customizing .pscw-image-container > img {
+  border-style: solid;
+  border-width: 0;
+  border-color: #000;
+}
+.pscw-container.pscw-customizing .woo_sc_table100 table tr th.pscw-selected {
+  outline: 1px solid #000000 !important;
+}
+.pscw-container.pscw-customizing .woo_sc_table100 table tr th input[type=text] {
+  font-weight: bold;
+}
+.pscw-container.pscw-customizing .woo_sc_table100 table tr td.pscw-selected {
+  outline: 1px solid #000000 !important;
+}
+.pscw-container.pscw-customizing .woo_sc_table100 table tr input[type=text] {
+  height: auto;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background: transparent;
+  color: #494949;
+  border: 0;
+  outline: none;
+  box-shadow: none;
+}
+.pscw-container.pscw-customizing .woo_sc_table100 table tr input[type=text]:focus {
+  outline: 1px solid #DEF3FE;
+  border-radius: 4px;
+}
+.pscw-container.pscw-customizing #pscw-preview-table-menu {
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  list-style: none;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  overflow: hidden;
+}
+.pscw-container.pscw-customizing #pscw-preview-table-menu li {
+  min-width: 120px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.pscw-container.pscw-customizing #pscw-preview-table-menu li:hover {
+  background-color: #f0f0f0;
+}
+
+/*RTL*/
+.rtl .pscw-container .pscw-divider > .pscw-customizing-edit, .rtl .pscw-container.pscw-customizing .pscw-accordion > .pscw-customizing-edit, .rtl .pscw-container.pscw-customizing .pscw-tab-container > .pscw-customizing-edit, .rtl .pscw-container.pscw-customizing .pscw-text-editor-container > .pscw-customizing-edit, .rtl .pscw-container.pscw-customizing .pscw-image-container > .pscw-customizing-edit, .rtl .pscw-container.pscw-customizing .woo_sc_table100 > .pscw-customizing-edit {
+  right: unset;
+  left: 0;
+}
+
+/*# sourceMappingURL=customize-preview.css.map */

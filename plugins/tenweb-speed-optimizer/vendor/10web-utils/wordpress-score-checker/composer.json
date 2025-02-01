@@ -1,0 +1,22 @@
+{
+    "name": "10web-utils/wordpress-score-checker",
+    "description": "Webpages score checker package",
+    "type": "git",
+    "homepage": "https://10web.io",
+    "license": "proprietary",
+
+    "autoload": {
+        "psr-4": {
+            "TenWebSC\\": "src/TenWebSC"
+        }
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "ssh://git@gitlab.10web.io:6202/10web-utils/10web-wp-transients.git"
+        }
+    ],
+    "require": {
+        "10web-utils/10web-wp-transients": "dev-master"
+    }
+}

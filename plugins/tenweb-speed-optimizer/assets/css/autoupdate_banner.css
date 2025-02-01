@@ -1,0 +1,13 @@
+.two-autoupdate-popup .two-banner-buttons-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-right: 40px;
+}
+
+@media screen and (max-width:1140px) {
+    .two-autoupdate-popup {
+        flex-direction: column;
+        padding: 10px;
+    }
+}

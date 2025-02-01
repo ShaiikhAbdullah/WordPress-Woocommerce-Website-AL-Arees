@@ -1,0 +1,537 @@
+@import "./settings/block-accordion";
+
+// Container and Tab Settings
+.ppcp-r-tabs.settings,
+.ppcp-r-container--settings {
+	--max-container-width: var(--max-width-settings);
+
+	.ppcp-r-inner-container {
+		max-width: var(--max-container-width);
+	}
+}
+
+// Todo List and Feature Items
+.ppcp-r-todo-item {
+	position: relative;
+	display: flex;
+	align-items: center;
+	gap: 18px;
+	width: 100%;
+
+	&:not(:last-child) {
+		border-bottom: 1px solid $color-gray-400;
+		padding-bottom: 16px;
+	}
+
+	&:not(:first-child) {
+		padding-top: 16px;
+	}
+
+	p {
+		@include font(14, 20, 400);
+	}
+
+	&__inner {
+		position: relative;
+		display: flex;
+		align-items: center;
+		gap: 18px;
+	}
+
+	&__close {
+		margin-left: auto;
+
+		&:hover {
+			cursor: pointer;
+			color: $color-blueberry;
+		}
+	}
+
+	.ppcp-r__checkbox {
+		.components-flex {
+			gap: 12px;
+		}
+
+		label {
+			@include font(13, 20, 400);
+			color: $color-blueberry;
+		}
+	}
+
+	&__description {
+		@include font(13, 20, 400);
+		color: $color-blueberry;
+	}
+}
+
+.ppcp-r-feature-item {
+	padding-top: 32px;
+	border-top: 1px solid $color-gray-400;
+
+	&__title {
+		@include font(16, 20, 600);
+		color: $color-black;
+		display: block;
+		margin: 0 0 8px 0;
+	}
+
+	&__description {
+		@include font(14, 20, 400);
+		color: $color-gray-800;
+		margin: 0 0 18px 0;
+	}
+
+	&:not(:last-child) {
+		padding-bottom: 32px;
+	}
+
+	&__buttons {
+		display: flex;
+		gap: 18px;
+	}
+
+	&__notes {
+		display: flex;
+		flex-direction: column;
+
+		span {
+			font-weight: 500;
+		}
+
+		margin-top:24px;
+	}
+}
+
+// Connection Status
+.ppcp-r-connection-status {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 12px;
+
+	&__status-status {
+		margin: 0 0 8px 0;
+
+		strong {
+			@include font(14, 24, 700);
+			color: $color-black;
+		}
+	}
+
+	&__show-all-data {
+		margin-left: 12px;
+	}
+
+	&__status-label {
+		@include font(11, 22, 600);
+		color: $color-gray-900;
+		display: block;
+		text-transform: uppercase;
+	}
+
+	&__status-value {
+		@include font(13, 26, 400);
+		color: $color-text-tertiary;
+	}
+
+	&__data {
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
+	}
+
+	&__status-toggle--toggled {
+		.ppcp-r-connection-status__show-all-data {
+			transform: rotate(180deg);
+		}
+	}
+
+	&__status-row {
+		display: flex;
+		flex-direction: column;
+		* {
+			user-select: none;
+		}
+		strong {
+			@include font(14, 24, 600);
+			color: $color-gray-800;
+			margin-right: 12px;
+			white-space: nowrap;
+		}
+
+		.ppcp-r-connection-status__status-toggle {
+			line-height: 0;
+		}
+		&--first {
+			&:hover {
+				cursor: pointer;
+			}
+		}
+	}
+
+	@media screen and (max-width: 767px) {
+		flex-wrap: wrap;
+		&__status {
+			width: 100%;
+		}
+		&__status-row {
+			flex-wrap: wrap;
+			strong {
+				width: 100%;
+			}
+			span {
+				word-break: break-all;
+			}
+		}
+	}
+}
+
+// Feature Refresh
+.ppcp-r-feature-refresh {
+	display: flex;
+	gap: 12px;
+	margin-bottom: 24px;
+
+	&__row {
+		display: flex;
+		align-items: center;
+	}
+
+	&__content {
+		width: 100%;
+
+		&-title {
+			@include font(16, 20, 700);
+			color: $color-black;
+			display: block;
+			margin: 0 0 4px 0;
+		}
+
+		p {
+			@include font(12, 20, 400);
+			color: $color-gray-700;
+			margin: 0;
+		}
+	}
+
+	button {
+		display: flex;
+		gap: 4px;
+		@include font(13, 20, 400);
+	}
+}
+
+// Payment Methods
+.ppcp-r-payment-methods {
+	display: flex;
+	flex-direction: column;
+	gap: 48px;
+}
+
+// Settings Card and Block Styles
+.ppcp-r-settings-card {
+	margin: 0 0 48px 0;
+}
+
+.ppcp-r-settings-card__content {
+	> .ppcp-r-settings-block {
+		&:not(:last-child) {
+			border-bottom: 1px solid $color-divider;
+		}
+	}
+}
+
+.ppcp-r-settings-block {
+	display: flex;
+	flex-direction: column;
+	gap: 16px 0;
+
+	&.ppcp-r-settings-block__input,
+	&.ppcp-r-settings-block__select {
+		gap: 6px 0;
+	}
+
+	.ppcp-r-settings-block__header {
+		display: flex;
+		flex-direction: column;
+		gap: 6px;
+
+		&:not(:last-child):not(.ppcp-r-settings-block--accordion__header) {
+			padding-bottom: 6px;
+		}
+	}
+
+	.ppcp-r-settings-block__title {
+		@include font(11, 22, 600);
+		color: $color-gray-900;
+		display: block;
+		text-transform: uppercase;
+
+		.ppcp-r-title-badge {
+			text-transform: none;
+			margin-left: 6px;
+		}
+	}
+
+	.ppcp-r-settings-block__title-wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&.ppcp-r-settings-block__feature {
+		.ppcp-r-settings-block__title {
+			@include font(13, 20, 600);
+			color: $color-text-text;
+			text-transform: none;
+		}
+
+		.ppcp-r-settings-block__feature__description {
+			color: $color-gray-700;
+			@include font(13, 20, 400);
+		}
+	}
+
+	&.ppcp-r-settings-block__toggle {
+		display: flex;
+		flex-direction: row;
+
+		.ppcp-r-settings-block__title {
+			color: $color-text-text;
+			@include font(13, 20, 400);
+			text-transform: none;
+		}
+	}
+
+	.ppcp-r-settings-block__description {
+		margin: 0;
+		@include font(13, 20, 400);
+		color: $color-gray-800;
+
+		&:not(:last-child) {
+			padding-bottom: 1em;
+		}
+
+		a {
+			color: $color-blueberry;
+		}
+
+		strong {
+			color: $color-gray-800;
+		}
+	}
+
+	.ppcp-r-settings-block__supplementary-title-label {
+		@include font(13, 20, 400);
+		color: $color-text-tertiary;
+		text-transform: none;
+		margin-left: 5px;
+	}
+
+	// Types
+	&--toggle-content {
+		&.ppcp-r-settings-block--content-visible {
+			.ppcp-r-settings-block__toggle-content {
+				transform: rotate(180deg);
+			}
+		}
+
+		.ppcp-r-settings-block__header {
+			user-select: none;
+
+			&:hover {
+				cursor: pointer;
+			}
+		}
+	}
+
+	&--sandbox-connected {
+		.ppcp-r-settings-block__content {
+			margin-top: 24px;
+		}
+
+		.ppcp-r-connection-status__data {
+			margin-bottom: 20px;
+		}
+	}
+
+	&--connect-sandbox {
+		button.components-button {
+			@include small-button;
+		}
+
+		.ppcp-r__radio-content-additional {
+			.ppcp-r-vertical-text-control {
+				width: 100%;
+			}
+
+			@include vertical-layout-event-gap(24px);
+			align-items: flex-start;
+
+			input[type='text'] {
+				width: 100%;
+			}
+		}
+	}
+
+	&--troubleshooting,
+	&--settings {
+		> .ppcp-r-settings-block__content > *:not(:last-child) {
+			padding-bottom: 32px;
+			margin-bottom: 32px;
+			border-bottom: 1px solid $color-gray-500;
+		}
+	}
+
+	// Fields
+	input[type='text'] {
+		border-color: $color-gray-700;
+		width: 100%;
+		max-width: 100%;
+		color: $color-gray-800;
+
+		&::placeholder {
+			color: $color-gray-700;
+		}
+	}
+
+	// MultiSelect control
+	.ppcp-r {
+		&__radio-wrapper {
+			align-items: flex-start;
+			gap: 12px;
+		}
+
+		&__radio-content {
+			display: flex;
+			flex-direction: column;
+			gap: 4px;
+
+			label {
+				font-weight: 600;
+			}
+		}
+
+		&__radio-content-additional {
+			padding-left: 32px;
+		}
+
+		// Select control styles
+		&__control {
+			border-radius: 2px;
+			border-color: $color-gray-700;
+			min-height: auto;
+			padding: 0;
+		}
+
+		&__input-container {
+			padding: 0;
+			margin: 0;
+		}
+
+		&__value-container {
+			padding: 0 0 0 7px;
+		}
+
+		&__indicator {
+			padding: 5px;
+		}
+
+		&__indicator-separator {
+			display: none;
+		}
+
+		&__value-container--has-value {
+			.ppcp-r__single-value {
+				color: $color-gray-800;
+			}
+		}
+
+		&__placeholder,
+		&__single-value {
+			@include font(13, 20, 400);
+		}
+
+		&__option {
+			&--is-selected {
+				background-color: $color-gray-200;
+			}
+		}
+	}
+}
+
+// Hooks table
+.ppcp-r-table {
+	&__hooks-url {
+		width: 70%;
+		padding-right: 20%;
+		text-align: left;
+		vertical-align: top;
+	}
+
+	&__hooks-events {
+		vertical-align: top;
+		text-align: left;
+		width: 40%;
+
+		span {
+			display: block;
+		}
+	}
+
+	td.ppcp-r-table__hooks-url,
+	td.ppcp-r-table__hooks-events {
+		padding-top: 12px;
+		color: $color-gray-800;
+		@include font(14, 20, 400);
+
+		span {
+			color: inherit;
+			@include font(14, 20, 400);
+		}
+	}
+
+	th.ppcp-r-table__hooks-url,
+	th.ppcp-r-table__hooks-events {
+		@include font(14, 20, 700);
+		color: $color-gray-800;
+		border-bottom: 1px solid $color-gray-600;
+		padding-bottom: 4px;
+	}
+}
+
+// Settings specific styles
+.ppcp-r-settings-card--common-settings .ppcp-r-settings-card__content,
+.ppcp-r-settings-card--expert-settings .ppcp-r-settings-card__content {
+	> .ppcp-r-settings-block {
+		&:not(:last-child) {
+			padding-bottom: 32px;
+			margin-bottom: 32px;
+		}
+	}
+}
+
+.ppcp-r-settings-block {
+	&--order-intent,
+	&--save-payment-methods {
+		@include vertical-layout-event-gap(24px);
+
+		> .ppcp-r-settings-block__content {
+			@include vertical-layout-event-gap(24px);
+		}
+	}
+}
+
+.ppcp-r-settings-block--toggle-content {
+	.ppcp-r-settings-block__content {
+		margin-top: 32px;
+	}
+}
+
+.ppcp-r-settings-block__button {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	gap: 50px;
+}

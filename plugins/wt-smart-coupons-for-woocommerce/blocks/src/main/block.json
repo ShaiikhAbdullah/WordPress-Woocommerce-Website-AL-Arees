@@ -1,0 +1,19 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "wt-sc-blocks/main",
+    "version": "1.0.0",
+    "title": "Smart coupon blocks",
+    "category": "woocommerce",
+    "parent": [ "woocommerce/checkout-fields-block", "woocommerce/cart-items-block" ],
+    "attributes": {
+        "lock": {
+            "type": "object",
+            "default": {
+                "remove": true,
+                "move": true
+            }
+        }
+    },
+    "textdomain": "wt-smart-coupons-for-woocommerce"
+}

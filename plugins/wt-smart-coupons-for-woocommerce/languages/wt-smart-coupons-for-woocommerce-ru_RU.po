@@ -1,0 +1,3455 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Coupons for WooCommerce\n"
+"POT-Creation-Date: 2024-04-15 11:52+0530\n"
+"PO-Revision-Date: 2024-04-15 17:59+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wt-smart-coupon.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/class-wt-duplicate-coupon.php:21
+#: admin/class-wt-smart-coupon-admin.php:148
+#: admin/modules/checkout_options/checkout_options.php:228
+#: admin/modules/coupon_restriction/coupon_restriction.php:105
+#: admin/modules/giveaway_product/giveaway_product.php:71
+#: admin/modules/giveaway_product/giveaway_product.php:240
+msgid "You do not have sufficient permission to perform this operation"
+msgstr "У вас недостаточно прав для выполнения этой операции"
+
+#: admin/class-wt-duplicate-coupon.php:25
+msgid "No post to duplicate has been supplied!"
+msgstr "Нет поста  для копирования!"
+
+#: admin/class-wt-duplicate-coupon.php:119
+msgid "Post creation failed, could not find original post: "
+msgstr "Не удалось создать сообщение, не удалось найти исходный пост: "
+
+#: admin/class-wt-duplicate-coupon.php:131
+msgid "Duplicate"
+msgstr "Дублировать"
+
+#: admin/class-wt-duplicate-coupon.php:132
+msgid "Duplicate this item"
+msgstr "Дублировать этот пункт"
+
+#: admin/class-wt-promotion-banner.php:42
+msgid "Biggest sale of the year is here!"
+msgstr "Самая крупная распродажа года уже здесь!"
+
+#: admin/class-wt-promotion-banner.php:43
+#, no-php-format
+msgid ""
+"Black Friday & Cyber Monday sale is now live! Get any WebToffee plugins at "
+"an exclusive 30% discount."
+msgstr ""
+"Распродажа «Черная пятница» и «Киберпонедельник» уже началась! Приобретите "
+"любые плагины WebToffee по эксклюзивной скидке 30% d."
+
+#: admin/class-wt-promotion-banner.php:44
+msgid "Grab this deal"
+msgstr "Воспользуйтесь этой сделкой"
+
+#: admin/class-wt-smart-coupon-admin.php:119
+msgid "Quick links"
+msgstr "Быстрые ссылки"
+
+#: admin/class-wt-smart-coupon-admin.php:137
+#: admin/views/_premium_features_sidebar.php:10
+msgid "Make Irresistible Coupon Campaigns with Powerful Features"
+msgstr "Создавайте неотразимые купонные кампании с мощными функциями"
+
+#: admin/class-wt-smart-coupon-admin.php:224
+#, php-format
+msgid ""
+"Unable to update settings due to an internal error. %s To troubleshoot "
+"please click %s here. %s"
+msgstr ""
+"Не удалось обновить настройки из-за внутренней ошибки. %s Для устранения "
+"неполадок нажмите %s здесь. %s"
+
+#: admin/class-wt-smart-coupon-admin.php:225
+msgid "is required"
+msgstr "обязательно"
+
+#: admin/class-wt-smart-coupon-admin.php:226
+msgid "Copied!"
+msgstr "Скопировано!"
+
+#: admin/class-wt-smart-coupon-admin.php:227
+#: admin/modules/coupon_style/coupon_style.php:61
+msgid "Error"
+msgstr "Ошибка"
+
+#: admin/class-wt-smart-coupon-admin.php:228
+msgid "Loading..."
+msgstr "Загрузка..."
+
+#: admin/class-wt-smart-coupon-admin.php:229
+#: public/class-wt-smart-coupon-public.php:141
+msgid "Please wait..."
+msgstr "Пожалуйста, подождите..."
+
+#: admin/class-wt-smart-coupon-admin.php:230
+msgid "Are you sure?"
+msgstr "Вы уверены?"
+
+#: admin/class-wt-smart-coupon-admin.php:231
+msgid "Are you sure you want to delete?"
+msgstr "Вы уверены, что хотите удалить?"
+
+#: admin/class-wt-smart-coupon-admin.php:262
+#: admin/views/general_settings.php:19
+msgid "Settings"
+msgstr "Настройки"
+
+#: admin/class-wt-smart-coupon-admin.php:274
+msgid "Premium Upgrade"
+msgstr "Обновить до премиум версии"
+
+#: admin/class-wt-smart-coupon-admin.php:275
+msgid "Review"
+msgstr "Отзыв"
+
+#: admin/class-wt-smart-coupon-admin.php:290
+msgid "Docs"
+msgstr "Документы"
+
+#: admin/class-wt-smart-coupon-admin.php:291
+msgid "Support"
+msgstr "Поддержка"
+
+#: admin/class-wt-smart-coupon-admin.php:307
+msgid "My Account"
+msgstr "Мой аккаунт"
+
+#: admin/class-wt-smart-coupon-admin.php:308
+msgid "Checkout"
+msgstr "Оформить заказ"
+
+#: admin/class-wt-smart-coupon-admin.php:309
+msgid "Cart"
+msgstr "Корзина"
+
+#: admin/class-wt-smart-coupon-admin.php:313
+msgid "Display coupon in"
+msgstr "Отображать купон в"
+
+#: admin/class-wt-smart-coupon-admin.php:314
+msgid "Please select"
+msgstr "Выберите"
+
+#: admin/class-wt-smart-coupon-admin.php:323
+msgid "Display coupon in the selected pages"
+msgstr "Отображать купон на выбранных страницах"
+
+#: admin/class-wt-smart-coupon-admin.php:339
+msgid "Did You Know?"
+msgstr "Знаете Ли Вы?"
+
+#: admin/class-wt-smart-coupon-admin.php:340
+msgid ""
+"You can display the available coupons for a product on the respective "
+"product page?"
+msgstr ""
+"Вы можете отобразить доступные купоны для продукта на соответствующей "
+"странице продукта?"
+
+#: admin/class-wt-smart-coupon-admin.php:343
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:107
+#: admin/modules/giveaway_product/views/_normal_coupon_giveaway_tab_content.php:30
+msgid "Check out this plugin"
+msgstr "Проверьте этот плагин"
+
+#: admin/class-wt-smart-coupon-admin.php:521
+#: admin/class-wt-smart-coupon-admin.php:548
+#: admin/class-wt-smart-coupon-admin.php:549
+msgid "General settings"
+msgstr "Общие настройки"
+
+#: admin/class-wt-smart-coupon-admin.php:522
+msgid "Smart Coupons"
+msgstr "Smart Coupons"
+
+#: admin/class-wt-smart-coupon-admin.php:532
+#: admin/class-wt-smart-coupon-admin.php:533
+#: admin/views/general_settings.php:21
+msgid "All coupons"
+msgstr "Все промокоды"
+
+#: admin/class-wt-smart-coupon-admin.php:540
+#: admin/class-wt-smart-coupon-admin.php:541
+#: admin/views/general_settings.php:22
+msgid "Add coupon"
+msgstr "Добавить промокод"
+
+#: admin/class-wt-smart-coupon-admin.php:664
+msgid "Smart coupon settings"
+msgstr "Умные настройки купонов"
+
+#: admin/class-wt-smart-coupon-admin.php:669
+msgid "Did you know?"
+msgstr "Вы знали?"
+
+#: admin/class-wt-smart-coupon-admin.php:669
+msgid "You can easily create bulk coupons within a few clicks."
+msgstr "Вы можете легко создавать оптовые купоны за несколько кликов."
+
+#: admin/class-wt-smart-coupon-admin.php:669
+#, php-format
+msgid "Get %s WooCommerce Coupon Generator%s plugin."
+msgstr "Получите подключаемый модуль %sWooCommerce Coupon Generator%s."
+
+#: admin/class-wt-smart-coupon-admin.php:669
+msgid "Check out plugin"
+msgstr "Проверьте плагин"
+
+#: admin/class-wt-smart-coupon-admin.php:669
+msgid "Maybe later"
+msgstr "Может быть позже"
+
+#: admin/class-wt-smart-coupon-admin.php:769
+msgid "Smart coupon database update in progress"
+msgstr "Выполняется обновление базы данных смарт-купонов"
+
+#: admin/class-wt-smart-coupon-admin.php:770
+msgid "The site may experience a slow response for few minutes."
+msgstr "Сайт может работать медленно в течение нескольких минут."
+
+#: admin/class-wt-smart-coupon-admin.php:778
+#, php-format
+msgid "Progress: %d out of %d"
+msgstr "Прогресс: %d из %d"
+
+#: admin/coupon-start-date/class-wt-smart-coupon-start-date.php:39
+msgid "Coupon start date"
+msgstr "Дата начала действия купона"
+
+#: admin/coupon-start-date/class-wt-smart-coupon-start-date.php:80
+#, php-format
+msgid "Sorry, this coupon is only available after %s"
+msgstr "К сожалению, этот купон доступен только после %s"
+
+#: admin/data/data.hooks-help.php:14
+msgid "Coupon style"
+msgstr "Стиль купона"
+
+#: admin/data/data.hooks-help.php:15
+msgid "Coupon clone"
+msgstr "Клон купона"
+
+#: admin/data/data.hooks-help.php:16 blocks/wt-sc-blocks.php:96
+msgid "Coupon message"
+msgstr "Сообщение с купоном"
+
+#: admin/data/data.hooks-help.php:17
+msgid "My account"
+msgstr "Мой аккаунт"
+
+#: admin/data/data.hooks-help.php:18
+msgid "Checkout page"
+msgstr "Страница оплаты"
+
+#: admin/data/data.hooks-help.php:19
+msgid "Others"
+msgstr "Другие"
+
+#: admin/data/data.hooks-help.php:27
+msgid "Alter coupon template HTML."
+msgstr "Измените HTML-код шаблона купона."
+
+#: admin/data/data.hooks-help.php:28
+msgid "Alter the coupon block HTML before printing."
+msgstr "Измените HTML-код блока купонов перед печатью."
+
+#: admin/data/data.hooks-help.php:45
+msgid "Add value to custom placeholder."
+msgstr "Добавьте ценность к пользовательскому заполнителю."
+
+#: admin/data/data.hooks-help.php:46
+msgid ""
+"If you want to add any custom dynamic values to the coupon block. Add a "
+"placeholder to the coupon template first and assign the value to that "
+"placeholder via this filter."
+msgstr ""
+"Если вы хотите добавить какие-либо пользовательские динамические значения в "
+"блок купонов. Сначала добавьте заполнитель в шаблон купона и присвойте этому "
+"заполнителю значение с помощью этого фильтра."
+
+#: admin/data/data.hooks-help.php:57
+msgid "Alter the coupon default style."
+msgstr "Измените стиль купона по умолчанию."
+
+#: admin/data/data.hooks-help.php:58
+msgid "If you want to customize the style, you can use this filter."
+msgstr "Если вы хотите настроить стиль, вы можете использовать этот фильтр."
+
+#: admin/data/data.hooks-help.php:67
+msgid "Alter the coupon title."
+msgstr "Измените название купона."
+
+#: admin/data/data.hooks-help.php:68
+msgid "Alter the coupon title in the coupon block."
+msgstr "Измените название купона в блоке купонов."
+
+#: admin/data/data.hooks-help.php:76
+msgid "Change the text of the coupon's start and expire dates."
+msgstr "Измените текст дат начала и окончания действия купона."
+
+#: admin/data/data.hooks-help.php:77
+msgid ""
+"By default, \"Start on\" and \"Expires on\" will be the text if a coupon has "
+"a starting date and an expiration date; it can be changed by this hook."
+msgstr ""
+"По умолчанию «Начало» и «Истекает» будут текстом, если у купона есть дата "
+"начала и дата истечения срока действия; его можно изменить с помощью этого "
+"крючка."
+
+#: admin/data/data.hooks-help.php:93
+msgid "Set the cloned coupon status"
+msgstr "Установить статус клонированного купона"
+
+#: admin/data/data.hooks-help.php:94
+msgid "Set the cloned coupon status."
+msgstr "Установите статус клонированного купона."
+
+#: admin/data/data.hooks-help.php:108
+msgid "Change auto coupon message."
+msgstr "Изменить сообщение об автоматическом купоне."
+
+#: admin/data/data.hooks-help.php:109
+msgid ""
+"To change the coupon applied message when the coupon is applied "
+"automatically."
+msgstr ""
+"Чтобы изменить сообщение о применении купона, когда купон применяется "
+"автоматически."
+
+#: admin/data/data.hooks-help.php:119
+msgid "Change user role validation message."
+msgstr "Измените сообщение проверки роли пользователя."
+
+#: admin/data/data.hooks-help.php:120
+msgid ""
+"To change user role invalid message when coupon applied by an invalid user."
+msgstr ""
+"Чтобы изменить сообщение о недопустимой роли пользователя, когда купон "
+"применен недействительным пользователем."
+
+#: admin/data/data.hooks-help.php:129
+msgid "Change the minimum and maximum individual quantity validation message."
+msgstr ""
+"Измените минимальное и максимальное индивидуальное сообщение проверки "
+"количества."
+
+#: admin/data/data.hooks-help.php:130
+msgid ""
+"To change the minimum and maximum quantity validation messages when enabling "
+"\"Product/Category restrictions\" and \"Individual quantity restriction\" in "
+"coupon settings."
+msgstr ""
+"Чтобы изменить сообщения о проверке минимального и максимального количества "
+"при включении «Ограничений по продукту/категории» и «Ограничение "
+"индивидуального количества» в настройках купона."
+
+#: admin/data/data.hooks-help.php:148
+msgid "Change quantity restriction message"
+msgstr "Изменить сообщение об ограничении количества"
+
+#: admin/data/data.hooks-help.php:149
+msgid ""
+"To change the minimum and maximum quantity validation messages when "
+"\"Product/Category restrictions\" is disabled. If “Individual quantity "
+"restriction” is disabled, the message in if($is_global) will appear."
+msgstr ""
+"Чтобы изменить сообщения проверки минимального и максимального количества, "
+"когда «Ограничения продукта/категории» отключены. Если «Индивидуальное "
+"ограничение количества» отключено, появится сообщение в if($is_global)."
+
+#: admin/data/data.hooks-help.php:177
+msgid "Change message when multiple giveaway products added"
+msgstr "Изменить сообщение при добавлении нескольких бесплатных товаров"
+
+#: admin/data/data.hooks-help.php:178
+msgid ""
+"To change the message when more than one giveaway product is added to the "
+"cart."
+msgstr ""
+"Чтобы изменить сообщение, когда в корзину добавляется более одного "
+"бесплатного товара."
+
+#: admin/data/data.hooks-help.php:187
+msgid "Change message for choosing giveaway products"
+msgstr "Изменить сообщение для выбора бесплатных товаров"
+
+#: admin/data/data.hooks-help.php:188
+msgid ""
+"When a giveaway product is a variable product, a message with a product "
+"variation will show to choose. This hook will help to change the title."
+msgstr ""
+"Если бесплатный продукт является переменным продуктом, для выбора появится "
+"сообщение с вариантом продукта. Этот крючок поможет изменить заголовок."
+
+#: admin/data/data.hooks-help.php:197
+msgid "Change url coupon message."
+msgstr "Изменение URL-адреса купона."
+
+#: admin/data/data.hooks-help.php:198
+msgid "To change the coupon applied message when the coupon is applied by url."
+msgstr ""
+"Чтобы изменить сообщение о применении купона, когда купон применяется по URL-"
+"адресу."
+
+#: admin/data/data.hooks-help.php:221
+msgid "Message when no coupons available to show in my account coupons page."
+msgstr ""
+"Сообщение, когда на странице купонов моей учетной записи нет доступных "
+"купонов."
+
+#: admin/data/data.hooks-help.php:222
+msgid "To change the no coupons available message, use this filter."
+msgstr ""
+"Чтобы изменить сообщение об отсутствии доступных купонов, используйте этот "
+"фильтр."
+
+#: admin/data/data.hooks-help.php:231
+msgid ""
+"Message when no used coupons available to show in my account coupons page."
+msgstr ""
+"Сообщение, когда на странице купонов моей учетной записи нет доступных "
+"использованных купонов."
+
+#: admin/data/data.hooks-help.php:232
+msgid "To change the no used coupons available message, use this filter."
+msgstr ""
+"Чтобы изменить сообщение «Нет использованных купонов», используйте этот "
+"фильтр."
+
+#: admin/data/data.hooks-help.php:241
+msgid ""
+"Message when no expired coupons available to show in my account coupons page."
+msgstr ""
+"Сообщение, когда на странице купонов моей учетной записи нет доступных "
+"купонов с истекшим сроком действия."
+
+#: admin/data/data.hooks-help.php:242
+msgid "To change the no expired coupons available message, use this filter."
+msgstr ""
+"Чтобы изменить сообщение об отсутствии просроченных купонов, используйте "
+"этот фильтр."
+
+#: admin/data/data.hooks-help.php:251
+msgid "Change the default sort order for my account coupons."
+msgstr ""
+"Измените порядок сортировки по умолчанию для купонов моей учетной записи."
+
+#: admin/data/data.hooks-help.php:252
+msgid ""
+"By default the sort order is `Latest last`. You can use this filter to alter "
+"the sort order."
+msgstr ""
+"По умолчанию порядок сортировки — «Последние последние». Вы можете "
+"использовать этот фильтр, чтобы изменить порядок сортировки."
+
+#: admin/data/data.hooks-help.php:253
+msgid "Applicable values: "
+msgstr "Применимые значения: "
+
+#: admin/data/data.hooks-help.php:262
+msgid "Change my account coupons display count per page."
+msgstr ""
+"Изменить количество отображаемых купонов на странице моей учетной записи."
+
+#: admin/data/data.hooks-help.php:263
+msgid ""
+"By default maximum 20 coupons will display in the my account page. You can "
+"change the count by using this filter."
+msgstr ""
+"По умолчанию на странице моей учетной записи отображается максимум 20 "
+"купонов. Вы можете изменить количество с помощью этого фильтра."
+
+#: admin/data/data.hooks-help.php:272
+msgid "Change my account expired coupons display count."
+msgstr ""
+"Изменить количество отображаемых купонов с истекшим сроком действия в моей "
+"учетной записи."
+
+#: admin/data/data.hooks-help.php:273
+msgid ""
+"By default maximum 50 expired coupons will display in the my account page. "
+"You can change the count by using this filter."
+msgstr ""
+"По умолчанию на странице моей учетной записи отображается максимум 50 "
+"купонов с истекшим сроком действия. Вы можете изменить количество с помощью "
+"этого фильтра."
+
+#: admin/data/data.hooks-help.php:282
+msgid "Add heading before My coupons in my account."
+msgstr "Добавьте заголовок перед Моими купонами в моем аккаунте."
+
+#: admin/data/data.hooks-help.php:283
+msgid "You can add a custom heading before my coupons in my account."
+msgstr ""
+"Вы можете добавить собственный заголовок перед моими купонами в моем "
+"аккаунте."
+
+#: admin/data/data.hooks-help.php:298
+msgid "Change checkout coupons display count."
+msgstr "Изменить количество отображаемых купонов при оформлении заказа."
+
+#: admin/data/data.hooks-help.php:299
+msgid ""
+"By default maximum 20 coupons will display in the checkout page. You can "
+"change the count by using this filter."
+msgstr ""
+"По умолчанию на странице оформления заказа отображается максимум 20 купонов. "
+"Вы можете изменить количество с помощью этого фильтра."
+
+#: admin/data/data.hooks-help.php:308
+msgid "Add a heading before coupons on the checkout page."
+msgstr "Добавьте заголовок перед купонами на странице оформления заказа."
+
+#: admin/data/data.hooks-help.php:309
+msgid "You can add a custom heading before coupons on the checkout page."
+msgstr ""
+"Вы можете добавить собственный заголовок перед купонами на странице "
+"оформления заказа."
+
+#: admin/data/data.hooks-help.php:325
+msgid "Change cart coupons display count."
+msgstr "Изменить количество отображаемых купонов корзины."
+
+#: admin/data/data.hooks-help.php:326
+msgid ""
+"By default maximum 20 coupons will display in the cart page. You can change "
+"the count by using this filter."
+msgstr ""
+"По умолчанию на странице корзины отображается максимум 20 купонов. Вы можете "
+"изменить количество с помощью этого фильтра."
+
+#: admin/data/data.hooks-help.php:335
+msgid "Change auto coupon apply count."
+msgstr "Изменить количество применений автоматического купона."
+
+#: admin/data/data.hooks-help.php:336
+msgid ""
+"By default, a maximum of 5 coupons will be applied automatically. You can "
+"change the count by using this filter. Note: Setting a high number may "
+"affect the performance of the website."
+msgstr ""
+"По умолчанию автоматически будет применено максимум 5 купонов. Вы можете "
+"изменить количество с помощью этого фильтра. Примечание. Установка большого "
+"числа может повлиять на производительность веб-сайта."
+
+#: admin/data/data.hooks-help.php:345
+msgid "Remove pagination after available coupon."
+msgstr "Удалите нумерацию страниц после доступного купона."
+
+#: admin/data/data.hooks-help.php:346
+msgid ""
+"By default, a next and prev button will be available after the available "
+"coupons. The count of available coupons will be basically 20, but it can be "
+"changed with the help of hooks."
+msgstr ""
+"По умолчанию кнопки «Следующий» и «Предыдущий» будут доступны после "
+"доступных купонов. Количество доступных купонов в основном будет 20, но его "
+"можно изменить с помощью хуков."
+
+#: admin/data/data.hooks-help.php:351
+msgid "Change giveaway product label in the order details."
+msgstr "Измените этикетку бесплатного товара в деталях заказа."
+
+#: admin/data/data.hooks-help.php:352
+msgid ""
+"By default, \"Free gift\" is the label of the giveaway product in the order "
+"details, which can be changed by this hook."
+msgstr ""
+"По умолчанию «Бесплатный подарок» — это метка разыгрываемого товара в "
+"деталях заказа, которую можно изменить с помощью этого хука."
+
+#: admin/data/data.hooks-help.php:361
+msgid "Change giveaway product label in the cart summary."
+msgstr "Измените ярлык бесплатного продукта в сводке корзины."
+
+#: admin/data/data.hooks-help.php:362
+msgid ""
+"By default, \"Free gift\" is the label of the giveaway product in the cart "
+"summary, which can be changed by this hook."
+msgstr ""
+"По умолчанию «Бесплатный подарок» — это метка разыгрываемого товара в сводке "
+"корзины, которую можно изменить с помощью этого крючка."
+
+#: admin/exclude-product/class-wt-exclude-product-for-coupon.php:64
+msgid "Exclude from coupons"
+msgstr "Исключить из купонов"
+
+#: admin/exclude-product/class-wt-exclude-product-for-coupon.php:65
+msgid "Exclude this product from coupon discounts"
+msgstr "Исключить этот товар из купонных скидок"
+
+#: admin/exclude-product/class-wt-exclude-product-for-coupon.php:146
+#: public/modules/coupon_restriction/coupon_restriction.php:549
+msgid "Sorry, this coupon is not applicable for selected products."
+msgstr "Извините, этот купон не распространяется на выбранные продукты."
+
+#: admin/modules/auto_coupon/auto_coupon.php:104
+#: admin/modules/freevspro/views/comparison-table.php:72
+#: admin/modules/freevspro/views/comparison-table.php:76
+msgid "Apply coupon automatically"
+msgstr "Применять купон автоматически"
+
+#: admin/modules/auto_coupon/auto_coupon.php:106
+msgid ""
+"Enable to apply coupon automatically without applying code. By default, it "
+"works for up to 5 recently created coupons."
+msgstr ""
+"Включите автоматическое применение купона без применения кода. По умолчанию "
+"работает до 5 недавно созданных купонов."
+
+#: admin/modules/auto_coupon/auto_coupon.php:155
+#: admin/modules/auto_coupon/auto_coupon.php:386
+msgid "Auto-apply coupons"
+msgstr "Автоматически применять купоны при оформлении заказа"
+
+#: admin/modules/auto_coupon/auto_coupon.php:287
+msgid "Auto-apply coupon settings"
+msgstr "Автоматическое применение настроек купона"
+
+#: admin/modules/auto_coupon/auto_coupon.php:370
+msgid "Available"
+msgstr "Доступные Купоны"
+
+#. translators: %d: Coupon count.
+#: admin/modules/auto_coupon/auto_coupon.php:396
+#, php-format
+msgid "Total auto-apply coupons: %d"
+msgstr "Всего купонов автоматического применения: %d"
+
+#: admin/modules/auto_coupon/auto_coupon.php:402
+msgid "No of coupons that will be checked for auto apply eligibility"
+msgstr ""
+"Количество купонов, которые будут проверены на возможность автоматического "
+"применения"
+
+#: admin/modules/auto_coupon/auto_coupon.php:413
+msgid "Max auto-apply coupons per cart"
+msgstr "Автоматически применять купоны при оформлении заказа"
+
+#: admin/modules/auto_coupon/auto_coupon.php:424
+msgid "Save"
+msgstr "Сохранить"
+
+#: admin/modules/auto_coupon/auto_coupon.php:457
+msgid "Priority"
+msgstr "Приоритет"
+
+#: admin/modules/auto_coupon/auto_coupon.php:516
+msgid "Reset auto coupon priority"
+msgstr "Ограничить купоны по странам"
+
+#: admin/modules/auto_coupon/auto_coupon.php:518
+msgid "Reset now"
+msgstr "Просмотрите сейчас"
+
+#: admin/modules/auto_coupon/auto_coupon.php:522
+msgid "Set priority to missing auto coupons"
+msgstr "Установите приоритет для отсутствующих автоматических купонов"
+
+#: admin/modules/auto_coupon/auto_coupon.php:524
+msgid "Set now"
+msgstr "Установить сейчас"
+
+#: admin/modules/auto_coupon/auto_coupon.php:529
+msgid "Are you sure? All custom priorities will be reset."
+msgstr "Вы уверены? Все пользовательские приоритеты будут сброшены."
+
+#: admin/modules/auto_coupon/auto_coupon.php:557
+msgid "Success !!!"
+msgstr "Успех !!!"
+
+#: admin/modules/auto_coupon/auto_coupon.php:559
+msgid "Goto dashboard"
+msgstr "Перейти к приборной панели"
+
+#: admin/modules/auto_coupon/auto_coupon.php:597
+msgid ""
+"The cart will apply the selected number of auto apply coupons based on "
+"priority"
+msgstr ""
+"В корзине будет применено выбранное количество купонов автоматического "
+"применения в зависимости от приоритета"
+
+#: admin/modules/auto_coupon/auto_coupon.php:598
+msgid ""
+"The chosen quantity of coupons will undergo eligibility verification among "
+"the entire pool of auto-apply coupons based on priority. If the limit is set "
+"to 100, any coupon with a priority of 101 or lower, will not be considered "
+"to apply to the cart, even if eligible"
+msgstr ""
+"Выбранное количество купонов будет проверено на соответствие критериям среди "
+"всего пула автоматически применяемых купонов в зависимости от приоритета. "
+"Если лимит установлен на 100, любой купон с приоритетом 101 или ниже не "
+"будет считаться применимым к корзине, даже если он соответствует критериям"
+
+#: admin/modules/auto_coupon/auto_coupon.php:617
+msgid "Unauthorized"
+msgstr "Неразрешенный"
+
+#: admin/modules/auto_coupon/auto_coupon.php:633
+msgid "Settings Updated"
+msgstr "Настройки"
+
+#: admin/modules/checkout_options/checkout_options.php:60
+msgid "Checkout options"
+msgstr "Параметры оформления покупок"
+
+#: admin/modules/checkout_options/checkout_options.php:83
+msgid "Shipping methods"
+msgstr "Если метод доставки"
+
+#: admin/modules/checkout_options/checkout_options.php:84
+msgid "Any shipping method"
+msgstr "Любой способ доставки"
+
+#: admin/modules/checkout_options/checkout_options.php:102
+msgid " (Only for block checkout)"
+msgstr " (Только для оформления заказа блоком)"
+
+#: admin/modules/checkout_options/checkout_options.php:118
+msgid ""
+"Coupon will be applicable if any of these shipping methods are selected."
+msgstr "Купон будет применим, если выбран какой-либо из этих методов доставки."
+
+#: admin/modules/checkout_options/checkout_options.php:125
+msgid "Payment methods"
+msgstr "Способы оплаты"
+
+#: admin/modules/checkout_options/checkout_options.php:126
+msgid "Any payment method"
+msgstr "Любой способ оплаты"
+
+#: admin/modules/checkout_options/checkout_options.php:141
+msgid "Coupon will be applicable if any of these payment methods are selected."
+msgstr "Купон будет применим, если выбран какой-либо из этих способов оплаты."
+
+#: admin/modules/checkout_options/checkout_options.php:147
+msgid "Applicable Roles"
+msgstr "Применимые роли"
+
+#: admin/modules/checkout_options/checkout_options.php:148
+msgid "Any role"
+msgstr "Любая роль"
+
+#: admin/modules/checkout_options/checkout_options.php:161
+msgid ""
+"Coupon will be applicable if customer belongs to any of these User Roles."
+msgstr ""
+"Купон будет применим, если клиент принадлежит к любой из этих ролей "
+"пользователя."
+
+#: admin/modules/checkout_options/checkout_options.php:180
+msgid "Restrict by country"
+msgstr "Ограничить купоны по странам"
+
+#: admin/modules/checkout_options/checkout_options.php:182
+msgid "Billing Address."
+msgstr "Адрес для выставления счета."
+
+#: admin/modules/checkout_options/checkout_options.php:183
+msgid "Shipping Address."
+msgstr "Адрес доставки."
+
+#: admin/modules/checkout_options/checkout_options.php:185
+msgid "Look for country from the selected option"
+msgstr "Найдите страну из выбранного варианта"
+
+#: admin/modules/checkout_options/checkout_options.php:194
+#: admin/modules/freevspro/views/comparison-table.php:57
+#: admin/modules/freevspro/views/comparison-table.php:65
+msgid "Country"
+msgstr "Страна"
+
+#: admin/modules/checkout_options/checkout_options.php:195
+msgid "Any Location"
+msgstr "Все города"
+
+#: admin/modules/checkout_options/checkout_options.php:209
+msgid ""
+"Coupon will be applicable only for the selected country from either the "
+"shipping/billing address"
+msgstr ""
+"Купон будет применим только для выбранной страны с адреса доставки/"
+"выставления счета"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:179
+msgid "Product/Category restrictions"
+msgstr "Ограничения продукта/категории"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:180
+msgid ""
+"Enable to apply coupon only if the cart satisfies the product or category "
+"restrictions."
+msgstr ""
+"Промежуточный итог по минимальной цене для продуктов, соответствующих "
+"заданным ограничениям по продуктам или категориям."
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:193
+msgid "Individual quantity restriction"
+msgstr "Индивидуальное ограничение количества"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:194
+msgid ""
+"Enable to set minimum and maximum quantity restrictions for individual "
+"product/category instead of entire cart."
+msgstr ""
+"Позволяет установить минимальное и максимальное количество ограничений для "
+"отдельного продукта/категории, а не для всей корзины."
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:207
+msgid "Product conditions:"
+msgstr "Состояние товара:"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:209
+#: admin/modules/coupon_restriction/coupon_restriction.php:229
+msgid "Any from below selection"
+msgstr "Любой выбор из списка ниже"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:210
+#: admin/modules/coupon_restriction/coupon_restriction.php:230
+msgid "All from below selection"
+msgstr "Все снизу выбор"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:212
+#, php-format
+msgid ""
+"%sAny:%s Applies coupon if any of the products from the below is available "
+"in the cart."
+msgstr ""
+"%sЛюбой:%s купон применяется, если какой-либо из продуктов из списка "
+"доступен в корзине."
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:212
+#, php-format
+msgid ""
+"%sAll:%s Applies coupon if the cart contains all of the listed products."
+msgstr ""
+"%sВсе:%s Купон применяется, если в корзине есть все перечисленные товары."
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:226
+msgid "Category condition:"
+msgstr "Состояние категории:"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:232
+#, php-format
+msgid ""
+"%sAny:%s Applies coupon if the eligible quantity of products from any of the "
+"below selected categories are available in the cart."
+msgstr ""
+"%sЛюбой:%s Купон применяется, если в корзине доступно допустимое количество "
+"товаров из любой из выбранных ниже категорий."
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:232
+#, php-format
+msgid ""
+"%sAll:%s Applies coupon if the cart contains the eligible quantity of "
+"products from all of the below listed categories."
+msgstr ""
+"%sВсе:%s купон применяется, если в корзине содержится допустимое количество "
+"товаров из всех перечисленных ниже категорий."
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:247
+msgid "Minimum quantity of matching products"
+msgstr "Минимальное количество соответствующих продуктов"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:248
+#: admin/modules/coupon_restriction/coupon_restriction.php:272
+msgid "No minimum"
+msgstr "Нет минимума"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:249
+msgid ""
+"Minimum quantity of the products that match the given product or category "
+"restrictions. If no product or category restrictions are specified, the "
+"total number of products is used."
+msgstr ""
+"Минимальное количество продуктов, которые соответствуют данной продукции или "
+"ограничениям категории. Если не указаны ограничения на продукт или "
+"категорию, используется общее количество продуктов."
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:259
+msgid "Maximum quantity of matching products"
+msgstr "Максимальное количество соответствующих продуктов"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:260
+#: admin/modules/coupon_restriction/coupon_restriction.php:284
+msgid "No maximum"
+msgstr "Нет Максимума"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:261
+msgid ""
+"Maximum quantity of the products that match the given product or category "
+"restrictions. If no product or category restrictions are specified, the "
+"total number of products is used."
+msgstr ""
+"Максимальное количество продуктов, соответствующих заданным ограничениям по "
+"продуктам или категориям. Если ограничения по продуктам или категориям не "
+"указаны, используется общее количество продуктов."
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:271
+msgid "Minimum subtotal of matching products"
+msgstr "Минимальная стоимость подбора товаров"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:273
+msgid ""
+"Minimum price subtotal of the products that match the given product or "
+"category restrictions."
+msgstr ""
+"Промежуточный итог по минимальной цене для продуктов, соответствующих "
+"заданным ограничениям по продуктам или категориям."
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:283
+msgid "Maximum subtotal of matching products"
+msgstr "Максимальная промежуточная сумма соответствующих продуктов"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:285
+msgid ""
+"Maximum price subtotal of the products that match the given product or "
+"category restrictions."
+msgstr ""
+"Максимальная промежуточная цена продуктов, соответствующих заданным "
+"ограничениям по продуктам или категориям."
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:325
+msgid ""
+"Apply coupon only if the selected quantity of products are in the cart. "
+"Discounts will be given for those products and not the total cart amount."
+msgstr ""
+"Применять купон только в том случае, если выбранное количество товаров "
+"находится в корзине. Скидки будут предоставлены на эти продукты, а не на "
+"общую сумму корзины."
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:326
+msgid ""
+"Applies coupon only if the selected quantity of products are in the cart. A "
+"discount will be given for the total cart amount."
+msgstr ""
+"Применяет купон только в том случае, если выбранное количество товаров "
+"находится в корзине. Скидка будет предоставлена на общую сумму корзины."
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:332
+#: admin/modules/giveaway_product/giveaway_product.php:300
+msgid ""
+"Apply coupon only if the selected quantity of products of the chosen "
+"category are in the cart. Discounts will be given for those products and not "
+"the total cart amount."
+msgstr ""
+"Применять купон только в том случае, если выбранное количество товаров "
+"выбранной категории находится в корзине. Скидки будут предоставлены на эти "
+"продукты, а не на общую сумму корзины."
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:333
+msgid ""
+"Applies coupon only if the selected quantity of products of the chosen "
+"category are in the cart. A discount will be given for the total cart amount."
+msgstr ""
+"Применяет купон только в том случае, если выбранное количество товаров "
+"выбранной категории находится в корзине. Скидка будет предоставлена на общую "
+"сумму корзины."
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:339
+msgid ""
+"If eligible products are in the cart along with excluded products, the "
+"coupon will be applied, but the discount will be limited to eligible "
+"products."
+msgstr ""
+"Если соответствующие продукты находятся в корзине вместе с исключенными "
+"продуктами, купон будет применен, но скидка будет ограничена подходящими "
+"продуктами."
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:340
+msgid ""
+"The coupon is not applicable when the cart contains an excluded product."
+msgstr "Купон недействителен, если в корзине содержится исключенный товар."
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:346
+msgid ""
+"If eligible products are in the cart along with products from an excluded "
+"category, the coupon will be applied, but the discount will be limited to "
+"eligible products."
+msgstr ""
+"Если соответствующие продукты находятся в корзине вместе с продуктами из "
+"исключенной категории, купон будет применен, но скидка будет ограничена "
+"подходящими продуктами."
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:347
+msgid ""
+"The coupon is not applicable when the cart contains products from an "
+"excluded category."
+msgstr ""
+"Купон не действует, если в корзине находятся товары из исключенной категории."
+
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:16
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:31
+msgid "Products"
+msgstr "Товары"
+
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:20
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:35
+msgid "Product"
+msgstr "Товар"
+
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:21
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:111
+msgid "Min. Quantity"
+msgstr "Мин. Количество"
+
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:22
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:112
+msgid "Max. Quantity"
+msgstr "Макс. Количество"
+
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:50
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:64
+#: admin/modules/giveaway_product/views/_normal_coupon_giveaway_tab_content.php:8
+msgid "Search for a product..."
+msgstr "Поиск товара..."
+
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:66
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:155
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:85
+msgid "Remove row"
+msgstr "Удалить строку"
+
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:75
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:164
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:94
+msgid "Add new row"
+msgstr "Добавить новую строку"
+
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:106
+msgid "Products categories"
+msgstr "Категории товаров"
+
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:110
+msgid "Category"
+msgstr "Категория"
+
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:139
+msgid "Search for a category..."
+msgstr "Поиск категории ..."
+
+#: admin/modules/coupon_shortcode/coupon_shortcode.php:51
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: admin/modules/coupon_style/coupon_style.php:81
+#: public/modules/giveaway_product/giveaway_product.php:345
+msgid "Success"
+msgstr "Успех"
+
+#: admin/modules/coupon_style/coupon_style.php:97
+msgid "Unable to save settings"
+msgstr "Не удалось сохранить настройки"
+
+#: admin/modules/coupon_style/coupon_style.php:113
+msgid "Layouts"
+msgstr "Макеты"
+
+#: admin/modules/coupon_style/coupon_style.php:131
+#: common/modules/coupon_style/coupon_style.php:315
+#: public/class-wt-smart-coupon-public.php:175
+#: public/class-wt-smart-coupon-public.php:190
+msgid "Cart discount"
+msgstr "Скидка корзины"
+
+#: admin/modules/coupon_style/coupon_style.php:132
+msgid "coupon-code"
+msgstr "код купона"
+
+#: admin/modules/coupon_style/views/_customize.php:99
+msgid "Display used coupons in My account?"
+msgstr "Отображать использованные купоны в MyAccount?"
+
+#: admin/modules/coupon_style/views/_customize.php:99
+msgid "Display expired coupons in My account?"
+msgstr "Отображать просроченные купоны в MyAccount?"
+
+#: admin/modules/freevspro/freevspro.php:76
+#: admin/modules/freevspro/freevspro.php:82
+msgid "Free vs. Pro"
+msgstr "Бесплатные vs. Pro"
+
+#: admin/modules/freevspro/views/comparison-table.php:17
+msgid "Coupon Management Features"
+msgstr "Функции управления купонами"
+
+#: admin/modules/freevspro/views/comparison-table.php:19
+#: admin/modules/freevspro/views/comparison-table.php:24
+msgid "BOGO Coupons"
+msgstr "Купоны"
+
+#: admin/modules/freevspro/views/comparison-table.php:20
+#: admin/modules/freevspro/views/comparison-table.php:25
+msgid "Giveaway"
+msgstr "Раздача"
+
+#: admin/modules/freevspro/views/comparison-table.php:21
+#: admin/modules/freevspro/views/comparison-table.php:26
+msgid "URL coupons"
+msgstr "URL-купоны"
+
+#: admin/modules/freevspro/views/comparison-table.php:27
+#: admin/modules/premium_upgrade/views/page_content.php:104
+#: admin/views/_premium_features_sidebar.php:20
+#: admin/views/_upgrade_to_pro_metabox.php:35
+msgid "Purchase history-based coupons"
+msgstr "Купоны на основе истории покупок"
+
+#: admin/modules/freevspro/views/comparison-table.php:28
+msgid "Store credit"
+msgstr "Кредит магазина"
+
+#: admin/modules/freevspro/views/comparison-table.php:29
+msgid "Gift coupons"
+msgstr "Подарочные купоны"
+
+#: admin/modules/freevspro/views/comparison-table.php:30
+msgid "Sign-up coupons"
+msgstr "Купоны на подписку"
+
+#: admin/modules/freevspro/views/comparison-table.php:31
+#: admin/modules/premium_upgrade/views/page_content.php:101
+#: admin/views/_premium_features_sidebar.php:22
+#: admin/views/_upgrade_to_pro_metabox.php:37
+msgid "Cart abandonment coupons"
+msgstr "Купоны отказа от корзины"
+
+#: admin/modules/freevspro/views/comparison-table.php:32
+msgid "Combo coupons"
+msgstr "Комбо-купоны"
+
+#: admin/modules/freevspro/views/comparison-table.php:37
+msgid "BOGO Coupon options"
+msgstr "Параметры оформления покупок"
+
+#: admin/modules/freevspro/views/comparison-table.php:38
+msgid "The customers can buy one product and get:"
+msgstr "Покупатели могут купить один продукт и получить:"
+
+#: admin/modules/freevspro/views/comparison-table.php:41
+#: admin/modules/freevspro/views/comparison-table.php:44
+#: common/modules/giveaway_product/giveaway_product.php:160
+msgid "Specific product"
+msgstr "Соответствие продуктам"
+
+#: admin/modules/freevspro/views/comparison-table.php:45
+msgid "Any product from a specific category"
+msgstr "Любой товар из определенной категории"
+
+#: admin/modules/freevspro/views/comparison-table.php:46
+msgid "Any product in store"
+msgstr "Любой товар в магазине"
+
+#: admin/modules/freevspro/views/comparison-table.php:47
+msgid "Same product as in the cart"
+msgstr "Тот же товар, что и в корзине"
+
+#: admin/modules/freevspro/views/comparison-table.php:51
+msgid "Applicable coupon restrictions"
+msgstr "Применимые ограничения по купонам"
+
+#: admin/modules/freevspro/views/comparison-table.php:53
+#: admin/modules/freevspro/views/comparison-table.php:60
+msgid "Shipping method"
+msgstr "Способ доставки"
+
+#: admin/modules/freevspro/views/comparison-table.php:54
+#: admin/modules/freevspro/views/comparison-table.php:61
+msgid "Payment method"
+msgstr "Способ оплаты"
+
+#: admin/modules/freevspro/views/comparison-table.php:55
+#: admin/modules/freevspro/views/comparison-table.php:62
+msgid "User roles"
+msgstr "Роли пользователей"
+
+#: admin/modules/freevspro/views/comparison-table.php:56
+#: admin/modules/freevspro/views/comparison-table.php:64
+msgid "Product quantity"
+msgstr "Количество товара"
+
+#: admin/modules/freevspro/views/comparison-table.php:63
+msgid "Exclude user roles"
+msgstr "Исключить роли пользователей"
+
+#: admin/modules/freevspro/views/comparison-table.php:66
+msgid "State"
+msgstr "Область"
+
+#: admin/modules/freevspro/views/comparison-table.php:70
+msgid "Coupon Automation"
+msgstr "Автоматизация купонов"
+
+#: admin/modules/freevspro/views/comparison-table.php:73
+#: admin/modules/freevspro/views/comparison-table.php:77
+msgid "Set a coupon start date"
+msgstr "Установите дату начала действия купона"
+
+#: admin/modules/freevspro/views/comparison-table.php:78
+msgid "Duplicate coupons"
+msgstr "Повторяющиеся купоны"
+
+#: admin/modules/freevspro/views/comparison-table.php:79
+msgid "Supports custom coupon code format (prefix, suffix, length)"
+msgstr "Поддерживает собственный формат кода купона (префикс, суффикс, длина)"
+
+#: admin/modules/freevspro/views/comparison-table.php:83
+msgid "Advanced Coupon Display and Customization"
+msgstr "Расширенное отображение и настройка купонов"
+
+#: admin/modules/freevspro/views/comparison-table.php:85
+#: admin/modules/freevspro/views/comparison-table.php:92
+msgid "Coupon styling"
+msgstr "Стиль купона"
+
+#: admin/modules/freevspro/views/comparison-table.php:87
+#: admin/modules/freevspro/views/comparison-table.php:94
+msgid "Coupon templates"
+msgstr "Шаблоны купонов"
+
+#: admin/modules/freevspro/views/comparison-table.php:88
+msgid "Standard"
+msgstr "Стандарт"
+
+#: admin/modules/freevspro/views/comparison-table.php:95
+msgid "Multiple options"
+msgstr "Несколько вариантов"
+
+#: admin/modules/freevspro/views/comparison-table.php:97
+msgid "Display count down discount sales banner"
+msgstr "Показать обратный отсчет со скидкой баннер продаж"
+
+#: admin/modules/freevspro/views/comparison-table.php:98
+msgid "Custom endpoints and endpoint title for coupon listing page"
+msgstr ""
+"Пользовательские конечные точки и заголовок конечной точки для страницы со "
+"списком купонов"
+
+#: admin/modules/freevspro/views/comparison-table.php:111
+msgid "Supercharge your sales with"
+msgstr "Увеличьте свои продажи с помощью"
+
+#: admin/modules/freevspro/views/comparison-table.php:111
+msgid "Smart Coupons for WooCommerce Pro!"
+msgstr "Smart Coupons for WooCommerce Pro!"
+
+#: admin/modules/freevspro/views/comparison-table.php:112
+msgid ""
+"Create offers on your store your customers can’t resist from irresistible "
+"BOGO deals to delightful giveaways."
+msgstr ""
+"Создавайте в своем магазине предложения, перед которыми ваши клиенты не "
+"смогут устоять: от невероятных предложений BOGO до восхитительных подарков."
+
+#: admin/modules/freevspro/views/comparison-table.php:113
+msgid "99% Customer Satisfaction"
+msgstr "99% удовлетворенность клиентов"
+
+#: admin/modules/freevspro/views/comparison-table.php:113
+msgid "30 Day money back guarantee"
+msgstr "30-дневная гарантия возврата денег"
+
+#: admin/modules/freevspro/views/comparison-table.php:116
+#: admin/views/_premium_features_sidebar.php:52
+msgid "Unlock pro features"
+msgstr "Разблокируйте профессиональные функции"
+
+#: admin/modules/freevspro/views/comparison-table.php:122
+msgid "FEATURES"
+msgstr "ФУНКЦИИ"
+
+#: admin/modules/freevspro/views/comparison-table.php:123
+msgid "FREE"
+msgstr "БЕСПЛАТНО"
+
+#: admin/modules/freevspro/views/comparison-table.php:124
+msgid "PREMIUM"
+msgstr "ПРЕМИУМ"
+
+#: admin/modules/giveaway_product/giveaway_product.php:191
+msgid "Number of times"
+msgstr "Количество раз"
+
+#: admin/modules/giveaway_product/giveaway_product.php:193
+msgid "Apply once"
+msgstr "Применить один раз"
+
+#: admin/modules/giveaway_product/giveaway_product.php:194
+msgid "Apply repeatedly"
+msgstr "Подать заявку повторно"
+
+#: admin/modules/giveaway_product/giveaway_product.php:196
+#, php-format
+msgid ""
+"%sApply once:%s If cart is eligible or conditions are met, coupon applies "
+"once. ie: If you set the coupon to offer Buy 2 Get 1, you get one free "
+"product. Moving more items to the cart will not make it eligible to get more "
+"free products."
+msgstr ""
+"%sПрименить один раз:%s если корзина соответствует требованиям или соблюдены "
+"условия, купон применяется один раз. т. е. если вы установите купон на "
+"предложение «Купи 2, получи 1», вы получите один бесплатный продукт. "
+"Перемещение большего количества товаров в корзину не дает права на получение "
+"большего количества бесплатных продуктов."
+
+#: admin/modules/giveaway_product/giveaway_product.php:196
+#, php-format
+msgid ""
+"%sApply repeatedly:%s The coupon applies repeatedly whenever the cart is "
+"eligible or if conditions are met. ie: If you set the coupon to offer Buy 2 "
+"Get 1 then the coupon works repeatedly for Buy 4 Get 2 and so on."
+msgstr ""
+"%sПовторное применение.%s Купон применяется многократно, когда корзина "
+"соответствует требованиям или выполняются условия. т. е. если вы установили "
+"купон на предложение «Купи 2, получи 1», то купон будет работать многократно "
+"для «Купи 4, получи 2» и так далее."
+
+#: admin/modules/giveaway_product/giveaway_product.php:206
+msgid "Giveaway products"
+msgstr "Раздайте продукты"
+
+#: admin/modules/giveaway_product/giveaway_product.php:273
+#: public/modules/giveaway_product/giveaway_product.php:1352
+msgid "Free gift:"
+msgstr "Бесплатный подарок:"
+
+#: admin/modules/giveaway_product/giveaway_product.php:296
+msgid ""
+"Apply coupon only if the selected product quantity is in the cart. Discounts "
+"will be given for those products and not the total cart amount. For example, "
+"for setting up Buy X Get Y, choose the product/s X in this section."
+msgstr ""
+"Применять купон только в том случае, если выбранное количество товара "
+"находится в корзине. Скидки будут предоставлены на эти продукты, а не на "
+"общую сумму корзины. Например, для настройки «Купить X, получить Y» выберите "
+"в этом разделе продукт(ы) X."
+
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:8
+msgid "Customer gets"
+msgstr "Пользовательские URL-Адреса"
+
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:36
+msgid "Quantity"
+msgstr "Количество"
+
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:37
+msgid "Discount"
+msgstr "Скидка"
+
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:56
+msgid "Product not found !!!"
+msgstr "Товар не найден!!!"
+
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:103
+#: admin/modules/giveaway_product/views/_normal_coupon_giveaway_tab_content.php:26
+msgid "Create better BOGO deals"
+msgstr "Создавайте более выгодные предложения BOGO"
+
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:104
+#: admin/modules/giveaway_product/views/_normal_coupon_giveaway_tab_content.php:27
+msgid ""
+"Upgrade to premium and enjoy advanced BOGO features for giveaway products, "
+"such as a custom quantity counter, dynamic pricing discounts, and more."
+msgstr ""
+"Перейдите на премиум-версию и наслаждайтесь расширенными функциями BOGO для "
+"бесплатных продуктов, такими как индивидуальный счетчик количества, "
+"динамические скидки и многое другое."
+
+#: admin/modules/giveaway_product/views/_normal_coupon_giveaway_tab_content.php:7
+msgid "Free Product"
+msgstr "Бесплатный Товар"
+
+#: admin/modules/giveaway_product/views/_normal_coupon_giveaway_tab_content.php:22
+msgid ""
+"A single quantity of the specified free product is added to the customer's "
+"cart when the coupon is applied. However, the corresponding tax and shipping "
+"charges are not exempted."
+msgstr ""
+"Применимо только для простых продуктов (поддержка переменных продуктов "
+"доступна в версии Pro). При применении купона в корзину покупателя "
+"добавляется единичное количество указанного бесплатного продукта. Однако "
+"соответствующие налоги и транспортные расходы не освобождаются."
+
+#: admin/modules/limit_max_discount/limit_max_discount.php:93
+msgid "Maximum discount value"
+msgstr "Максимальное значение скидки"
+
+#: admin/modules/limit_max_discount/limit_max_discount.php:94
+msgid "Unlimited discount"
+msgstr "Неограниченная скидка"
+
+#: admin/modules/limit_max_discount/limit_max_discount.php:95
+msgid ""
+"Use this option to set a cap on the discount value especially for percentage "
+"discounts. e.g, you may provide a 5 percentage discount coupon for a product "
+"but with a maximum discount upto $10."
+msgstr ""
+"Используйте этот параметр, чтобы установить ограничение на значение скидки, "
+"особенно для процентных скидок. например, вы можете предоставить купон на 5-"
+"процентную скидку на продукт, но с максимальной скидкой до 10 долларов США."
+
+#: admin/modules/other_solutions/other_solutions.php:46
+#: admin/modules/other_solutions/other_solutions.php:52
+msgid "Other Solutions"
+msgstr "Другие решения"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:20
+msgid "More Plugins To Make Your Store Stand Out"
+msgstr "Больше плагинов, чтобы ваш магазин выделялся"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:21
+msgid ""
+"Check out our other plugins that are perfectly suited for WooCommerce store "
+"needs."
+msgstr ""
+"Ознакомьтесь с другими нашими плагинами, которые идеально подходят для нужд "
+"магазина WooCommerce."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:32
+msgid "WebToffee WooCommerce Gift Cards"
+msgstr "Подарочные карты WebToffee WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:33
+msgid ""
+"Create and manage advanced gift cards for WooCommerce stores. Enable your "
+"customers to buy, redeem, and share gift cards from your store."
+msgstr ""
+"Создавайте расширенные подарочные карты для магазинов WooCommerce и "
+"управляйте ими. Позвольте своим клиентам покупать, использовать и делиться "
+"подарочными картами в вашем магазине."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:41
+#: admin/modules/premium_upgrade/views/page_content.php:209
+msgid "Display Discounts for WooCommerce"
+msgstr "Smart Coupons for WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:42
+msgid ""
+"Display the WooCommerce coupon deals available for each product on the "
+"respective product pages. Make use of multiple coupon layouts & display "
+"options to fully optimize the look & feel of the coupons."
+msgstr ""
+"Отобразите предложения купонов WooCommerce, доступные для каждого продукта, "
+"на соответствующих страницах продукта. Используйте несколько макетов купонов "
+"и вариантов отображения, чтобы полностью оптимизировать внешний вид купонов."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:50
+#: admin/views/general_settings.php:20
+msgid "Smart Coupons for WooCommerce"
+msgstr "Smart Coupons for WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:51
+msgid ""
+"Create coupons to offer discounts and free products to your customers with "
+"Smart Coupons for WooCommerce. You can set up BOGO coupons, giveaways, gift "
+"cards, store credits, and more with this plugin."
+msgstr ""
+"Создавайте купоны, чтобы предлагать скидки и бесплатные продукты своим "
+"клиентам с помощью Smart Coupons for WooCommerce. С помощью этого плагина вы "
+"можете настроить купоны BOGO, подарки, подарочные карты, кредиты магазина и "
+"многое другое."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:59
+#: admin/modules/premium_upgrade/views/page_content.php:149
+msgid "URL Coupons for WooCommerce"
+msgstr "URL Coupons for WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:60
+msgid ""
+"Generate custom URLs and QR codes for every discount coupon in your "
+"WooCommerce store. These unique coupons are easy to share and can even be "
+"set to add new products to the cart upon application."
+msgstr ""
+"Создавайте собственные URL-адреса и QR-коды для каждого купона на скидку в "
+"вашем магазине WooCommerce. Этими уникальными купонами легко поделиться, и "
+"их даже можно настроить для добавления новых товаров в корзину после подачи "
+"заявки."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:68
+msgid "WooCommerce Coupon Generator plugin"
+msgstr "Плагин генератора купонов WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:69
+msgid ""
+"Generate coupons in bulk on your WooCommerce store. Add them to the store, "
+"email them to recipients or export them to a CSV file. Configure advanced "
+"coupon restrictions and offer them to select users."
+msgstr ""
+"Массовое создание купонов в вашем магазине WooCommerce. Добавьте их в "
+"магазин, отправьте получателям по электронной почте или экспортируйте в файл "
+"CSV. Настройте расширенные ограничения купонов и предложите их избранным "
+"пользователям."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:77
+msgid "WooCommerce PDF Invoices, Packing Slips and Credit Notes"
+msgstr "WooCommerce PDF-счета, упаковочные листы и кредит-ноты"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:78
+msgid ""
+"Easily generate & print fully customized PDF Invoices, Packing Slips, and "
+"Credit Notes for your orders. Automatically send the documents to the "
+"recipients by attaching them to the order status emails."
+msgstr ""
+"Легко создавайте и печатайте полностью настраиваемые счета-фактуры в формате "
+"PDF, упаковочные листы и кредит-ноты для ваших заказов. Автоматически "
+"отправлять документы получателям, прикрепляя их к сообщениям электронной "
+"почты о статусе заказа."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:86
+msgid "WooCommerce Shipping Labels, Dispatch Labels and Delivery Notes"
+msgstr "Ярлыки доставки WooCommerce, ярлыки отправки и накладные"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:87
+msgid ""
+"Automatically generate WooCommerce Shipping Labels, Dispatch Labels, and "
+"Delivery Notes with custom settings and layouts. Customize the label sizes "
+"and add extra product or order fields as required."
+msgstr ""
+"Автоматически создавайте этикетки доставки WooCommerce, этикетки отправки и "
+"накладные о доставке с пользовательскими настройками и макетами. Настройте "
+"размеры этикеток и добавьте дополнительные поля продукта или заказа по мере "
+"необходимости."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:95
+msgid "WooCommerce Picklists"
+msgstr "Списки выбора WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:96
+msgid ""
+"Customize, generate and print WooCommerce picklists for all orders on your "
+"store and automatically attach them to the order status emails. Add product "
+"variation data and other fields to the document."
+msgstr ""
+"Настройте, создайте и распечатайте списки выбора WooCommerce для всех "
+"заказов в вашем магазине и автоматически прикрепляйте их к электронным "
+"письмам о статусе заказа. Добавьте в документ данные о вариантах продукта и "
+"другие поля."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:104
+msgid "WooCommerce Proforma Invoices"
+msgstr "Счета-проформы WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:105
+msgid ""
+"Automate the generation of WooCommerce proforma invoices when new orders are "
+"placed and send them to your customers via order emails. Customize the "
+"layout and content of the invoice as per your needs."
+msgstr ""
+"Автоматизируйте создание предварительных счетов-фактур WooCommerce при "
+"размещении новых заказов и отправляйте их своим клиентам по электронной "
+"почте с заказами. Настройте макет и содержание счета-фактуры в соответствии "
+"с вашими потребностями."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:113
+msgid "WooCommerce Address Labels"
+msgstr "Адресные метки WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:114
+msgid ""
+"Generate address labels for all orders in your store and easily print them "
+"in bulk. Customize the label layout and create labels of different types "
+"(shipping, billing, return, from address) with ease."
+msgstr ""
+"Создавайте адресные этикетки для всех заказов в вашем магазине и легко "
+"печатайте их оптом. Настройте макет этикетки и с легкостью создавайте "
+"этикетки разных типов (доставка, выставление счетов, возврат, адрес)."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:122
+msgid "WebToffee WooCommerce Product Feed & Sync Manager"
+msgstr "WebToffee WooCommerce Product Feed & Sync Manager"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:123
+msgid ""
+"Generate WooCommerce product feeds for Google Merchant Center and Facebook "
+"Business Manager. Use the Facebook catalog sync manager to sync WooCommerce "
+"products with Facebook and Instagram shops."
+msgstr ""
+"Создавайте фиды продуктов WooCommerce для Google Merchant Center и Facebook "
+"Business Manager. Используйте диспетчер синхронизации каталога Facebook для "
+"синхронизации продуктов WooCommerce с магазинами Facebook и Instagram."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:131
+msgid "WebToffee Woocommerce Request a Quote"
+msgstr "WebToffee Woocommerce Запросить цену"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:132
+msgid ""
+"Configure a fully optimized WooCommerce quote request set up in your store. "
+"Allow customers to request quotes and store managers to respond to them. "
+"Hide product prices, set up email alerts, and more."
+msgstr ""
+"Настройте полностью оптимизированный запрос котировок WooCommerce, "
+"настроенный в вашем магазине. Разрешить покупателям запрашивать котировки, а "
+"менеджерам магазинов отвечать на них. Скрывайте цены на товары, настраивайте "
+"оповещения по электронной почте и многое другое."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:140
+msgid "WebToffee WooCommerce Best Sellers"
+msgstr "WebToffee WooCommerce Бестселлеры"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:141
+msgid ""
+"Highlight top-selling products on your WooCommerce store using best seller "
+"labels, sliders, and custom seals. You can display ranking positions for "
+"best-seller products in different categories."
+msgstr ""
+"Выделите самые продаваемые продукты в вашем магазине WooCommerce, используя "
+"ярлыки бестселлеров, ползунки и специальные печати. Вы можете отображать "
+"позиции в рейтинге для продуктов-бестселлеров в разных категориях."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:149
+msgid "Frequently Bought Together for WooCommerce"
+msgstr "Последовательный номер заказа для WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:150
+msgid ""
+"Boost the visibility of the products by displaying them as ‘Frequently "
+"bought together’ items in your store. You may also set up discounts for "
+"Frequently Bought Together bundles with this plugin."
+msgstr ""
+"Повысьте видимость продуктов, отображая их как «Часто покупаемые вместе» в "
+"вашем магазине. С помощью этого плагина вы также можете настроить скидки на "
+"пакеты, которые часто покупают вместе."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:158
+msgid "GDPR Cookie Consent Plugin (CCPA Ready)"
+msgstr "Согласие на использование файлов cookie GDPR (готово к CCPA)"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:159
+msgid ""
+"The plugin helps you get compliant with GDPR, CCPA, and other major cookie "
+"laws. You can create and manage cookie consent banners, scan website "
+"cookies, and generate cookie policies with this plugin."
+msgstr ""
+"Плагин помогает вам соответствовать GDPR, CCPA и другим основным законам о "
+"файлах cookie. С помощью этого подключаемого модуля вы можете создавать и "
+"управлять баннерами согласия на использование файлов cookie, сканировать "
+"файлы cookie веб-сайтов и создавать политики использования файлов cookie."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:167
+msgid "Product Import Export Plugin For WooCommerce"
+msgstr "Заказать импорт экспорта XML-файла для WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:168
+msgid ""
+"Seamlessly import/export your WooCommerce products including simple, "
+"variable, custom products and subscriptions. You may also import and export "
+"product images, tags, categories, reviews, and ratings."
+msgstr ""
+"Легко импортируйте/экспортируйте свои продукты WooCommerce, включая простые, "
+"переменные, пользовательские продукты и подписки. Вы также можете "
+"импортировать и экспортировать изображения продуктов, теги, категории, "
+"обзоры и рейтинги."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:176
+msgid "WordPress Users & WooCommerce Customers Import Export"
+msgstr "Импорт и экспорт пользователей WordPress и клиентов WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:177
+msgid ""
+"Easily import and export your WordPress users and WooCommerce customers "
+"using the Import Export plugin for WooCommerce. The plugin supports the use "
+"of CSV, XML, TSV, XLS, and XLSX file formats."
+msgstr ""
+"Легко импортируйте и экспортируйте своих пользователей WordPress и клиентов "
+"WooCommerce с помощью плагина Import Export для WooCommerce. Плагин "
+"поддерживает использование форматов файлов CSV, XML, TSV, XLS и XLSX."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:185
+msgid "Order, Coupon, Subscription Export Import for WooCommerce"
+msgstr "Заказать импорт экспорта XML-файла для WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:186
+msgid ""
+"Export and Import your WooCommerce orders, subscriptions, and discount "
+"coupons using a single Import Export plugin. You may customize the export "
+"and import files with advanced filters and settings."
+msgstr ""
+"Экспортируйте и импортируйте свои заказы WooCommerce, подписки и купоны на "
+"скидку с помощью одного плагина Import Export. Вы можете настроить экспорт и "
+"импорт файлов с расширенными фильтрами и настройками."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:194
+msgid "Import Export Suite for WooCommerce"
+msgstr "Import Export Suite for WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:195
+msgid ""
+"An all-in-one plugin to import and export WooCommerce store data. You can "
+"import and export products, product reviews, orders, customers, discount "
+"coupons, and subscriptions using this single plugin."
+msgstr ""
+"Универсальный плагин для импорта и экспорта данных магазина WooCommerce. Вы "
+"можете импортировать и экспортировать продукты, обзоры продуктов, заказы, "
+"клиентов, купоны на скидку и подписки, используя этот единственный плагин."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:207
+msgid "PayPal Express Checkout Payment Gateway for WooCommerce"
+msgstr "Платежный шлюз PayPal Express Checkout для WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:208
+msgid ""
+"Offer a fast checkout experience to your customers with PayPal Payment "
+"Gateway. You can set up the PayPal Express Checkout option on the product "
+"pages to reduce the clicks to complete the checkout."
+msgstr ""
+"Предложите своим клиентам быстрое оформление заказа с помощью платежного "
+"шлюза PayPal. Вы можете настроить опцию PayPal Express Checkout на страницах "
+"продуктов, чтобы уменьшить число кликов для завершения оформления заказа."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:216
+msgid "WooCommerce Stripe Payment Gateway"
+msgstr "Платежный шлюз WooCommerce Stripe"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:217
+msgid ""
+"Ensure a fast and secure checkout experience for your users with WooCommerce "
+"Stripe Payment Gateway. Stripe accepts credit/debit cards and offers "
+"integrations with Apple Pay, SEPA, Alipay, and more."
+msgstr ""
+"Обеспечьте своим пользователям быструю и безопасную оплату с помощью "
+"платежного шлюза WooCommerce Stripe. Stripe принимает кредитные/дебетовые "
+"карты и предлагает интеграцию с Apple Pay, SEPA, Alipay и другими."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:225
+msgid "Subscriptions for WooCommerce"
+msgstr "Subscriptions for WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:226
+msgid ""
+"Enable subscriptions on your WooCommerce store to sell products (physical "
+"and digital) and services that require accepting recurring payments. "
+"Supports both simple and variable subscription products."
+msgstr ""
+"Включите подписки в своем магазине WooCommerce для продажи продуктов "
+"(физических и цифровых) и услуг, требующих приема регулярных платежей. "
+"Поддерживает как простые, так и переменные продукты подписки."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:234
+msgid "Sequential Order Numbers for WooCommerce"
+msgstr "Последовательный номер заказа для WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:235
+msgid ""
+"Number your WooCommerce orders in a custom, sequential & manageable format. "
+"The Sequential Order Number plugin lets your orders follow a custom & unique "
+"numbering sequence suitable for your business."
+msgstr ""
+"Нумеруйте свои заказы WooCommerce в пользовательском, последовательном и "
+"управляемом формате. Плагин Sequential Order Number позволяет вашим заказам "
+"следовать пользовательской и уникальной последовательности нумерации, "
+"подходящей для вашего бизнеса."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:243
+msgid "WordPress Backup and Migration"
+msgstr "Перенос и дубликатор WordPress"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:244
+msgid ""
+"A complete WordPress backup and migration plugin to easily back up and "
+"migrate your WordPress website and database. This fast and flexible backup "
+"solution makes creating and restoring backups easy."
+msgstr ""
+"Полноценный плагин резервного копирования и миграции WordPress для простого "
+"резервного копирования и переноса вашего веб-сайта и базы данных WordPress. "
+"Это быстрое и гибкое решение для резервного копирования упрощает создание и "
+"восстановление резервных копий."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:292
+msgid " Get Premium"
+msgstr " Получить премиум"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:300
+msgid "Installed"
+msgstr "Установлен"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:311
+msgid "Get Free Plugin"
+msgstr "Получить бесплатный плагин"
+
+#: admin/modules/premium_upgrade/premium_upgrade.php:43
+#: admin/modules/premium_upgrade/premium_upgrade.php:44
+msgid "Premium upgrade"
+msgstr "Обновить до премиум версии"
+
+#: admin/modules/premium_upgrade/views/page_content.php:91
+msgid "Smart Coupon for Woocommerce"
+msgstr "Smart Coupons for WooCommerce"
+
+#: admin/modules/premium_upgrade/views/page_content.php:95
+msgid ""
+"Create coupons to offer discounts and free products to your customers with "
+"Smart Coupons for WooCommerce."
+msgstr ""
+"Создавайте купоны, чтобы предлагать скидки и бесплатные продукты своим "
+"клиентам с помощью Smart Coupons for WooCommerce."
+
+#: admin/modules/premium_upgrade/views/page_content.php:99
+msgid "BOGO coupons"
+msgstr "Подарочные купоны"
+
+#: admin/modules/premium_upgrade/views/page_content.php:100
+msgid "Coupons based on location"
+msgstr "Ограничить купоны в зависимости от страны"
+
+#: admin/modules/premium_upgrade/views/page_content.php:102
+msgid "Product giveaway coupons"
+msgstr "Предлагать раздачи купонов"
+
+#: admin/modules/premium_upgrade/views/page_content.php:103
+msgid "Store credits"
+msgstr "Кредиты магазина"
+
+#: admin/modules/premium_upgrade/views/page_content.php:105
+msgid "Signup coupons"
+msgstr "Купоны на подписку"
+
+#: admin/modules/premium_upgrade/views/page_content.php:106
+#: admin/views/_premium_features_sidebar.php:27
+#: admin/views/_upgrade_to_pro_metabox.php:42
+msgid "Bulk generate coupons"
+msgstr "Массовое создание купонов"
+
+#: admin/modules/premium_upgrade/views/page_content.php:107
+msgid "Banners with sales expiry timer"
+msgstr "Баннеры с таймером окончания продаж"
+
+#: admin/modules/premium_upgrade/views/page_content.php:108
+msgid "Import or export coupons"
+msgstr "Импорт купонов"
+
+#: admin/modules/premium_upgrade/views/page_content.php:111
+msgid "Upgrade to Premium"
+msgstr "Обновление до Premium"
+
+#: admin/modules/premium_upgrade/views/page_content.php:115
+#: admin/modules/premium_upgrade/views/page_content.php:167
+#: admin/modules/premium_upgrade/views/page_content.php:197
+#: admin/modules/premium_upgrade/views/page_content.php:226
+#: admin/views/_setup_video_sidebar.php:13
+msgid "Watch setup video"
+msgstr "Посмотреть видео по настройке"
+
+#: admin/modules/premium_upgrade/views/page_content.php:123
+msgid "Additional Plugins to Market Your Products Better"
+msgstr "Дополнительные плагины для лучшего продвижения ваших продуктов"
+
+#: admin/modules/premium_upgrade/views/page_content.php:129
+msgid "30 Day 100% No Risk Money Back Guarantee"
+msgstr "30-дневная гарантия возврата денег"
+
+#: admin/modules/premium_upgrade/views/page_content.php:133
+msgid "Fast and Proirity Support with 99% Satisfaction Rating"
+msgstr "Быстрая и надежная поддержка с рейтингом удовлетворенности 99%"
+
+#: admin/modules/premium_upgrade/views/page_content.php:152
+msgid "Get sharable URLs and QR codes for your coupons!"
+msgstr "Получите общие URL-адреса и QR-коды для ваших купонов!"
+
+#: admin/modules/premium_upgrade/views/page_content.php:156
+msgid "Create unique URLs for coupons"
+msgstr "Создавайте купоны с QR-кодами"
+
+#: admin/modules/premium_upgrade/views/page_content.php:157
+msgid "Generate QR codes for coupons"
+msgstr "Создавайте купоны с QR-кодами"
+
+#: admin/modules/premium_upgrade/views/page_content.php:158
+msgid "Auto-apply coupons on click"
+msgstr "Автоматически применять купоны при оформлении заказа"
+
+#: admin/modules/premium_upgrade/views/page_content.php:159
+msgid "Automatically add products to the cart"
+msgstr "Автоматически добавлять товары"
+
+#: admin/modules/premium_upgrade/views/page_content.php:160
+msgid "Redirection users to specific pages"
+msgstr "Перенаправление пользователей на определенные страницы"
+
+#: admin/modules/premium_upgrade/views/page_content.php:161
+msgid "Simple to use and easy to understand"
+msgstr "Простой в использовании и понятный"
+
+#: admin/modules/premium_upgrade/views/page_content.php:165
+#: admin/modules/premium_upgrade/views/page_content.php:194
+#: admin/modules/premium_upgrade/views/page_content.php:224
+msgid "Get the plugin"
+msgstr "Получить плагин"
+
+#: admin/modules/premium_upgrade/views/page_content.php:178
+msgid "WooCommerce Gift Cards"
+msgstr "Подарочные карты WooCommerce"
+
+#: admin/modules/premium_upgrade/views/page_content.php:181
+msgid "Create & manage gift cards for your store."
+msgstr "Создавайте и управляйте подарочными картами для своего магазина."
+
+#: admin/modules/premium_upgrade/views/page_content.php:185
+msgid "Create gift cards products"
+msgstr "Создание продуктов с подарочными картами"
+
+#: admin/modules/premium_upgrade/views/page_content.php:186
+msgid "Email gift cards to customers"
+msgstr "Отправляйте подарочные карты по электронной почте в красивых шаблонах"
+
+#: admin/modules/premium_upgrade/views/page_content.php:187
+msgid "20+ predefined gift card templates"
+msgstr "20+ готовых шаблонов подарочных карт"
+
+#: admin/modules/premium_upgrade/views/page_content.php:188
+msgid "Category-wise template listing"
+msgstr "Список шаблонов по категориям"
+
+#: admin/modules/premium_upgrade/views/page_content.php:189
+msgid "Upload custom gift card templates"
+msgstr "Загрузите пользовательские шаблоны подарочных карт"
+
+#: admin/modules/premium_upgrade/views/page_content.php:190
+msgid "Generate gift cards based on order status"
+msgstr "Создание подарочных карт на основе статуса заказа"
+
+#: admin/modules/premium_upgrade/views/page_content.php:191
+msgid "Refund to Store credit"
+msgstr "Кредит магазина"
+
+#: admin/modules/premium_upgrade/views/page_content.php:212
+msgid "The best way to market your coupons in-house!"
+msgstr "Лучший способ продавать свои купоны внутри компании!"
+
+#: admin/modules/premium_upgrade/views/page_content.php:216
+msgid "List discounts on WooCommerce product pages"
+msgstr "Список скидок на страницах продуктов WooCommerce"
+
+#: admin/modules/premium_upgrade/views/page_content.php:217
+msgid "Add countdown timers to time-limited coupons"
+msgstr ""
+"Добавьте таймеры обратного отсчета к купонам с ограниченным сроком действия"
+
+#: admin/modules/premium_upgrade/views/page_content.php:218
+msgid "Multiple coupon display template"
+msgstr "Шаблон отображения нескольких купонов"
+
+#: admin/modules/premium_upgrade/views/page_content.php:219
+msgid "Show restriction info within the coupon"
+msgstr "Показать информацию об ограничениях в купоне"
+
+#: admin/modules/premium_upgrade/views/page_content.php:220
+msgid "Limit the number of coupons to display"
+msgstr "К сожалению нет купона для отображения"
+
+#: admin/modules/url_coupon/url_coupon.php:114
+msgid "Copy coupon URL"
+msgstr "Скопировать URL-адрес купона"
+
+#: admin/modules/url_coupon/url_coupon.php:120
+msgid "How to use coupon URL?"
+msgstr "Как использовать URL-адрес купона?"
+
+#: admin/modules/url_coupon/url_coupon.php:140
+msgid "How to use coupon URL"
+msgstr "Как использовать URL-адрес купона"
+
+#: admin/modules/url_coupon/url_coupon.php:181
+#: admin/modules/url_coupon/url_coupon.php:188
+#: admin/modules/url_coupon/views/_tab_data.php:7
+msgid "URL coupon"
+msgstr "URL-купон"
+
+#: admin/modules/url_coupon/views/_tab_data.php:8
+msgid ""
+"The plugin auto generates a unique URL for all the coupons created in your "
+"store. Visiting the URL associated with a coupon will automatically redirect "
+"the users to the cart page by applying the coupon. You can embed a URL in a "
+"button, and your customer can click the button to apply the coupon."
+msgstr ""
+"Плагин автоматически генерирует уникальный URL для всех купонов, созданных в "
+"вашем магазине. Посещение URL-адреса, связанного с купоном, автоматически "
+"перенаправит пользователей на страницу корзины, применив купон. Вы можете "
+"встроить URL-адрес в кнопку, и ваш клиент может нажать кнопку, чтобы "
+"применить купон."
+
+#: admin/modules/url_coupon/views/_tab_data.php:10
+msgid "Prerequisite:"
+msgstr "Предпосылка:"
+
+#: admin/modules/url_coupon/views/_tab_data.php:10
+msgid ""
+"Ensure that you have created a coupon with the required configuration to use "
+"it as a URL coupon."
+msgstr ""
+"Убедитесь, что вы создали купон с необходимой конфигурацией, чтобы "
+"использовать его в качестве купона URL."
+
+#: admin/modules/url_coupon/views/_tab_data.php:12
+msgid "URL coupon format:"
+msgstr "Формат URL-купона:"
+
+#: admin/modules/url_coupon/views/_tab_data.php:15
+msgid "A sample URL coupon will be in the given format:"
+msgstr "Образец купона URL будет в указанном формате:"
+
+#: admin/modules/url_coupon/views/_tab_data.php:17
+msgid "In the above example,"
+msgstr "В приведенном выше примере,"
+
+#: admin/modules/url_coupon/views/_tab_data.php:19
+msgid "corresponds to the site URL"
+msgstr "соответствует URL-адресу сайта"
+
+#: admin/modules/url_coupon/views/_tab_data.php:20
+msgid "'?wt_coupon' refers to the URL coupon key"
+msgstr "'?wt_coupon' относится к ключу купона URL"
+
+#: admin/modules/url_coupon/views/_tab_data.php:21
+msgid "'flat30' is the coupon code"
+msgstr "'flat30' - это код купона"
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:24
+msgid "Make the most out of URL coupons with URL coupons Pro"
+msgstr "Получите максимальную отдачу от URL-купонов с помощью URL-купонов Pro"
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:34
+msgid "Custom URLs"
+msgstr "Пользовательские URL-Адреса"
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:34
+msgid "Generate customized coupon URLs (example:www.mystore.com/happybirthday)"
+msgstr ""
+"Создание настраиваемых URL-адресов купонов (пример: www.mystore.com/"
+"happybirthday)"
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:40
+msgid "Set up a redirect page"
+msgstr "Настроить страницу перенаправления"
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:40
+msgid ""
+"Configure the URL to redirect to either cart or checkout page when it is "
+"clicked."
+msgstr ""
+"Настройте URL-адрес для перенаправления на страницу корзины или оформления "
+"заказа при нажатии."
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:50
+msgid "Create QR code coupons"
+msgstr "Создавайте купоны с QR-кодами"
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:50
+msgid "Embed URL coupons in QRCodes to create QR code coupons."
+msgstr ""
+"Встраивайте купоны с URL-адресами в QR-коды, чтобы создавать купоны с QR-"
+"кодами."
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:56
+msgid "Automatically add products"
+msgstr "Автоматически добавлять товары"
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:56
+msgid ""
+"Assign a product to the URL to be automatically added to the customer’s cart "
+"upon activating it."
+msgstr ""
+"Присвойте продукту URL-адрес, который будет автоматически добавлен в корзину "
+"покупателя при его активации."
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:64
+msgid "Upgrade to URL coupons Pro"
+msgstr "Перейти на URL-купоны Pro"
+
+#: admin/views/_help_links_meta_box.php:13
+msgid "Set up BOGO offer"
+msgstr "Настроить предложение BOGO"
+
+#: admin/views/_help_links_meta_box.php:17
+msgid "Create 'Seasonal Discount' offer"
+msgstr "Создайте предложение «Сезонная скидка»"
+
+#: admin/views/_help_links_meta_box.php:21
+msgid "Auto apply coupons on checkout"
+msgstr "Автоматически применять купоны при оформлении заказа"
+
+#: admin/views/_help_links_meta_box.php:25
+msgid "Offer discount based on Shipping/Payment/User role"
+msgstr ""
+"Предлагайте скидку в зависимости от доставки / оплаты / роли пользователя"
+
+#: admin/views/_help_links_meta_box.php:37
+msgid "Here are a few links that explains types of offers you can create."
+msgstr ""
+"Вот несколько ссылок, которые объясняют типы предложений, которые вы можете "
+"создавать."
+
+#: admin/views/_help_links_meta_box.php:54
+msgid "To know more, read "
+msgstr "Чтобы узнать больше, читай "
+
+#: admin/views/_help_links_meta_box.php:56
+msgid "documentation"
+msgstr "документация"
+
+#: admin/views/_hooks_list.php:24
+msgid "Copy to clipboard"
+msgstr "Копировать в буфер"
+
+#: admin/views/_hooks_list.php:24 admin/views/_hooks_list.php:37
+msgid "Copy"
+msgstr "Копировать"
+
+#: admin/views/_hooks_list.php:81 admin/views/admin-help.php:12
+msgid "Hooks"
+msgstr "Хуки"
+
+#: admin/views/_hooks_list.php:82
+msgid "Some useful `hooks` to extend the plugin's functionality"
+msgstr "Несколько полезных «хуков» для расширения функциональности плагина"
+
+#: admin/views/_premium_features_sidebar.php:13
+#: admin/views/_upgrade_to_pro_metabox.php:29
+msgid "Smart Coupons for WooCommerce Pro"
+msgstr "Smart Coupons for WooCommerce Pro"
+
+#: admin/views/_premium_features_sidebar.php:15
+#: admin/views/_upgrade_to_pro_metabox.php:30
+msgid "Create advanced BOGO coupons"
+msgstr "Создавайте расширенные купоны BOGO"
+
+#: admin/views/_premium_features_sidebar.php:16
+#: admin/views/_upgrade_to_pro_metabox.php:31
+msgid "Offer store credits and gift cards"
+msgstr "Предлагайте магазинные кредиты и подарочные карты"
+
+#: admin/views/_premium_features_sidebar.php:17
+#: admin/views/_upgrade_to_pro_metabox.php:32
+msgid "Set up giveaway Campaigns"
+msgstr "Настройте рекламные кампании"
+
+#: admin/views/_premium_features_sidebar.php:21
+#: admin/views/_upgrade_to_pro_metabox.php:36
+msgid "Sign up coupons"
+msgstr "Зарегистрируйте купоны"
+
+#: admin/views/_premium_features_sidebar.php:24
+#: admin/views/_upgrade_to_pro_metabox.php:39
+msgid "Create specific coupons"
+msgstr "Создавайте специальные купоны"
+
+#: admin/views/_premium_features_sidebar.php:25
+#: admin/views/_upgrade_to_pro_metabox.php:40
+msgid "Set country-based coupon restrictions"
+msgstr "Установите ограничения на купоны в зависимости от страны"
+
+#: admin/views/_premium_features_sidebar.php:26
+#: admin/views/_upgrade_to_pro_metabox.php:41
+msgid "Show countdown banners for coupons"
+msgstr "Показывать баннеры обратного отсчета для купонов"
+
+#: admin/views/_premium_features_sidebar.php:28
+#: admin/views/_upgrade_to_pro_metabox.php:43
+msgid "Import/export coupons"
+msgstr "Импортные/экспортные купоны"
+
+#: admin/views/_premium_features_sidebar.php:30
+#: admin/views/_upgrade_to_pro_metabox.php:45
+msgid "View all powerful options.."
+msgstr "Посмотреть все мощные варианты."
+
+#: admin/views/_premium_features_sidebar.php:31
+#: admin/views/_upgrade_to_pro_metabox.php:46
+msgid "View less.."
+msgstr "Посмотреть меньше.."
+
+#: admin/views/_premium_features_sidebar.php:40
+msgid "30 Day Money Back Guarantee"
+msgstr "30-дневная гарантия возврата денег"
+
+#: admin/views/_premium_features_sidebar.php:48
+msgid "Fast and Priority Support"
+msgstr "Быстрая и приоритетная поддержка"
+
+#: admin/views/_upgrade_to_pro_metabox.php:50
+msgid "Unlock pro Features"
+msgstr "Разблокировать профессиональные функции"
+
+#: admin/views/admin-help.php:13
+msgid "Help Links"
+msgstr "Ссылки на помощь"
+
+#: admin/views/admin-help.php:21
+msgid "Help links"
+msgstr "Ссылки на помощь"
+
+#: admin/views/admin-help.php:27 admin/views/admin-help.php:30
+msgid "Documentation"
+msgstr "Документация"
+
+#: admin/views/admin-help.php:28
+msgid "Refer to our documentation(Pro version) to set up and get started"
+msgstr ""
+"Обратитесь к нашей документации (версия Pro), чтобы настроить и начать работу"
+
+#: admin/views/admin-help.php:35
+msgid "Help and Support"
+msgstr "Помощь и техподдержка"
+
+#: admin/views/admin-help.php:36
+msgid "We would love to help you on any queries or issues."
+msgstr "Мы хотели бы помочь вам по любым вопросам."
+
+#: admin/views/admin-help.php:38
+msgid "Contact Us"
+msgstr "Свяжитесь с нами"
+
+#: admin/views/admin-settings-debug.php:14 admin/views/general_settings.php:31
+msgid "Debug"
+msgstr "Отладка"
+
+#: admin/views/admin-settings-debug.php:15
+msgid "Caution: Settings here are only for advanced users."
+msgstr ""
+"Внимание: настройки здесь предназначены только для опытных пользователей."
+
+#: admin/views/admin-settings-debug.php:34
+msgid "Public modules"
+msgstr "Публичные модули"
+
+#: admin/views/admin-settings-debug.php:56
+msgid "Common modules"
+msgstr "Общие модули"
+
+#: admin/views/admin-settings-debug.php:79
+msgid "Admin modules"
+msgstr "Модули администратора"
+
+#: admin/views/admin-settings-save-button.php:6
+msgid "Save settings"
+msgstr "Сохранить настройки"
+
+#: admin/views/general_settings.php:27
+msgid "Help guide"
+msgstr "Справочное руководство"
+
+#. translators: %s coupon code.
+#: blocks/src/main/frontend.js:52
+#, javascript-format
+msgid "Coupon code \"%s\" has been applied to your cart."
+msgstr "Код купона «%s» уже применён."
+
+#: blocks/wt-sc-blocks.php:91
+msgid "coupon_code"
+msgstr "код купона"
+
+#: common/modules/coupon_category/coupon_category.php:64
+#: common/modules/coupon_category/coupon_category.php:158
+msgid "Categories"
+msgstr "Категории"
+
+#: common/modules/coupon_category/coupon_category.php:117
+msgid "Select category"
+msgstr "Выберите категорию"
+
+#: common/modules/coupon_category/coupon_category.php:148
+msgctxt "Taxonomy General Name"
+msgid "Categories"
+msgstr "Категории"
+
+#: common/modules/coupon_category/coupon_category.php:149
+msgctxt "Taxonomy Singular Name"
+msgid "Category"
+msgstr "Категория"
+
+#: common/modules/coupon_category/coupon_category.php:150
+msgid "Search categories"
+msgstr "Искать категории"
+
+#: common/modules/coupon_category/coupon_category.php:151
+msgid "All categories"
+msgstr "Все категории"
+
+#: common/modules/coupon_category/coupon_category.php:152
+msgid "Parent category"
+msgstr "Родительская категория"
+
+#: common/modules/coupon_category/coupon_category.php:153
+msgid "Parent category:"
+msgstr "Родительская категория:"
+
+#: common/modules/coupon_category/coupon_category.php:154
+msgid "Edit category"
+msgstr "Редактировать категорию"
+
+#: common/modules/coupon_category/coupon_category.php:155
+msgid "Update category"
+msgstr "Обновить категорию"
+
+#: common/modules/coupon_category/coupon_category.php:156
+msgid "Add new category"
+msgstr "Добавить новую категорию"
+
+#: common/modules/coupon_category/coupon_category.php:157
+msgid "New category name"
+msgstr "Название новой категории"
+
+#: common/modules/coupon_category/coupon_category.php:159
+msgid "View category"
+msgstr "Посмотреть категорию"
+
+#: common/modules/coupon_category/coupon_category.php:160
+msgid "Popular categories"
+msgstr "Популярные категории"
+
+#: common/modules/coupon_category/coupon_category.php:161
+msgid "Not found"
+msgstr "Не найдено"
+
+#: common/modules/coupon_category/coupon_category.php:162
+msgid "Most used"
+msgstr "Часто используемые 1"
+
+#: common/modules/coupon_category/coupon_category.php:205
+#: common/modules/coupon_category/coupon_category.php:206
+msgid "Coupon category"
+msgstr "Шаблоны купонов"
+
+#: common/modules/coupon_shortcode/coupon_shortcode.php:52
+msgid "Invalid coupon"
+msgstr "Некорректный код партнера"
+
+#: common/modules/coupon_style/coupon_style.php:151
+msgid "Available coupon"
+msgstr "Доступные Купоны"
+
+#: common/modules/coupon_style/coupon_style.php:152
+msgid "Used coupon"
+msgstr "Используемый купон"
+
+#: common/modules/coupon_style/coupon_style.php:153
+msgid "Expired coupon"
+msgstr "Истекшие купоны"
+
+#: common/modules/coupon_style/coupon_style.php:178
+msgid "Style 1"
+msgstr "Стиль 1"
+
+#: common/modules/coupon_style/coupon_style.php:288
+msgid "Click to apply coupon"
+msgstr "Нажмите, чтобы применить купон"
+
+#: common/modules/giveaway_product/giveaway_product.php:75
+msgid "BOGO (Buy X Get X/Y) offer"
+msgstr "Предложение BOGO (купи X, получи X/Y)"
+
+#: common/modules/giveaway_product/giveaway_product.php:161
+msgid "Any product from specific category (Pro)"
+msgstr "Любой товар из определенной категории (Pro)"
+
+#: common/modules/giveaway_product/giveaway_product.php:162
+msgid "Any product in store (Pro)"
+msgstr "Любой товар в магазине (Pro)"
+
+#: common/modules/giveaway_product/giveaway_product.php:163
+msgid "Same product as in the cart (Pro)"
+msgstr "Тот же товар, что и в корзине (Pro)"
+
+#: common/modules/giveaway_product/giveaway_product.php:172
+msgid ""
+"Choose what the customers get for free or with a discount if the cart "
+"eligibility or conditions are met. Your customers will get below selected "
+"product/s for free or with a discount."
+msgstr ""
+"Выберите, что клиенты получат бесплатно или со скидкой, если соблюдены "
+"требования или условия корзины. Ваши клиенты получат ниже выбранных "
+"продуктов бесплатно или со скидкой."
+
+#: common/modules/giveaway_product/giveaway_product.php:173
+msgid ""
+"Choose what the customers get for free or with a discount if the cart "
+"eligibility or conditions are met. Your customers will get product/s from "
+"below selected category for free or with a discount."
+msgstr ""
+"Выберите, что клиенты получат бесплатно или со скидкой, если соблюдены "
+"требования или условия корзины. Ваши клиенты получат товары из выбранной "
+"ниже категории бесплатно или со скидкой."
+
+#: common/modules/giveaway_product/giveaway_product.php:174
+msgid ""
+"Choose what the customers get for free or with a discount if the cart "
+"eligibility or conditions are met. Your customers will get any product/s "
+"from the store that are eligible for free or with a discount."
+msgstr ""
+"Выберите, что клиенты получат бесплатно или со скидкой, если соблюдены "
+"требования или условия корзины. Ваши клиенты получат в магазине любые "
+"товары, которые имеют право бесплатно или со скидкой."
+
+#: common/modules/giveaway_product/giveaway_product.php:175
+msgid ""
+"Choose what the customers get for free or with a discount if the cart "
+"eligibility or conditions are met. Your customers will get the same product "
+"as in the cart that are configured in product restriction section."
+msgstr ""
+"Выберите, что клиенты получат бесплатно или со скидкой, если соблюдены "
+"требования или условия корзины. Ваши клиенты получат тот же товар, что и в "
+"корзине, настроенной в разделе ограничения товаров."
+
+#: common/modules/giveaway_product/giveaway_product.php:176
+msgid ""
+"Choose what the customers get for free or with a discount if the cart "
+"eligibility or conditions are met. Your customers will get a product from "
+"the same category as in the cart that are configured in the category "
+"restriction section."
+msgstr ""
+"Выберите, что клиенты получат бесплатно или со скидкой, если соблюдены "
+"требования или условия корзины. Ваши покупатели получат товар из той же "
+"категории, что и в корзине, настроенной в разделе ограничения категории."
+
+#: includes/class-wt-smart-coupon-activator.php:39
+msgid "Oops! Woocommerce not activated.."
+msgstr "Ой! Woocommerce не активирован .."
+
+#: includes/class-wt-smart-coupon-activator.php:45
+msgid ""
+"Oops! PREMIUM Version of this Plugin Installed. Please deactivate the "
+"PREMIUM Version before activating BASIC."
+msgstr ""
+"Ой! Установлена ПРЕМИУМ-версия этого плагина. Пожалуйста, деактивируйте "
+"ПРЕМИУМ-версию перед активацией BASIC."
+
+#: includes/class-wt-smart-coupon-review_request.php:60
+#, php-format
+msgid ""
+"Hey, we at %sWebToffee%s would like to thank you for using our Smart Coupon "
+"for WooCommerce plugin. %s We would really appreciate if you could take a "
+"moment to drop a quick review that will inspire us to keep going."
+msgstr ""
+"Привет, мы в %sWebToffee%s хотели бы поблагодарить вас за использование "
+"нашего плагина Smart Coupon for WooCommerce. %s Мы будем очень признательны, "
+"если вы уделите минутку и оставите краткий отзыв, который вдохновит нас "
+"продолжать работу."
+
+#: includes/class-wt-smart-coupon-review_request.php:64
+#, php-format
+msgid ""
+"%s Wow%s, you have created more than %s coupons with our %s Smart Coupon for "
+"WooCommerce plugin! %s That’s awesome! We’d love it if you take a moment to "
+"rate us and help spread the word."
+msgstr ""
+"%s Ого!%s! Вы создали более %s купонов с помощью нашего подключаемого модуля "
+"%s Smart Coupon for WooCommerce! %s Это потрясающе! Мы будем рады, если вы "
+"найдёте минутку, чтобы оценить нас и помочь распространить информацию."
+
+#: includes/class-wt-smart-coupon-review_request.php:68
+msgid "Remind me later"
+msgstr "Напомни мне позже"
+
+#: includes/class-wt-smart-coupon-review_request.php:69
+msgid "Not interested"
+msgstr "Не интересует"
+
+#: includes/class-wt-smart-coupon-review_request.php:70
+msgid "Rate us now"
+msgstr "Оцените нас сейчас"
+
+#: includes/class-wt-smart-coupon.php:669
+#, php-format
+msgid ""
+"An error occurred while activating %sSmart Coupons For WooCommerce Coupons"
+"%s: Unable to create database table. %s"
+msgstr ""
+"Произошла ошибка при активации %Smart Coupons For WooCommerce%s: невозможно "
+"создать таблицу базы данных. %s"
+
+#: includes/class-wt-smart-coupon.php:669
+msgid "Go to plugins page"
+msgstr "Перейти на страницу плагинов"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:19
+msgid "Used it successfully. Don't need anymore."
+msgstr "Использовал успешно. Больше не нужно."
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:21
+msgid "Have used it successfully and aint in need of it anymore"
+msgstr "Использовал его успешно и больше в нем не нуждается"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:25
+msgid "I couldn't understand how to make it work"
+msgstr "Я не могу понять, как заставить его работать"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:27
+msgid "Would you like us to assist you?"
+msgstr "Вы хотите, чтобы мы помогли вам?"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:31
+msgid "I found a better plugin"
+msgstr "Я нашел лучший плагин"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:33
+msgid "Which plugin?"
+msgstr "Какой плагин?"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:37
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr ""
+"Плагин отличный, но мне нужна конкретная функция, которую вы не поддерживаете"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:39
+msgid "Could you tell us more about that feature?"
+msgstr "Не могли бы вы рассказать нам больше об этой функции?"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:43
+msgid "The plugin is not working"
+msgstr "Плагин не работает"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:45
+msgid "Could you tell us a bit more whats not working?"
+msgstr ""
+"Не могли бы вы рассказать нам немного больше о том что именно не работает?"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:49
+msgid "It's not what I was looking for"
+msgstr "Это не то, что я искал"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:55
+msgid "The plugin didn't work as expected"
+msgstr "Плагин не работал должным образом"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:57
+msgid "What did you expect?"
+msgstr "Чего вы ожидали?"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:61
+msgid "Upgraded to premium version"
+msgstr "Обновить до премиум"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:67
+msgid "Other"
+msgstr "Другое"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:69
+msgid "Could you tell us a bit more?"
+msgstr "Не могли бы вы рассказать нам немного больше?"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:88
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr ""
+"Если есть минутка, пожалуйста, сообщите нам, почему вы деактивируете свой "
+"аккаунт:"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:99
+msgid ""
+"We do not collect any personal data when you submit this form. It's your "
+"feedback that we value."
+msgstr ""
+"Когда вы отправляете эту форму, мы не собираем никаких личных данных. Мы "
+"ценим ваши отзывы."
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:100
+msgid "Privacy Policy"
+msgstr "Политика конфиденциальности"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:104
+msgid "I rather wouldn't say"
+msgstr "Предпочитаю не говорить"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:105
+msgid "Contact Support"
+msgstr "Связаться с поддержкой"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:106
+msgid "Submit & Deactivate"
+msgstr "Подтвердить и деактивировать"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:107
+msgid "Cancel"
+msgstr "Отмена"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:189
+msgid "Deactivate and leave a review"
+msgstr "Деактивировать и оставить отзыв"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:191
+msgid "Let our support team help you"
+msgstr "Позвольте нашей службе поддержки помочь вам"
+
+#: public/class-myaccount-smart-coupon.php:50
+#: public/class-myaccount-smart-coupon.php:70
+msgid "My Coupons"
+msgstr "Мои купоны"
+
+#: public/class-wt-smart-coupon-public.php:142
+msgid "Please choose a variation"
+msgstr "Выберите простой продукт"
+
+#: public/class-wt-smart-coupon-public.php:143
+msgid "Error !!!"
+msgstr "Ошибка !!!"
+
+#: public/class-wt-smart-coupon-public.php:180
+#: public/class-wt-smart-coupon-public.php:185
+msgid "Product discount"
+msgstr "Продукт со скидкой"
+
+#: public/class-wt-smart-coupon-public.php:207
+msgid "Free shipping"
+msgstr "Бесплатная доставка"
+
+#: public/class-wt-smart-coupon-public.php:216
+#: public/modules/giveaway_product/giveaway_product.php:1608
+msgid "Free products"
+msgstr "Бесплатные продукты"
+
+#: public/class-wt-smart-coupon-public.php:275
+#: public/class-wt-smart-coupon-public.php:385
+msgid "Expired"
+msgstr "Истекший"
+
+#: public/class-wt-smart-coupon-public.php:278
+msgid "Starts on "
+msgstr "Начинается с "
+
+#: public/class-wt-smart-coupon-public.php:278
+msgid "Expires on "
+msgstr "Истекает "
+
+#: public/class-wt-smart-coupon-public.php:819
+msgid "Sorry, you don't have any available coupons"
+msgstr "К сожалению у вас нет доступных купонов"
+
+#: public/class-wt-smart-coupon-public.php:857
+msgid "Previous"
+msgstr "Предыдущий"
+
+#: public/class-wt-smart-coupon-public.php:872
+msgid "Next"
+msgstr "Следующий"
+
+#: public/class-wt-smart-coupon-public.php:998
+msgid "Coupon code applied successfully, Please add products into cart"
+msgstr "Код купона успешно применен"
+
+#: public/modules/auto_coupon/auto_coupon.php:484
+#: public/modules/url_coupon/url_coupon.php:66
+msgid "Coupon code applied successfully"
+msgstr "Код купона успешно применен"
+
+#: public/modules/auto_coupon/auto_coupon.php:547
+msgid "Free shipping coupon"
+msgstr "Купон на бесплатную доставку"
+
+#: public/modules/checkout_options/checkout_options.php:111
+msgid "Sorry, this coupon is not applicable to selected shipping method"
+msgstr "К сожалению, этот купон неприменим к выбранному способу доставки"
+
+#: public/modules/checkout_options/checkout_options.php:130
+msgid "Sorry, this coupon is not applicable to selected Payment method"
+msgstr "К сожалению, этот купон неприменим к выбранному способу оплаты"
+
+#: public/modules/checkout_options/checkout_options.php:149
+msgid "Sorry, this coupon is not applicable for your Role"
+msgstr "К сожалению, этот купон неприменим для вашей роли"
+
+#: public/modules/checkout_options/checkout_options.php:178
+msgid "Sorry, this coupon is not applicable to selected location"
+msgstr "К сожалению, этот купон не применим к выбранному местоположению"
+
+#: public/modules/coupon_restriction/coupon_restriction.php:91
+#, php-format
+msgid "The minimum quantity of %s for this coupon is %s."
+msgstr "Минимальное количество %s для этого купона — %s."
+
+#: public/modules/coupon_restriction/coupon_restriction.php:94
+#, php-format
+msgid "The maximum quantity of %s for this coupon is %s."
+msgstr "Максимальное количество %s для этого купона составляет %s."
+
+#: public/modules/coupon_restriction/coupon_restriction.php:97
+msgid ""
+"Your cart does not meet the quantity eligibility criteria for this coupon."
+msgstr ""
+"Ваша корзина не соответствует критериям приемлемости количества для этого "
+"купона."
+
+#: public/modules/coupon_restriction/coupon_restriction.php:197
+msgid "the category"
+msgstr "категория"
+
+#: public/modules/coupon_restriction/coupon_restriction.php:451
+msgid "the product"
+msgstr "товары"
+
+#: public/modules/coupon_restriction/coupon_restriction.php:681
+#, php-format
+msgid "Sorry, the coupon %s is not applicable for selected products."
+msgstr "К сожалению, купон %s не применим к выбранным продуктам."
+
+#: public/modules/coupon_restriction/coupon_restriction.php:812
+#: public/modules/coupon_restriction/coupon_restriction.php:821
+#, php-format
+msgid "The minimum subtotal of matching products for this coupon is %s."
+msgstr ""
+"Минимальная субтоталка соответствующих продуктов для этого купона "
+"составляет  %s."
+
+#: public/modules/coupon_restriction/coupon_restriction.php:837
+#, php-format
+msgid "The maximum subtotal of matching products for this coupon is %s."
+msgstr ""
+"Максимальная субтоталы соответствующих продуктов для этого купона "
+"составляет  %s."
+
+#: public/modules/coupon_restriction/coupon_restriction.php:918
+#, php-format
+msgid ""
+"Coupon applies to %s quantity. Please move eligible number of products in "
+"the cart to redeem the coupon."
+msgstr ""
+"Купон действует на количество %s. Пожалуйста, переместите допустимое "
+"количество продуктов в корзину, чтобы использовать купон."
+
+#: public/modules/coupon_restriction/coupon_restriction.php:921
+#, php-format
+msgid ""
+"Each eligible cart item requires minimum %s quantity, please add more items "
+"to cart to redeem the coupon."
+msgstr ""
+"Для каждого подходящего товара в корзине требуется минимальное количество "
+"%s. Пожалуйста, добавьте больше товаров в корзину, чтобы использовать купон."
+
+#: public/modules/coupon_restriction/coupon_restriction.php:927
+#, php-format
+msgid "The maximum quantity of matching products for this coupon is %s."
+msgstr ""
+"Максимальное количество соответствующих продуктов для этого купона "
+"составляет %s."
+
+#: public/modules/coupon_restriction/coupon_restriction.php:930
+#, php-format
+msgid "The maximum allowed quantity for each eligible item is %s"
+msgstr "Максимально допустимое количество для каждого подходящего товара — %s"
+
+#: public/modules/giveaway_product/giveaway_product.php:331
+msgid "Invalid request"
+msgstr "Неверный запрос"
+
+#: public/modules/giveaway_product/giveaway_product.php:348
+#: public/modules/giveaway_product/views/_cart_giveaway_products.php:111
+msgid "Sorry! this product is not available for giveaway."
+msgstr "Извини! данный товар недоступен для раздачи."
+
+#: public/modules/giveaway_product/giveaway_product.php:505
+#: public/modules/giveaway_product/giveaway_product.php:2134
+msgid "Congratulations! You've got a freebie in your cart!"
+msgstr "Поздравляем! У вас в корзине подарок!"
+
+#: public/modules/giveaway_product/giveaway_product.php:510
+#, php-format
+msgid "Surprise! %s You've received a special giveaway product with %s Off!"
+msgstr "Сюрприз! %s Вы получили специальный подарок со скидкой %s!"
+
+#: public/modules/giveaway_product/giveaway_product.php:605
+msgid "Lucky You! Your cart is now loaded with incredible giveaway goodies!"
+msgstr "Повезло тебе! Теперь ваша корзина наполнена невероятными подарками!"
+
+#: public/modules/giveaway_product/giveaway_product.php:679
+#: public/modules/giveaway_product/giveaway_product.php:697
+msgid "Oops! It seems like you've made an invalid request. Please try again."
+msgstr ""
+"Ой! Похоже, вы сделали неверный запрос. Пожалуйста, попробуйте еще раз."
+
+#: public/modules/giveaway_product/giveaway_product.php:682
+msgid ""
+"Oops! It seems like you've moved an invalid product to cart. Please try "
+"again."
+msgstr ""
+"Ой! Похоже, вы переместили в корзину недопустимый товар. Пожалуйста, "
+"попробуйте еще раз."
+
+#: public/modules/giveaway_product/giveaway_product.php:685
+msgid "You've exceeded the maximum quantity of products to avail the giveaway."
+msgstr "Вы превысили максимальное количество товаров для розыгрыша."
+
+#: public/modules/giveaway_product/giveaway_product.php:688
+msgid "You've exceeded the maximum quantity allowed as a giveaway."
+msgstr ""
+"Вы превысили максимальное количество, разрешенное для бесплатной раздачи."
+
+#: public/modules/giveaway_product/giveaway_product.php:691
+msgid ""
+"Something went wrong! It seems like there are no products available for this "
+"coupon. Please contact our support team."
+msgstr ""
+"Что-то пошло не так! По этому купону нет доступных товаров. Пожалуйста, "
+"свяжитесь с нашей службой поддержки."
+
+#: public/modules/giveaway_product/giveaway_product.php:694
+msgid ""
+"Seems like you have already moved all the giveaway products in the cart."
+msgstr "Похоже, вы уже переместили все товары в корзину."
+
+#: public/modules/giveaway_product/giveaway_product.php:702
+msgid "Please add more products to cart to avail more giveaway."
+msgstr ""
+"Пожалуйста, добавьте больше товаров в корзину, чтобы получить больше "
+"подарков."
+
+#: public/modules/giveaway_product/giveaway_product.php:1166
+msgid "Free gift"
+msgstr "Бесплатные подарки"
+
+#: public/modules/giveaway_product/giveaway_product.php:2137
+#, php-format
+msgid "Surprise! You've received a special giveaway product with %s Off!"
+msgstr "Сюрприз! Вы получили специальный подарок со скидкой %s!"
+
+#: public/modules/giveaway_product/views/_cart_giveaway_products.php:15
+msgid "Congratulations! Choose your freebie from below:"
+msgstr "Поздравляем! Выберите бесплатный подарок из списка ниже:"
+
+#: public/modules/giveaway_product/views/_cart_giveaway_products.php:94
+msgid "Price: "
+msgstr "Цена: "
+
+#: public/modules/giveaway_product/views/_cart_giveaway_products.php:101
+msgid "Discount: "
+msgstr "Скидка: "
+
+#: public/modules/giveaway_product/views/_cart_giveaway_products.php:198
+msgid "Choose an option"
+msgstr "Ограничить купоны в зависимости от страны"
+
+#: public/modules/giveaway_product/views/_cart_giveaway_products.php:221
+msgid "Choose Product"
+msgstr "Выберите товар"
+
+#: public/modules/giveaway_product/views/_cart_giveaway_products.php:236
+msgid "Add all to cart"
+msgstr "Добавить все в корзину"
+
+#: public/modules/giveaway_product/views/_cart_giveaway_products.php:236
+msgid "Add to cart"
+msgstr "Добавить в корзину"
+
+#: public/modules/url_coupon/url_coupon.php:83
+#, php-format
+msgid ""
+"Oops your cart is empty! Add %sproducts%s to your cart to avail the offer."
+msgstr ""
+"К сожалению, ваша корзина пуста! Добавьте %sproducts%s в корзину, чтобы "
+"воспользоваться предложением."
+
+#: public/templates/myaccount/my-account-coupon-view.php:23
+msgid "Available Coupons"
+msgstr "Доступные Купоны"
+
+#: public/templates/myaccount/my-account-coupon-view.php:26
+msgid "Sort by"
+msgstr "Сортировать по"
+
+#: public/templates/myaccount/my-account-coupon-view.php:29
+msgid "Latest first"
+msgstr "Последний первый"
+
+#: public/templates/myaccount/my-account-coupon-view.php:30
+msgid "Latest last"
+msgstr "Последний последний"
+
+#: public/templates/myaccount/my-account-coupon-view.php:31
+msgid "Price high to low"
+msgstr "По уменьшению цены"
+
+#: public/templates/myaccount/my-account-coupon-view.php:32
+msgid "Price low to high"
+msgstr "По увеличению цены"
+
+#: public/templates/myaccount/my-account-coupon-view.php:53
+msgid "Used Coupons"
+msgstr "Использованные купоны"
+
+#: public/templates/myaccount/my-account-coupon-view.php:103
+msgid "Sorry, you don't have any used coupons"
+msgstr "К сожалению у вас нет доступных купонов"
+
+#: public/templates/myaccount/my-account-coupon-view.php:118
+msgid "Expired Coupons"
+msgstr "Истекшие купоны"
+
+#: public/templates/myaccount/my-account-coupon-view.php:146
+msgid "Sorry, you don't have any expired coupons"
+msgstr "К сожалению у вас нет доступных купонов"
+
+#: wt-smart-coupon.php:142
+msgid ""
+"WooCommerce is required for this plugin to work properly. Please activate "
+"WooCommerce."
+msgstr ""
+"Для правильной работы этого плагина требуется WooCommerce. Пожалуйста, "
+"активируйте WooCommerce."
+
+#. Plugin Name of the plugin/theme
+msgid "Smart Coupons For WooCommerce Coupons"
+msgstr "Smart Coupons For WooCommerce"
+
+#. Description of the plugin/theme
+msgid ""
+"Smart Coupons For WooCommerce Coupons plugin adds advanced coupon features "
+"to your store to strengthen your marketing efforts and boost sales."
+msgstr ""
+"Плагин Smart Coupons For WooCommerce добавляет расширенные функции купонов в "
+"ваш магазин, чтобы усилить ваши маркетинговые усилия и увеличить продажи."
+
+#. Author of the plugin/theme
+msgid "WebToffee"
+msgstr "WebToffee"
+
+#. Author URI of the plugin/theme
+msgid "https://www.webtoffee.com/"
+msgstr "https://www.webtoffee.com/"
+
+#, fuzzy
+#~| msgid "Checkout options"
+#~ msgid "Check out this plugin."
+#~ msgstr "Параметры оформления покупок"
+
+#~ msgid "Create bulk coupons within a few clicks."
+#~ msgstr "Создавайте массовые купоны в несколько кликов."
+
+#~ msgid "WooCommerce coupon generator"
+#~ msgstr "Генератор купонов WooCommerce"
+
+#, fuzzy
+#~| msgid "Sorry, this coupon is not applicable for selected products."
+#~ msgid ""
+#~ "The coupon will not be applied if the excluded product is in the cart."
+#~ msgstr "Извините, этот купон не распространяется на выбранные продукты."
+
+#~ msgid ""
+#~ "The coupon will not be applied if the product from an excluded category "
+#~ "is in the cart."
+#~ msgstr ""
+#~ "Купон не будет применен, если в корзине находится товар из исключенной "
+#~ "категории."
+
+#~ msgid ""
+#~ "Create and display frequently bought together suggestions automatically. "
+#~ "Automatically generate frequently bought recommendations for your "
+#~ "products."
+#~ msgstr ""
+#~ "Создавайте и отображайте часто покупаемые вместе предложения "
+#~ "автоматически. Автоматически генерируйте часто покупаемые рекомендации "
+#~ "для ваших продуктов."
+
+#~ msgid ""
+#~ "Maximize the visibility of your coupons by displaying them on product "
+#~ "pages."
+#~ msgstr ""
+#~ "Максимизируйте видимость ваших купонов, отображая их на страницах товаров."
+
+#~ msgid "WooCommerce Best Sellers"
+#~ msgstr "WooCommerce бестселлеры"
+
+#~ msgid ""
+#~ "Highlight the top-selling products in your store with labels, seals & "
+#~ "sliders."
+#~ msgstr ""
+#~ "Выделите самые продаваемые товары в вашем магазине с помощью этикеток, "
+#~ "пломб и ползунков."
+
+#~ msgid "WooCommerce Product Feed & Sync Manager"
+#~ msgstr "Диспетчер каналов и синхронизации продуктов WooCommerce"
+
+#~ msgid "Make WooCommerce Product Feed Generation & Sync Easier"
+#~ msgstr "Упростите создание и синхронизацию ленты продуктов WooCommerce"
+
+#~ msgid ""
+#~ "Create purchasable gift cards with fixed or custom prices for your store."
+#~ msgstr ""
+#~ "Создавайте покупаемые подарочные карты с фиксированными или "
+#~ "индивидуальными ценами для вашего магазина."
+
+#~ msgid ""
+#~ "Generate sharable URLs and QR codes for all discount coupons in your "
+#~ "store."
+#~ msgstr ""
+#~ "Создайте общие URL-адреса и QR-коды для всех купонов на скидку в вашем "
+#~ "магазине."
+
+#~ msgid ""
+#~ "Want additional coupon customizations? Get them with Smart Coupon premium!"
+#~ msgstr ""
+#~ "Хотите дополнительные настройки купона? Получите их с премией Smart "
+#~ "Coupon!"
+
+#~ msgid "Fast and 99% customer satisfaction"
+#~ msgstr "Быстрота и 99% cудовлетворенность клиентов"
+
+#, fuzzy
+#~| msgid "Available Coupons"
+#~ msgid "Advanced BOGO Coupons"
+#~ msgstr "Доступные Купоны"
+
+#, fuzzy
+#~| msgid "Give away (multiple products)"
+#~ msgid "Giveaway (multiple products)"
+#~ msgstr "Раздать (несколько товаров)"
+
+#~ msgid "Product subtotal"
+#~ msgstr "Итого по продукту"
+
+#~ msgid "Supported coupon types"
+#~ msgstr "Поддерживаемые типы купонов"
+
+#~ msgid "Select page(s) to display applicable coupons"
+#~ msgstr "Выберите страницы для отображения применимых купонов"
+
+#~ msgid "My account page"
+#~ msgstr "Страница моего аккаунта"
+
+#, fuzzy
+#~| msgid "Option to apply tax after discount (give away products)"
+#~ msgid "Option to apply tax after discount (giveaway products)"
+#~ msgstr "Возможность применять налог после скидки (раздача товаров)"
+
+#~ msgid "Import coupons"
+#~ msgstr "Импорт купонов"
+
+#~ msgid "Add coupon expiry in days"
+#~ msgstr "Добавить срок действия купона в днях"
+
+#, fuzzy
+#~| msgid "Related Products for WooCommerce"
+#~ msgid "Create attractive gift cards for WooCommerce."
+#~ msgstr "Сопутствующие товары для WooCommerce"
+
+#~ msgid "Get %s WebToffee WooCommerce Gift Cards%s plugin."
+#~ msgstr ""
+#~ "Получите подключаемый модуль %sПодарочные карты WebToffee WooCommerce%s."
+
+#~ msgid "Get access to advanced features of Smart coupon."
+#~ msgstr "Получите доступ к расширенным функциям смарт-купона."
+
+#~ msgid "Fast and Superior Support"
+#~ msgstr "Быстрая и превосходная поддержка"
+
+#~ msgid "Premium features"
+#~ msgstr "Премиум функции"
+
+#, fuzzy
+#~| msgid "%sSign-up coupons%s: Create and offer sign-up discount coupons."
+#~ msgid ""
+#~ "%sAdvanced BOGO Coupons%s: Create and offer various type of Buy One Get "
+#~ "One coupons"
+#~ msgstr ""
+#~ "%s Купоны регистрации %s. Создавайте и предлагайте купоны на скидку при "
+#~ "регистрации."
+
+#~ msgid ""
+#~ "%sOffer store credits%s: Create and sell store credits of custom or pre-"
+#~ "defined amounts."
+#~ msgstr ""
+#~ "%s Предлагайте магазинные кредиты %s: создавайте и продавайте магазинные "
+#~ "кредиты на индивидуальную или заранее определенную сумму."
+
+#~ msgid ""
+#~ "%sGift cards%s: Create attractive gift cards of any amount range by "
+#~ "associating a store credit product."
+#~ msgstr ""
+#~ "%s Подарочные карты %s. Создавайте привлекательные подарочные карты "
+#~ "любого диапазона сумм, связав кредитный продукт магазина."
+
+#~ msgid ""
+#~ "%sGive away products (one or more)%s: Configure coupons that give away "
+#~ "selected product(s)."
+#~ msgstr ""
+#~ "%s Раздача продуктов (одного или нескольких) %s: настройте купоны, "
+#~ "которые раздают выбранные продукты."
+
+#~ msgid ""
+#~ "%sCoupons based on past purchases%s: Create and offer first order, next "
+#~ "order, or any nth order discounts."
+#~ msgstr ""
+#~ "%s Купоны на основе прошлых покупок %s: создайте и предложите скидки на "
+#~ "первый, следующий или любой n-й заказ."
+
+#~ msgid ""
+#~ "%sRestrict coupons by country%s: Allow discounts for users from selected "
+#~ "countries/locations."
+#~ msgstr ""
+#~ "%s Ограничить купоны по странам %s: разрешить скидки для пользователей из "
+#~ "выбранных стран / регионов."
+
+#~ msgid "%sSign-up coupons%s: Create and offer sign-up discount coupons."
+#~ msgstr ""
+#~ "%s Купоны регистрации %s. Создавайте и предлагайте купоны на скидку при "
+#~ "регистрации."
+
+#~ msgid ""
+#~ "%sCart abandonment coupons%s: Configure cart abandonment coupons to "
+#~ "regain abandoned carts."
+#~ msgstr ""
+#~ "%s Купоны отказа от корзины %s. Настройте купоны отказа от корзины, чтобы "
+#~ "вернуть брошенные корзины."
+
+#~ msgid ""
+#~ "%sCustomizable count-down sales banner%s: Easily create a count-down "
+#~ "discount banner by choosing a template."
+#~ msgstr ""
+#~ "%s Настраиваемый баннер продаж с обратным отсчетом %s. С легкостью "
+#~ "создайте баннер со скидкой с обратным отсчетом, выбрав шаблон."
+
+#~ msgid ""
+#~ "%sBulk generate coupons%s: Generate and manage bulk coupons with add to "
+#~ "store/email/ export to CSV options."
+#~ msgstr ""
+#~ "%s Массовое создание купонов %s. Создавайте массовые купоны и управляйте "
+#~ "ими с помощью параметров добавления в магазин / электронной почты / "
+#~ "экспорта в CSV."
+
+#~ msgid ""
+#~ "%sImport-export coupons%s: Import and export coupons simultaneously by "
+#~ "emailing them directly to the recipients."
+#~ msgstr ""
+#~ "%s Импорт-экспорт купонов %s. Импортируйте и экспортируйте купоны "
+#~ "одновременно, отправляя их напрямую получателям по электронной почте."
+
+#~ msgid "%sCoupon embeds%s: Shortcode for displaying coupons on any page."
+#~ msgstr ""
+#~ "%s Встраивание купонов %s: короткий код для отображения купонов на любой "
+#~ "странице."
+
+#~ msgid "%sCombo coupons%s: Provision to use combo coupons for purchase."
+#~ msgstr ""
+#~ "%s Комбинированные купоны %s: возможность использовать комбинированные "
+#~ "купоны для покупок."
+
+#~ msgid "If you like the plugin please leave us a %s review"
+#~ msgstr "Если вам понравился плагин, оставьте нам %s отзыв"
+
+#~ msgid "New"
+#~ msgstr "Новый"
+
+#~ msgid "Free gifts"
+#~ msgstr "Бесплатные подарки"
+
+#~ msgid "Give away products"
+#~ msgstr "Раздайте продукты"
+
+#~ msgid "Count-down sales banner"
+#~ msgstr "Обратный отсчет продаж баннер"
+
+#~ msgid "Refer to our documentation to set up and get started"
+#~ msgstr ""
+#~ "Обратитесь к нашей документации (версия Pro), чтобы установить и начать "
+#~ "работу"
+
+#, fuzzy
+#~| msgid "Congrats you got a free gift!!"
+#~ msgid "Greetings! you've got a free gift!"
+#~ msgstr "Поздравляю, вы получили бесплатный подарок!"
+
+#~ msgid ""
+#~ "You're in luck! %s A free product is added to your cart at a %s discount."
+#~ msgstr ""
+#~ "Вам повезло! %s В вашу корзину добавляется бесплатный продукт со скидкой "
+#~ "%s."
+
+#, fuzzy
+#~| msgid "Congrats you got a free gift!!"
+#~ msgid "Congrats! you've got a free gift from us!"
+#~ msgstr "Поздравляю, вы получили бесплатный подарок!"
+
+#~ msgid ""
+#~ "You're in luck! A free product is added to the cart with a %s discount."
+#~ msgstr ""
+#~ "Вам повезло! Бесплатный продукт добавляется в корзину со скидкой %s."
+
+#~ msgid "Copied to clipboard"
+#~ msgstr "Скопировано в буфер обмена"
+
+#~ msgid "Any."
+#~ msgstr ""
+#~ "Используйте любой из %s форматов даты %s или буквенно-цифровые символы."
+
+#~ msgid "All."
+#~ msgstr "Все."
+
+#~ msgid ""
+#~ "Coupon will be applied if any of the products from the below is available "
+#~ "in the cart; all of option requires that the cart contains all of the "
+#~ "listed products."
+#~ msgstr ""
+#~ "Купон будет применяться, если какой-либо из продуктов, указанных ниже, "
+#~ "доступен в корзине; для всех вариантов требуется, чтобы корзина содержала "
+#~ "все перечисленные продукты."
+
+#~ msgid ""
+#~ "Coupon will be applied if any of the categories from the below is "
+#~ "available in the cart; all of option requires that the cart contains all "
+#~ "of the listed categories."
+#~ msgstr ""
+#~ "Купон будет применяться, если какая-либо из категорий, приведенных ниже, "
+#~ "доступна в корзине; все опции требуют, чтобы корзина содержала все "
+#~ "перечисленные категории."
+
+#~ msgid "Make coupon available in"
+#~ msgstr "Сделать купон доступным в"
+
+#~ msgid "Coupon"
+#~ msgstr "Купон"
+
+#~ msgid "Coupon layouts"
+#~ msgstr "Шаблоны купонов"
+
+#~ msgid "Background color"
+#~ msgstr "Цвет фона"
+
+#~ msgid "Foreground color"
+#~ msgstr "Цвет переднего плана"
+
+#~ msgid ""
+#~ "This plugin will assist you in making your website GDPR (RGPD, DSVGO) "
+#~ "compliant."
+#~ msgstr ""
+#~ "Этот плагин поможет вам сделать ваш веб-сайт совместимым с GDPR (RGPD, "
+#~ "DSVGO)."
+
+#~ msgid ""
+#~ "This plugin allows you to import and export WordPress users and "
+#~ "WooCommerce customers quickly and easily."
+#~ msgstr ""
+#~ "Этот плагин позволяет быстро и легко импортировать и экспортировать "
+#~ "пользователей WordPress и клиентов WooCommerce."
+
+#~ msgid ""
+#~ "The Order XML File Export Import Plugin for WooCommerce will export your "
+#~ "WooCommerce orders in XML format."
+#~ msgstr ""
+#~ "Плагин импорта экспорта XML-файла заказа для WooCommerce экспортирует "
+#~ "ваши заказы WooCommerce в формате XML."
+
+#~ msgid ""
+#~ "Using this plugin, you will always get sequential order number for "
+#~ "woocommerce."
+#~ msgstr ""
+#~ "Используя этот плагин, вы всегда будете получать порядковый номер заказа "
+#~ "для woocommerce."
+
+#~ msgid ""
+#~ "This plugin exports your WordPress website media files, plugins and "
+#~ "themes including the database with a single click."
+#~ msgstr ""
+#~ "Этот плагин экспортирует медиафайлы, плагины и темы вашего веб-сайта "
+#~ "WordPress, включая базу данных, одним щелчком мыши."
+
+#~ msgid ""
+#~ "With this plugin, your customer can use their credit cards or PayPal "
+#~ "Money to make order from cart page itself."
+#~ msgstr ""
+#~ "С помощью этого плагина ваш клиент может использовать свои кредитные "
+#~ "карты или PayPal Money для оформления заказа со страницы корзины."
+
+#~ msgid ""
+#~ "This plugin allows you to choose related products for a particular "
+#~ "product."
+#~ msgstr ""
+#~ "Этот плагин позволяет вам выбирать сопутствующие товары для определенного "
+#~ "продукта."
+
+#~ msgid "Decorator – WooCommerce Email Customizer"
+#~ msgstr "Декоратор - Настройщик электронной почты WooCommerce"
+
+#~ msgid "Customize your WooCommerce emails now and stand out from the crowd!"
+#~ msgstr ""
+#~ "Настройте свои электронные письма WooCommerce прямо сейчас и выделитесь "
+#~ "из толпы!"
+
+#~ msgid "Download"
+#~ msgstr "Скачать"
+
+#~ msgid "OTHER FREE SOLUTIONS FROM WEBTOFFEE"
+#~ msgstr "ДРУГИЕ БЕСПЛАТНЫЕ РЕШЕНИЯ ОТ WEBTOFFEE"
+
+#~ msgid ""
+#~ "Create and offer coupons based on customers’ purchase history Eg: First-"
+#~ "order coupons, next-order, or nth order coupons.\n"
+#~ msgstr ""
+#~ "Создавайте и предлагайте купоны на основе истории покупок клиентов, "
+#~ "например: купоны первого заказа, купоны следующего заказа или купоны n-го "
+#~ "заказа.\n"
+
+#~ msgid "Create and sell store credits coupons"
+#~ msgstr "Создавайте и продавайте купоны на кредиты в магазине"
+
+#~ msgid "Create signup & abandoned cart coupons"
+#~ msgstr "Создавайте купоны на подписку и брошенную корзину"
+
+#~ msgid "Create combo coupons"
+#~ msgstr "Создавайте комбинированные купоны"
+
+#~ msgid "Coupon style customization"
+#~ msgstr "Настройка стиля купона"
+
+#~ msgid "Create and display count down discount sales banner"
+#~ msgstr "Создание и отображение баннеров со скидками с обратным отсчетом"
+
+#~ msgid ""
+#~ "Upgrade to Smart Coupons for WooCommerce Premium to get hold of advanced "
+#~ "features."
+#~ msgstr ""
+#~ "Перейдите на смарт-купоны для WooCommerce Premium, чтобы получить "
+#~ "расширенные функции."
+
+#~ msgid "UPGRADE TO PREMIUM"
+#~ msgstr "ОБНОВЛЕНИЕ ДО ПРЕМИУМА"
+
+#~ msgid "Set discount for giveaway products"
+#~ msgstr "Установить скидку на бесплатные товары"
+
+#~ msgid "Supports coupon shortcodes"
+#~ msgstr "Поддерживает шорткоды купонов"
+
+#~ msgid "30 day money back guarantee"
+#~ msgstr "30-дневная гарантия возврата денег"
+
+#~ msgid "Fast and superior support"
+#~ msgstr "Быстрая и превосходная поддержка"
+
+#~ msgid "Features that every site needs"
+#~ msgstr "Функции, которые нужны каждому сайту"
+
+#~ msgid ""
+#~ "Enter the coupon code of an already created coupon in the field provided. "
+#~ "The URL will be automatically generated for you."
+#~ msgstr ""
+#~ "Введите код купона уже созданного купона в соответствующее поле. URL-"
+#~ "адрес будет автоматически сгенерирован для вас."
+
+#~ msgid ""
+#~ "Visiting a URL coupon ensures that the underlying coupon is applied as "
+#~ "per its respective configuration."
+#~ msgstr ""
+#~ "Посещение купона URL гарантирует, что основной купон применяется в "
+#~ "соответствии с его соответствующей конфигурацией."
+
+#~ msgid "e.g allow discount, giveaway free product whatever the case maybe."
+#~ msgstr ""
+#~ "например, разрешить скидку, бесплатную раздачу продукта в любом случае."
+
+#~ msgid "Thanks for the review."
+#~ msgstr "Спасибо за отзыв."
+
+#~ msgid "Offer 'Giveaway'"
+#~ msgstr "Предлагать раздачи купонов"
+
+#~ msgid "Buy X Get Y discounts"
+#~ msgstr "Купи X Получи Y скидки"
+
+#~ msgid "Help"
+#~ msgstr "Помощь"
+
+#~ msgid ""
+#~ "This coupon will be applied automatically if the specifications are met. "
+#~ "The corresponding coupon description will be shown when the coupon is "
+#~ "applied, only 5 coupons will be applied automatically, rest will be "
+#~ "ignored."
+#~ msgstr ""
+#~ "Этот купон будет применен автоматически при соблюдении требований. "
+#~ "Соответствующее описание купона будет показано при применении купона, "
+#~ "только 5 купонов будут применены автоматически, остальные будут "
+#~ "проигнорированы."
+
+#~ msgid "It's a free gift for you"
+#~ msgstr "Это бесплатный подарок для вас"
+
+#~ msgid "Free Gift Item"
+#~ msgstr "Бесплатный подарок"
+
+#~ msgid "free_product"
+#~ msgstr "бесплатный_продукт"
+
+#~ msgid "Free Product:"
+#~ msgstr "Бесплатный продукт:"
+
+#~ msgid "Used / Expired Coupons"
+#~ msgstr "Использованные/Истекшие Купоны"
+
+#~ msgid "Show in My account"
+#~ msgstr "Показать в Моем аккаунте"
+
+#~ msgid "Expires Today "
+#~ msgstr "Срок действия истекает сегодня "
+
+#~ msgid "Expires in "
+#~ msgstr "Истекает в "
+
+#~ msgid " days"
+#~ msgstr " дней"
+
+#~ msgid "Starts today "
+#~ msgstr "Начинается сегодня"
+
+#~ msgid "Starts in "
+#~ msgstr "Начинается в"
+
+#~ msgid "Give away Products"
+#~ msgstr "Раздайте продукты"
+
+#~ msgid "Coupon Styling"
+#~ msgstr "Купонный стиль"
+
+#~ msgid "Forground Color"
+#~ msgstr "Цвет переднего плана"
+
+#~ msgid ""
+#~ "URL Coupons help you add a unique URL to any coupon in your e-commerce "
+#~ "store. Clicking this URL ensures that the underlying coupon is applied as "
+#~ "per its respective configuration e.g allow discount, giveaway free "
+#~ "product whatever the case maybe."
+#~ msgstr ""
+#~ "URL-купоны помогут вам добавить уникальный URL-адрес к любому купону в "
+#~ "вашем магазине электронной коммерции. Нажатие на этот URL-адрес "
+#~ "гарантирует, что основной купон применяется в соответствии с его "
+#~ "соответствующей конфигурацией, например, разрешает скидку, бесплатный "
+#~ "продукт бесплатно в любом случае."
+
+#~ msgid "Usage:"
+#~ msgstr "Употребление:"
+
+#~ msgid "e.g"
+#~ msgstr ""
+#~ "%sOnline% s: онлайн-статус указывает, что принтер, настроенный для вашей "
+#~ "учетной записи, доступен для печати. %s %sOffline% s: автономный статус "
+#~ "указывает на то, что принтер, настроенный с вашей учетной записью, "
+#~ "недоступен для печати, например, выключен и т. Д."
+
+#~ msgid ""
+#~ "A URL coupon that offers a flat 30 percentage of discount at www."
+#~ "webtoffee.com, coupon_code = FLAT30, site_url(preferably cart page)"
+#~ msgstr ""
+#~ "URL-купон, который предлагает фиксированную 30-процентную скидку на сайте "
+#~ "www.webtoffee.com, coupon_code = FLAT30, site_url (предпочтительно, "
+#~ "страница корзины)."
+
+#~ msgid "Instructions"
+#~ msgstr "Инструкции"

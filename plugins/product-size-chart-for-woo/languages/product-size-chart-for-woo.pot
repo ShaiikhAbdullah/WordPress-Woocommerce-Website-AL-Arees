@@ -1,0 +1,638 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Size Chart for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-20 07:34+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.11; wp-6.6.2\n"
+"X-Domain: product-size-chart-for-woo"
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:19
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/customizer/customizer.php:209
+msgid "Accordion"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:65
+msgid "Accordion Content"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/short-code.php:62
+msgid "Add col right"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:40
+msgid "Add Columns"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/size-chart.php:29
+msgid "Add Item"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/size-chart.php:27
+msgid "Add New"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/short-code.php:61
+msgid "Add row below"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:41
+msgid "Add Rows"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:63
+msgid "Add your text..."
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:133
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/setup-wizard.php:63
+msgid "After add to cart"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:141
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/setup-wizard.php:72
+msgid "After the meta (Premium)"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:140
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/setup-wizard.php:71
+msgid "After title (Premium)"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/size-chart.php:75
+msgid "All Products"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/size-chart.php:28
+msgid "All Size Charts"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/size-chart.php:132
+msgid "Assign"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:132
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/setup-wizard.php:62
+msgid "Before add to cart"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:137
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/setup-wizard.php:68
+msgid "Before add to cart after variations (Premium)"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:35
+msgid "Border Color"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:56
+msgid "Border Radius"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:33
+msgid "Border Style"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:34
+msgid "Border Width(px)"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:61
+msgid "Both Header"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:14
+msgid "Bottom"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:139
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/setup-wizard.php:70
+msgid "Bottom description (Premium)"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:240
+msgid "Button background color"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:254
+msgid "Button color"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:199
+msgid "Button type"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:51
+msgid "Cell Text Size"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/setup-wizard.php:46
+msgid "Choose where to display the size chart on the product page"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:10
+msgid "Click on items below to add row"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:60
+msgid "Column Header"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:46
+msgid "Columns Style"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/size-chart.php:78
+msgid "Combined (Premium)"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/size-chart.php:64
+msgid "Configure for the size chart"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/size-chart.php:357
+msgid "Copied"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/size-chart.php:315
+msgid "Copy of "
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:267
+msgid "Custom CSS"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:39
+msgid "Default First Tab"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/short-code.php:63
+msgid "Delete col"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/short-code.php:64
+msgid "Delete row"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/size-chart.php:100
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/customizer/customizer.php:58
+msgid "Design"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:23
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/customizer/customizer.php:184
+msgid "Divider"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/setup-wizard.php:19
+msgid "Dress Size Chart"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/size-chart.php:335
+msgid "Duplicate"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:112
+msgid "Enable"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:47
+msgid "Even Background"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:48
+msgid "Even Text"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/setup-wizard.php:92
+msgid "Finish"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:103
+msgid "General settings"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/size-chart.php:119
+msgid "Go to design"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:42
+msgid "Header Background"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:58
+msgid "Header Table"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:44
+msgid "Header Text Bold"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:45
+msgid "Header Text Size"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:32
+msgid "Height"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/setup-wizard.php:15
+msgid "Hoodie Size Chart"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:162
+msgid "Horizontal"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:53
+msgid "Horizontal Border Style"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:52
+msgid "Horizontal Border Width"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://villatheme.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://villatheme.com/extensions/woo-product-size-chart/"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:206
+msgid "Icon"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:208
+msgid "Icon & Text (Premium)"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:20
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/customizer/customizer.php:159
+msgid "Image"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:68
+msgid "Import CSV"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:271
+msgid "Insert custom css here..."
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:223
+msgid "Label for size chart on front end"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:25
+msgid "Layout"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:170
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:15
+msgid "Left"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:16
+msgid "Link values together"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:29
+msgid "Margin"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:57
+msgid "Max Height (px)"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/setup-wizard.php:17
+msgid "Men's Shoe Size Chart"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:147
+msgid "Multi size charts"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:38
+msgid "Multiple Tabs"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:11
+msgid "New Item"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/setup-wizard.php:76
+msgid "Next"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:136
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/size-chart.php:74
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/setup-wizard.php:67
+msgid "None"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/setup-wizard.php:97
+msgid "Not now. Go to Settings page."
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:37
+msgid "Object Fit"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:49
+msgid "Odd Background"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:50
+msgid "Odd Text"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:36
+msgid "Padding"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/setup-wizard.php:18
+msgid "Pet Clothing Size Chart"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/size-chart.php:121
+msgid "Please publish size chart to see url design"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:71
+msgid "Please upload non-empty csv file!"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:134
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/setup-wizard.php:64
+msgid "Pop-up"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:173
+msgid "Popup button position in horizontal"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:192
+msgid "Popup button position in vertical"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/setup-wizard.php:45
+msgid "Position Size Chart"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/size-chart.php:77
+msgid "Product Categories"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/size-chart.php:82
+msgid "Product Shipping Class (Premium)"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/size-chart.php:33
+msgid "Product Size Chart"
+msgstr ""
+
+#. Name of the plugin
+msgid "Product Size Chart for WooCommerce"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/product-size-chart-for-woo.php:178
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/size-chart.php:106
+msgid "Product Size Chart Preview"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:135
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/setup-wizard.php:66
+msgid "Product tab"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/size-chart.php:81
+msgid "Product Tags (Premium)"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/size-chart.php:79
+msgid "Product Type (Premium)"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/size-chart.php:80
+msgid "Product Visibility (Premium)"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/size-chart.php:76
+msgid "Products"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/setup-wizard.php:40
+msgid "PSCW - Product Size Chart For WooCommerce"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:69
+msgid "Required file extension is CSV!"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:168
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:13
+msgid "Right"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:59
+msgid "Row Header"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:286
+msgid "Save"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/customizer/customizer.php:320
+msgid "Save data failed"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/customizer/customizer.php:318
+msgid "Save data successfully"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:17
+msgid "Select Component"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/size-chart.php:126
+msgid "Select countries to show"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:27
+msgid "Select Divider Color"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:24
+msgid "Select Size Chart"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:67
+msgid "Select Template Color"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/setup-wizard.php:53
+msgid "Select the size chart to display"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/product-size-chart-for-woo.php:151
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:26
+msgid "Settings"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:33
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:34
+msgid "Setup Wizard"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/size-chart.php:342
+msgid "Short Code"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:280
+msgid ""
+"Shortcode can be inserted to the content of page or post then converted to "
+"HTML on corresponding page or post"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:156
+msgid "Show all size charts for a product"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:25
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:220
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/size-chart.php:25
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/size-chart.php:26
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/setup-wizard.php:52
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/frontend/front-end.php:102
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/frontend/front-end.php:143
+msgid "Size Chart"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/size-chart-product.php:23
+msgid "Size chart"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:230
+msgid "Size chart Icon"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:70
+msgid "Size chart in CSV file will replace the current table?"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:215
+msgid "Size chart label"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:126
+msgid "Size chart type"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/setup-wizard.php:20
+msgid "T-Shirt Size Chart"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:18
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/customizer/customizer.php:109
+msgid "Tab"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:64
+msgid "Tab Content"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:21
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/customizer/customizer.php:84
+msgid "Table"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:207
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:22
+msgid "Text"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:26
+msgid "Text (optional)"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/customizer/customizer.php:134
+msgid "Text Editor"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:43
+msgid "Text Header"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:62
+msgid "Title"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:12
+msgid "Top"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:138
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/setup-wizard.php:69
+msgid "Top description (Premium)"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:66
+msgid "Unsupported component type"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:30
+msgid "Upload Image"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:180
+msgid "Vertical"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:55
+msgid "Vertical Border Style"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:54
+msgid "Vertical Border Width"
+msgstr ""
+
+#. Author of the plugin
+msgid "VillaTheme"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:28
+msgid "Weight"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/i18n.php:31
+msgid "Width"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/setup-wizard.php:16
+msgid "Women's Shoe Size Chart"
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/inc/customizer/customizer.php:42
+msgid "WooCommerce Size Chart Design"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"WooCommerce Size Chart lets customize and design size charts for specific "
+"products or categories, enhancing customer convenience and boosting sales."
+msgstr ""
+
+#: D:/Git/villatheme-2017/product-size-chart-for-woo/product-size-chart-for-woo/admin/settings.php:281
+msgid "You can take the shortcode in \"All size charts\" section."
+msgstr ""

@@ -1,0 +1,91 @@
+.two-hidden {
+    display: none !important;
+}
+.two-container .two-banner-main-container {
+    margin-top: 20px;
+}
+.two-banner-main-container {
+    width: calc( 100% - 20px);
+    background-color: #23282D;
+    margin-top: 55px;
+    border-radius: 6px;
+    padding: 0;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    color: #fff;
+    font-family: Open Sans;
+}
+.two-banner-main-image {
+    width: 89px;
+    height: 100%;
+}
+.two-banner-close-button {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 16px;
+    height: 16px;
+    background: url(../images/close_icon_lighter.svg) center no-repeat;
+    background-size: 16px;
+}
+.two-banner-close-button:hover {
+    background-image: url(../images/close_icon_lighter_hover.svg);
+}
+.two-banner-title {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 800;
+    letter-spacing: 0;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+.two-banner-buttons-container a {
+    background-color: #22B339;
+    border-radius: 4px;
+    padding: 6px 0;
+    width: 150px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    font-weight: 600;
+    text-transform: none;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.two-banner-buttons-container .two-button-grey {
+    background-color: #FFFFFF1A;
+}
+
+.two-banner-buttons-container a:not(.two-button-disabled):hover {
+    opacity: 0.8;
+}
+
+.two-image-with-title-popup {
+    display: flex;
+    gap: 10px;
+}
+
+@media screen and (max-width:1140px) {
+    .two-banner-main-image {
+        display: none;
+    }
+    .two-banner-title {
+        justify-content: center;
+    }
+    .two-banner-buttons-container {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:469px) {
+    .two-banner-main-container {
+        display: none;
+    }
+}

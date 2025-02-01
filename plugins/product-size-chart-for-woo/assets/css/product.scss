@@ -1,0 +1,37 @@
+#woocommerce-product-data {
+  #pscw_options {
+    .form-field {
+      &.pscw_mode_field {
+        margin-top: 16px;
+        legend {
+          margin-bottom: 10px;
+        }
+      }
+    }
+    .wc-radios {
+      li {
+        display: inline-block;
+        + li {
+          margin-left: 10px;
+        }
+      }
+    }
+    .pscw_override_field {
+      margin: 0 !important;
+    }
+    #pscw_override {
+      display: none;
+      &.active {
+        display: block;
+      }
+    }
+  }
+}
+
+/*RTL*/
+.rtl {
+  #woocommerce-product-data #pscw_options .wc-radios li + li {
+    margin-right: 10px;
+    margin-left: unset;
+  }
+}

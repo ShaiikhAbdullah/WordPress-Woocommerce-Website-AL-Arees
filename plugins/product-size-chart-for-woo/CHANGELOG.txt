@@ -1,0 +1,149 @@
+/**2024.11.27* – 2.0.8**/
+- Fixed: Link to size chart customize
+- Fixed: Translation loading triggered too early
+- Updated: Compatible with WP 6.7 and WC 9.4
+
+/**2024.10.31* – 2.0.7**/
+- Updated: Update support file
+
+/**2024.10.23 – 2.0.6**/
+- Fixed: Blank site when create new post
+
+/**2024.10.18 – 2.0.5**/
+- Added: Go to design from size chart list
+- Added: Edit size chart title and assign in Customize
+- Added: Option re-migrate size chart table from version 1x to 2x,
+- Fixed: Prevent multiple creation of Product Size Chart Preview
+
+/**2024.10.11 – 2.0.4**/
+- Fixed: Fixed issue with customize
+- Added: Link to pro
+- Updated: Compatible with WP 6.6 and WC 9.3
+
+/**2024.10.2 – 2.0.3**/
+- Fixed: Fixed minor issues to enhance overall stability
+
+/**2024.10.1 – 2.0.2**/
+- Updated: Update support file
+- Fixed: Default foot image link
+
+/**2024.09.26 – 2.0.1**/
+– Fixed: Set image size chart center
+- Fixed: Clear size chart in product when remove a size chart
+
+/**2024.09.24 – 2.0.0**/
+– Update: Update size chart 2.0.0
+
+/**2024.06.17 - 1.2.6**/
+– Fixed: Do not display size chart for products in assigned categories
+
+/**2024.06.12 - 1.2.5**/
+– Fixed: Get size chart ID to
+/**2024.06.11 - 1.2.4**/show before, after button add to cart and before Tabs section
+- Fixed: Render inline css in product tab
+
+– Fixed: Show tab when product does not have size chart
+- Fixed: Error displaying options in design size chart page
+
+/**2024.05.11 - 1.2.3**/
+– Fixed: Fix error displaying multiple size chart option
+
+/**2024.05.09 - 1.2.2**/
+– Updated: Update security
+
+/**2024.05.06 - 1.2.1**/
+– Fixed: Update support css file
+
+/**2024.04.18 - 1.2.0**/
+– Fixed: Css for mobile scroll
+
+/**2024.04.15 - 1.1.9**/
+– Fixed: Do not show the description and rating tab
+
+/**2024.04.13 - 1.1.8**/
+– Updated: Compatible with WC 8.7 and  WP 6.5
+- Updated: Update support file
+
+/**2024.01.24 - 1.1.7**/
+– Fixed: Fixed check nonce
+
+/**2024.01.19 - 1.1.6**/
+– Updated: Compatible with WC 8.5 and  WP 6.4
+- Updated: Update support file
+
+/**2023.07.15 - 1.1.5**/
+– Updated: Compatible with HPOS - WC 7.8.0 and  WP 6.2.2
+- Updated: Update support file
+
+/**2023.03.01 - 1.1.4**/
+- Added: External shortcode interpreted
+
+/**2023.02.23 - 1.1.3**/
+- Fixed: Add new size chart error
+– Updated: Compatible with WC 7.4.0
+
+/**2022.12.22 - 1.1.2**/
+– Updated: Compatible with WC 7.2.0 and  WP 6.1.1
+– Updated: Language file
+- Updated: Update support file
+
+/**2022.09.14 - 1.1.1**/
+- Fixed: Fixed conflict css with themes
+
+/**2022.09.13 - 1.1.0**/
+- Updated: Add "Table Template" option
+- Updated: Add "Style even/odd" by columns or rows option
+
+/**2022.08.31 - 1.0.12**/
+- Fixed: Fixed Warning: Undefined array key "prevent_delete_meta_movetotrash"
+- Updated: Compatible with WC 6.8.0 and WP 6.0.2
+- Updated: Support
+
+/**2022.05.27 - 1.0.11**/
+- Fixed: Fixed Fatal error when product not exist
+
+/**2022.05.21 - 1.0.10**/
+- Updated: Compatible with WC 6.5.0 and WP 6.0
+- Updated: Support
+- Fixed: Fixed security
+
+/**2022.03.29 - 1.0.9**/
+- Updated: Support
+
+/**2022.03.21 - 1.0.8**/
+- Updated: Compatible with WC 6.3.0
+- Updated: Support
+
+/**2022.01.15 - 1.0.7**/
+- Updated: Compatible with WC 6.1.0
+- Updated: Support
+
+/**2021.07.09 - 1.0.6**/
+ - Fixed: Size charts not showing in some themes
+
+/**2021.06.30 - 1.0.5**/
+ - Fixed: Shortcodes not working correctly
+ - Updated: Position After add to cart
+
+/**2021.06.12 - 1.0.4**/
+- Moved pop-up to footer
+- New feature Duplicate size chart
+
+/**1.0.3.1 - **/
+- Updated: Support class
+
+/**2021.04.19 - 1.0.3**/
+- Fixed: Preview css
+- Fixed: Assign categories and assign products
+- Fixed: Lose size charts data when restoring size chart
+
+/**2021.03.11 - 1.0.2**/
+- Update: Pop-up CSS
+
+/**2021.03.06 - 1.0.1**/
+- Fixed: Pop-up CSS
+- Fixed: Pop-up conflict with some themes
+- Fixed: Setting display Before add to cart properties
+
+/**2021.01.31 - 1.0.0**/
+- The first release

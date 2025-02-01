@@ -1,0 +1,170 @@
+#wp-admin-bar-two_options{
+  position: relative;
+}
+#two_styles_list{
+  position: absolute;
+  border: 1px solid #000000;
+  color: #fff;
+  background-color: #0A0A0A;
+  height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 10px;
+}
+#two_styles_list ul{
+  display: inline-block;
+}
+#two_styles_list ul li{
+  display: block;
+  border-bottom: 1px solid #5d616387;
+}
+#two_styles_list ul li .two_el_id{
+    width: 250px;
+    display: block;
+  color: #f8f8f9;
+  font-size: 14px;
+  font-weight: 500;
+}
+#two_styles_list ul li .two_el_id span{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 225px;
+  display: inline-block;
+}
+.two_css_options_list{
+  display: inline-block;
+}
+.two_option_group label{
+  color: #989b9e;
+  cursor: pointer !important;
+ }
+.two_option_group{
+  padding: 3px 0 !important;
+}
+
+
+
+
+#wp-admin-bar-two_options .two_option_container {
+  display: block;
+  position: relative !important;
+  padding-left: 35px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#wp-admin-bar-two_options .two_option_container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+#wp-admin-bar-two_options .wxao_checkmark {
+  position: absolute !important;
+  top: 7px;
+  left: 0;
+  height: 18px !important;
+  width: 18px !important;
+  background-color: #474d51;
+  border-radius: 50%;
+}
+/*#wp-admin-bar-two_options .two_option_container:hover input ~ .wxao_checkmark {
+  background-color: #ccc;
+}*/
+#wp-admin-bar-two_options .two_option_container input:checked ~ .wxao_checkmark {
+  background-color: #3a4045;
+}
+#wp-admin-bar-two_options .wxao_checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+#wp-admin-bar-two_options .two_option_container input:checked ~ .wxao_checkmark:after {
+  display: block;
+}
+#wp-admin-bar-two_options .two_option_container .wxao_checkmark:after {
+  left: 5px;
+  top: 5px;
+  width: 7px;
+  height: 7px;
+  border: solid #35a0c6 1px;
+  border-radius: 50%;
+  background-color: #35a0c6;
+
+}
+
+/* width */
+#two_styles_list::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+#two_styles_list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+#two_styles_list::-webkit-scrollbar-thumb {
+  background: #464b50;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+#two_styles_list::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+#two_styles_list{
+  display: none;
+}
+#wp-admin-bar-two_options:hover #two_styles_list{
+  display: block;
+}
+.two_hidden{
+  display: none;
+}
+.two_el_id{
+  cursor: pointer;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+
+  /*
+    Introduced in IE 10.
+    See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+  */
+  -ms-user-select: none;
+  user-select: none;
+}
+#two_styles_list .two_el_id{
+  position: relative;
+}
+#two_styles_list .two_el_id::before{
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 7px;
+  right: 9px;
+  background-image: url("../images/up-arrow.svg");
+  background-size: cover;
+}
+.two_check_section .two_el_id::before{
+  background-image: url("../images/up-arrow1.svg") !important;
+}
+
+#two_styles_list .two_down_arrow::before{
+  -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.two_disabled_option {
+  display: none !important;
+}
